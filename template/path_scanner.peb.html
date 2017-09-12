@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+    {% for path in pathList %}
+        <a href="http://localhost:8888/path/{{ path }}">{{ path }}</a></br>
+    {% endfor %}
+</body>
+</html>

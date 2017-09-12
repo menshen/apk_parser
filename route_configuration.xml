@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <server>
+        <port>8888</port>
+    </server>
+    <routes>
+        <peb file = "template/smali.peb.html" mimetype="text/html" path="((/L[\w|/]+;)|(.*\.smali))"
+             isDynamic="1" name="SmaliFileRoute"/>
+        <peb file = "template/path_scanner.peb.html" mimetype="text/html" path="/path/[\w|/|\.]+"
+             isDynamic="1" name="PathScannerRoute"/>
+
+    </routes>
+</config>

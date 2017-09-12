@@ -1,0 +1,16 @@
+<color_sets>
+    <color source=".method"  color="#f68e38"></color>   <!--yellow-->
+    <color source=".registers"  color="#4229fd"></color>
+    <color source=".prologue"  color="#f68e38"></color>
+    <color source=".line"  color="#f68e38"></color>
+    <color source="const-string"  color="#4229fd"></color>   <!--blue-->
+    <color source="new-instance"  color="#f68e38"></color>
+    <color source="invode-direct"  color="#f68e38"></color>
+    <color source="move-result-object"  color="#f68e38"></color>
+    <color source="sget-object"  color="#f68e38"></color>
+    <color source="invoke-static"  color="#f68e38"></color>
+    <color source="new-instance"  color="#f68e38"></color>
+    <color source="sput-object"  color="#f68e38"></color>
+    <color source="invoke-virtual"  color="#f68e38"></color>
+
+</color_sets>
