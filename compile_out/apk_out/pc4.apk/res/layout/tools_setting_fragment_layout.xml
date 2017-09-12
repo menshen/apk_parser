@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/color_ffffff" android:padding="0.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/tools_setting_item_block_divider" />
+        <RelativeLayout android:id="@id/rl_tools_setting_item_auto_install" style="@style/tools_setting_item__layout">
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/auto_install_tittle" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/auto_install_descrip" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/iv_tools_setting_auto_install_image" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_divider" />
+        <RelativeLayout android:id="@id/rl_delete_apk_set" style="@style/tools_setting_item__layout">
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/delete_apk_after_install_tittle" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/delete_apk_after_install_descrip" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/iv_delete_apk" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_block_divider" />
+        <RelativeLayout android:id="@id/relativelayout_tools_setting_save_date" style="@style/tools_setting_item__layout">
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/setting_save_data_tittle" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/setting_save_data_descrip" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageview_tools_setting_save_date" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/relativelayout_tools_theme" style="@style/tools_setting_item__layout">
+            <View style="@style/tools_setting_item_divider" />
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/theme_setting_title_text" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/theme_setting_desc_text" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageview_tools_setting_theme" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_divider" />
+        <RelativeLayout android:id="@id/relativelayout_tools_wifi_auto_update" style="@style/tools_setting_item__layout">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/setting_imager_margin">
+                <TextView android:text="@string/auto_update_set" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/auto_update_desc" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageview_tools_setting_wifi_auto_update" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <View android:id="@id/wifiAutoUpdateDivider" style="@style/tools_setting_item_divider" />
+        <RelativeLayout android:id="@id/relativelayout_tools_setting_nofity_update" style="@style/tools_setting_item__layout">
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/notify_updates_tittle" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/notify_updates_descrip" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageview_tools_setting_notify_update" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <View android:id="@id/notifyUpdateDivider" style="@style/tools_setting_item_divider" />
+        <RelativeLayout android:id="@id/relativelayout_tools_setting_nofity_recommendations" style="@style/tools_setting_item__layout">
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/notify_recommendations_tittle" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/notify_recommendations_descrip" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageview_tools_setting_notify_recommendations" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_divider" />
+        <RelativeLayout android:id="@id/relativelayout_tools_setting_optimization_recommendations" style="@style/tools_setting_item__layout">
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/optimization_recommendations_tittle" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/optimization_recommendations_descrip" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageview_tools_setting_optimization_recommendations" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/relativelayout_tools_setting_preload" style="@style/tools_setting_item__layout">
+            <View style="@style/tools_setting_item_divider" />
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/setting_preload_title" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/setting_preload_description" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageview_tools_setting_preload" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_block_divider" />
+        <RelativeLayout android:id="@id/relativelayout_tools_setting_language" style="@style/tools_setting_item__layout">
+            <TextView android:id="@id/textView3" android:text="@string/language" style="@style/tools_setting_item_title_descrip" />
+            <com.mobile.indiapp.widget.PullDownTextSpinnerView android:gravity="center_vertical" android:id="@id/setting_language_popup_spinner" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_divider" />
+        <RelativeLayout android:id="@id/relativelayout_tools_setting_max_download_tasks" style="@style/tools_setting_item__layout">
+            <TextView android:text="@string/max_download_tasks" style="@style/tools_setting_item_title_descrip" />
+            <com.mobile.indiapp.widget.PullDownTextSpinnerView android:gravity="center_vertical" android:id="@id/setting_task_popup_spinner" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="38.0dip" android:layout_marginRight="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_divider" />
+        <RelativeLayout android:id="@id/relativelayout_tools_setting_manage_9apps_notifiction" style="@style/tools_setting_item__layout">
+            <TextView android:text="@string/manager_nofigication_service" style="@style/tools_setting_item_title_descrip" />
+            <TextView android:textSize="@dimen/setting_tittle_text_size" android:textColor="@color/color_a1a9b0" android:id="@id/textview_setting_manage_9apps_notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setting_imager_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_divider" />
+        <View style="@style/tools_setting_item_block_divider" />
+    </LinearLayout>
+</ScrollView>

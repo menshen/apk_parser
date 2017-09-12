@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/divider_layout" />
+    <include layout="@layout/special_item_header_layout" />
+    <include android:id="@id/app1_layout" layout="@layout/common_special_item_layout" />
+    <include android:id="@id/app2_layout" layout="@layout/common_special_item_layout" />
+    <include android:id="@id/app3_layout" layout="@layout/common_special_item_layout" />
+    <include android:id="@id/app4_layout" layout="@layout/common_special_item_layout" />
+    <include android:id="@id/app5_layout" layout="@layout/common_special_item_layout" />
+    <include android:id="@id/app6_layout" layout="@layout/common_special_item_layout" />
+</LinearLayout>

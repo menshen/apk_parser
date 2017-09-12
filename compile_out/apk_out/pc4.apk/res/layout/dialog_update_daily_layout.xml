@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.UpdateHeaderView android:id="@id/update_header_view" android:layout_width="fill_parent" android:layout_height="192.0dip" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@id/fl_text_and_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="22.0dip">
+        <ImageView android:layout_width="120.0dip" android:layout_height="42.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/dialog_update_line" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/tv_update_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="9APPS 3.02\nUPDATE" android:includeFontPadding="false" android:lineSpacingExtra="1.0dip" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:textColor="@color/color_565656" android:id="@id/tittle_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip" android:text="@string/daily_update_dialog_tittle" android:includeFontPadding="false" android:layout_below="@id/update_header_view" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_828282" android:id="@id/upgrade_message_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:text="The unlimited resource And anything else that you want get" android:maxLines="10" android:includeFontPadding="false" android:layout_below="@id/tittle_tv" android:lineSpacingExtra="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingTop="24.0dip" android:paddingRight="12.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/upgrade_message_tv">
+        <Button android:id="@id/upgrade_btn_no" android:background="@drawable/dialog_cancle_btn_selector" android:layout_width="0.0dip" android:layout_height="36.0dip" android:text="@string/daily_update_dialog_left_btn_text" android:layout_weight="1.0" />
+        <Button android:textColor="@color/color_ffffff" android:id="@id/upgrade_btn_yes" android:background="@drawable/download_green_btn_selector" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:text="@string/daily_update_dialog_right_btn_text" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

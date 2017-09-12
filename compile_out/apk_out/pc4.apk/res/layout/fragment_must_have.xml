@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff798086" android:gravity="center_vertical" android:id="@id/must_have_top_tip" android:background="@color/color_ffffff" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="7.0dip" android:text="@string/top_apps_you_must_have" />
+    <ListView android:id="@id/must_have_list" android:background="@color/common_bg" android:layout_marginTop="1.0px" android:layout_marginBottom="56.0dip" android:divider="@color/common_bg" android:layout_below="@id/must_have_top_tip" style="@style/NineAppsListView" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_white_top_line" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="16.0sp" android:textColor="@color/color_ffffff" android:id="@id/must_have_one_key" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:text="@string/one_key_install_select" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

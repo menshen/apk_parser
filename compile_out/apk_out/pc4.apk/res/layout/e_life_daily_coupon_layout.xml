@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.biz.elife.widget.ELifeCouponBannerView android:id="@id/coupon_banner_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.mobile.indiapp.biz.elife.widget.ELifeCouponView android:id="@id/coupon_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/color_6bd198" android:gravity="center" android:id="@id/get_more_coupons" android:layout_width="fill_parent" android:layout_height="47.0dip" android:text="@string/e_life_get_more_coupons" />
+    <include layout="@layout/divider_layout" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/price_ad_layout" android:background="@drawable/item_produce_ad" android:paddingLeft="3.0dip" android:paddingTop="7.0dip" android:paddingRight="2.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.hasoffer.plug.androrid.ui.view.CircleImageView android:id="@id/logoIv" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/icon" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/aderNameTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="" android:layout_toRightOf="@id/logoIv" android:layout_centerVertical="true" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffa1a1a1" android:gravity="center" android:id="@id/sponsoredTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="Sponsored" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/contentLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/topLayout">
+        <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:id="@id/adSloganTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="35.0dip" android:text="" android:maxLines="2" android:lines="2" />
+    </RelativeLayout>
+    <ImageView android:id="@id/adImagIv" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="137.0dip" android:src="@drawable/defalut_image" android:layout_below="@id/contentLayout" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/adImagIv">
+        <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:id="@id/aderSiteUrlTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" />
+        <LinearLayout android:gravity="center" android:background="@drawable/item_produce_ad_btn_content" android:layout_width="85.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/adBtnContentTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Book Now" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

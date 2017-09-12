@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:textColor="@color/color_343434" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/entranceTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="This is the" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/entranceContentDaysLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="#ffdedede" android:layout_width="55.0dip" android:layout_height="1.0dip" android:layout_marginRight="20.0dip" />
+        <TextView android:textSize="40.0dip" android:textColor="@color/color_e62b30" android:layout_gravity="center_horizontal" android:id="@id/entranceContentDays" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="89" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_e62b30" android:layout_gravity="bottom|center" android:id="@id/entranceContentDaysDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="4.0dip" android:text="th day" />
+        <View android:background="#ffdedede" android:layout_width="55.0dip" android:layout_height="1.0dip" android:layout_marginLeft="20.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="13.0dip" android:textColor="#ff171616" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/entranceDesc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="9Apps became your friend" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/storyBtn" android:background="@drawable/story_home_entrance_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="22.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="@color/color_e62b30" android:layout_gravity="center" android:id="@id/storyBtnTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="13.0dip" android:text="Know more about 9Apps" android:drawableRight="@drawable/story_btn_tips_icon" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/bottomBg" android:layout_width="fill_parent" android:layout_height="102.0dip" android:layout_marginTop="30.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/story_entrance_bg" />
+</LinearLayout>

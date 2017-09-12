@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_gap" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <LinearLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_below="@id/view_gap">
+        <TextView android:textSize="14.0sp" android:textColor="#ff828282" android:layout_gravity="center_vertical" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="Downloading" />
+    </LinearLayout>
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

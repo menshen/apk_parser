@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/discover_sticker_title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/view_line" android:visibility="gone" layout="@layout/common_space_1px_layout" />
+    <include layout="@layout/common_space_8dp_layout" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rl_normal_update_title_layout" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:id="@id/tv_normal_update_app_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="More Updates" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_828282" android:id="@id/tv_normal_update_save_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="23 Apps | Total 22.15MB" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" layout="@layout/common_space_1px_layout" />
+</LinearLayout>

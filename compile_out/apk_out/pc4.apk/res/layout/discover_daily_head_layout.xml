@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="207.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/view_banner_bg" android:layout_width="fill_parent" android:layout_height="122.0dip" android:src="@drawable/discover_daily_header_bg_2" android:scaleType="fitXY" />
+    <include android:id="@id/view_banner_layout" android:layout_width="fill_parent" android:layout_height="163.0dip" layout="@layout/common_banner_layout" />
+    <com.mobile.indiapp.biz.elife.widget.ELifeDailyTitleLayout android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="173.0dip" />
+</FrameLayout>

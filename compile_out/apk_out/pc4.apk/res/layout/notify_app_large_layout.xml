@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_000000" android:padding="6.669983dip" android:layout_width="fill_parent" android:layout_height="130.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/common_default_banner" android:scaleType="centerCrop" />
+    <RelativeLayout android:background="#88000000" android:layout_width="fill_parent" android:layout_height="53.329987dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/title" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:text="TextView" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/summary" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="TextView" android:singleLine="true" android:layout_below="@id/title" android:layout_alignLeft="@id/title" />
+        <ImageView android:id="@id/icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="6.669983dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_launcher" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.669983dip" android:text="2014-06-03" android:layout_below="@id/icon" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

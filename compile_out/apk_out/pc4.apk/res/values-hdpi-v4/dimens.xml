@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="entertainment_music_signer_name_textview_width">90.0dip</dimen>
+    <dimen name="entertainment_music_textview_width">150.0dip</dimen>
+    <dimen name="apps_top_header_margin_left">30.0dip</dimen>
+    <dimen name="must_have_have_text_margin_rgiht">40.0dip</dimen>
+    <dimen name="must_have_must_text_margin_left">42.0dip</dimen>
+</resources>

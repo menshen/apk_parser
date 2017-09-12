@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobile.indiapp.widget.MustHaveView android:id="@id/item_must_have_layout" android:background="@drawable/list_item_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/must_have_icon" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginLeft="45.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/default_icon" android:scaleType="centerCrop" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffa1a9b0" android:gravity="center_vertical" android:id="@id/must_have_reason" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginLeft="45.0dip" android:layout_marginRight="6.0dip" android:text="" android:singleLine="true" android:layout_below="@id/must_have_icon" />
+    <com.mobile.indiapp.widget.DownloadButton android:orientation="horizontal" android:id="@id/must_have_download_button" android:layout_width="@dimen/apps_item_btn_width" android:layout_height="@dimen/apps_item_btn_height" android:layout_marginRight="7.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/apps_item_icon_width" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_toLeftOf="@id/must_have_download_button" android:layout_toRightOf="@id/must_have_icon">
+        <TextView android:textSize="15.0sp" android:id="@id/must_have_app_name" android:text="UC" android:includeFontPadding="false" style="@style/listitem_name" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.2999878dip" android:layout_below="@id/must_have_app_name">
+            <RatingBar android:id="@id/must_have_ratingBar" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="5" android:numStars="5" android:rating="1.0" android:stepSize="0.5" style="@style/detailRatingBar" />
+            <TextView android:id="@id/must_have_rate_num" android:layout_marginLeft="10.0dip" style="@style/listitem_details" />
+        </LinearLayout>
+        <TextView android:id="@id/size_version_date" android:layout_marginTop="3.2999878dip" android:text="@string/size_version_date" style="@style/listitem_details" />
+    </LinearLayout>
+    <CheckBox android:id="@id/must_have_cb" android:paddingLeft="8.0dip" android:layout_width="45.0dip" android:layout_height="100.0dip" android:checked="false" android:button="@null" android:drawableLeft="@drawable/common_checkbox_small_selector" android:layout_centerVertical="true" />
+</com.mobile.indiapp.widget.MustHaveView>

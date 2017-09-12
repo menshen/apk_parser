@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="0" style="@style/FastDownloadStatusProgressBar" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff343434" android:gravity="center" android:layout_gravity="center" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="9Apps is FAST Downloading for you" android:singleLine="true" android:drawableLeft="@drawable/fastdownload_download" android:drawablePadding="12.0dip" />
+    </FrameLayout>
+</RelativeLayout>

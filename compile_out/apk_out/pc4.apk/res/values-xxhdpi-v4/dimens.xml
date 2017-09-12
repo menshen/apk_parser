@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="entertainment_music_signer_name_textview_width">130.0dip</dimen>
+    <dimen name="entertainment_music_textview_width">180.0dip</dimen>
+</resources>

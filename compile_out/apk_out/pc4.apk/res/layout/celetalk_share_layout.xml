@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/nine_nine_dialog_banner" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="39.0dip" android:text="9Apps Fan Festival" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:text="INVITATION" android:layout_below="@id/title1" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/closeBtn" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="28.0dip" android:src="@drawable/dialog_close_btn_selector" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="#ffffffff" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff343434" android:gravity="center" android:id="@id/code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="Surprise Code: Fast" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ImageView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/actionbar_user" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff343434" android:gravity="center|left" android:layout_gravity="center" android:id="@id/desc" android:background="@drawable/celetalk_share_desc_bg" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="9Apps Fan Festival" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="68.0dip" android:layout_marginTop="22.0dip" android:layout_marginRight="68.0dip" android:layout_marginBottom="12.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/share" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="6.0dip" android:text="@string/share" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

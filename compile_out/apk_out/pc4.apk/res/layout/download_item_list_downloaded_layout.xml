@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="84.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/app_icon_layout" android:layout_width="@dimen/tools_apps_update_item_icon_width" android:layout_height="@dimen/tools_apps_update_item_icon_width" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip">
+        <ImageView android:id="@id/app_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/app_green_icon" android:scaleType="centerCrop" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/app_hint" android:background="@drawable/common_ic_app_mask_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textColor="#ff343434" android:ellipsize="end" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:maxWidth="150.0dip" android:text="New Text" android:singleLine="true" android:layout_toRightOf="@id/app_icon_layout" android:layout_alignTop="@id/app_icon_layout" />
+    <TextView android:textSize="10.0sp" android:textColor="#ff828282" android:id="@id/speed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="2.65MB | 2016-02-03" android:layout_below="@id/app_name" android:layout_alignLeft="@id/app_name" />
+    <Button android:textSize="12.0sp" android:textColor="@color/color_565656" android:id="@id/download_button" android:background="@drawable/download_grey_bg" android:layout_width="60.0dip" android:layout_height="28.0dip" android:layout_marginRight="12.0dip" android:text="Pause" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" />
+    <ImageView android:id="@id/download_more_button" android:background="@drawable/download_more_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_toLeftOf="@id/download_button" android:layout_centerVertical="true" />
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

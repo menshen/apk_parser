@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="#ff00be67" android:gravity="center" android:id="@id/featureUserTag" android:background="@drawable/rect_green_border_white_bg" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="6.0dip" android:text="Music" />
+    <CheckBox android:textSize="16.0sp" android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/featureUserTagCheckBox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox_bg" android:layout_below="@id/dialog_content" android:layout_centerHorizontal="true" />
+</FrameLayout>

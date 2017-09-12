@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_38a28c" android:gravity="center" android:id="@id/download_desc" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/local_msg_download" android:singleLine="true" />
+</merge>

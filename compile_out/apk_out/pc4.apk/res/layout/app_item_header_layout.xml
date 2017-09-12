@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/header_view" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/header_line" android:background="@color/color_e62b30" android:layout_width="4.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" />
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/color_4d5359" android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:text="@string/common_today_best" android:singleLine="true" android:layout_toRightOf="@id/header_line" android:layout_centerVertical="true" />
+    <FrameLayout android:id="@id/header_daily_layout" android:background="@drawable/special_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="-2.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/header_daily_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="15.0dip" android:text="@string/common_daily_3" android:singleLine="true" android:drawableLeft="@drawable/special_icon" android:drawablePadding="5.0dip" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_777777" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/header_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/more" android:drawableRight="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/header_divider" android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

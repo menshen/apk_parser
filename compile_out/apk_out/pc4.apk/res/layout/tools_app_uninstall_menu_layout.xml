@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/tools_app_uninstall_spinner_menu_bg" android:layout_width="@dimen/title_spinner_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/view_menu_1" android:paddingTop="8.0dip" android:layout_width="@dimen/title_spinner_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/view_menu_icon_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/tools_app_uninstall_name" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:id="@id/view_menu_name_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="Name" android:singleLine="true" android:layout_toRightOf="@id/view_menu_icon_1" />
+        <View android:background="@color/color_dedede" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:layout_below="@id/view_menu_icon_1" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/view_menu_2" android:paddingTop="8.0dip" android:layout_width="@dimen/title_spinner_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/view_menu_icon_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/tools_app_uninstall_size" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:id="@id/view_menu_name_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="Size" android:singleLine="true" android:layout_toRightOf="@id/view_menu_icon_2" />
+        <View android:background="@color/color_dedede" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:layout_below="@id/view_menu_icon_2" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/view_menu_3" android:paddingTop="8.0dip" android:layout_width="@dimen/title_spinner_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/view_menu_icon_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/tools_app_uninstall_date" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:id="@id/view_menu_name_3" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="Date" android:singleLine="true" android:layout_toRightOf="@id/view_menu_icon_3" />
+    </RelativeLayout>
+</LinearLayout>

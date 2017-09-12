@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="must_have_button_height">40.0dip</dimen>
+    <dimen name="must_have_defeat_top">5.0dip</dimen>
+    <dimen name="must_have_share_bottom">30.0dip</dimen>
+    <dimen name="must_have_top">30.0dip</dimen>
+    <dimen name="must_have_user_score_size">18.0sp</dimen>
+    <dimen name="must_have_user_top">-5.0dip</dimen>
+    <dimen name="entertainment_music_signer_name_textview_width">90.0dip</dimen>
+    <dimen name="entertainment_music_textview_width">150.0dip</dimen>
+</resources>

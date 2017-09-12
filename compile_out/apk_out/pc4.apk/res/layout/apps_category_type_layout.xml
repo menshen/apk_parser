@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/category_item_layout" android:layout_width="fill_parent" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/category_tools" android:scaleType="centerCrop" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_828282" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="3.0dip" android:text="Tools" android:singleLine="true" />
+</LinearLayout>

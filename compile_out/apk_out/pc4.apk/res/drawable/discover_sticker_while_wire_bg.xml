@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white" />
+    <stroke android:width="0.5dip" android:color="@color/color_33000000" />
+    <padding android:left="@dimen/discover_wire_width_padding" android:top="@dimen/discover_wire_width_padding" android:right="@dimen/discover_wire_width_padding" android:bottom="@dimen/discover_wire_width_padding" />
+</shape>

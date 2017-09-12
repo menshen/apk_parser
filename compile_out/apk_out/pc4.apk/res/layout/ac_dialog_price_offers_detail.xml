@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topLayout" android:background="@drawable/item_produce_ad" android:paddingLeft="23.0dip" android:paddingRight="23.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminateDrawable="@drawable/rotate_image" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/titleLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/webLogoIv" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/defalut_image" android:scaleType="centerInside" />
+            <View android:background="#ffcccccc" android:layout_width="1.0px" android:layout_height="35.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff4e4e4e" android:id="@id/websiteTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="15.0dip" />
+        </LinearLayout>
+        <View android:id="@id/centerView" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" android:layout_below="@id/titleLayout" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottomLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:background="@drawable/item_produce_line_circle" android:paddingLeft="15.0dip" android:paddingTop="11.0dip" android:paddingRight="15.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:gravity="center" android:layout_width="8.0dip" android:layout_height="14.0dip" android:src="@drawable/iv_offer_detail_back_left" android:scaleType="centerInside" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/backTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Back" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/item_produce_line" android:paddingLeft="20.0dip" android:paddingTop="11.0dip" android:paddingRight="30.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/intoAppTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Proceed to App " />
+                <ImageView android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/iv_offer_detail_back_right" android:scaleType="centerInside" />
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottomLayout" android:layout_below="@id/centerView">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="18.0sp" android:textColor="#ff4e4e4e" android:id="@id/titleTv" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff4e4e4e" android:id="@id/descriptionTitleTv" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff4e4e4e" android:id="@id/descriptionsTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="" android:lineSpacingExtra="9.0dip" />
+                <TextView android:textSize="18.0sp" android:textColor="#ff4e4e4e" android:id="@id/provisionTitleTv" android:paddingBottom="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff4e4e4e" android:id="@id/provisionsTv" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:lineSpacingExtra="9.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

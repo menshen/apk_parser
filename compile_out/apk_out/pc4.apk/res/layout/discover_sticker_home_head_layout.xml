@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/view_banner_layout" android:layout_width="fill_parent" android:layout_height="120.0dip" layout="@layout/common_banner_layout" />
+    <FrameLayout android:id="@id/view_sticker_help" android:background="@color/common_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/color_e8e8e8" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+            <ImageView android:id="@id/view_sticker_help_ic" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/common_ic_tips_question" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/sticker_home_help" android:singleLine="true" android:layout_toLeftOf="@id/view_sticker_help_close_img" android:layout_toRightOf="@id/view_sticker_help_ic" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/view_sticker_help_close_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ic_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <include layout="@layout/discover_sticker_list1_title_layout" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="12.0dip" layout="@layout/common_space_1px_layout" />
+    <android.support.v7.widget.GridLayout android:id="@id/grid_view_sticker_home_list1" android:paddingLeft="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:columnCount="3" />
+    <include layout="@layout/discover_sticker_home_download_layout" />
+    <View android:background="@color/color_dddddd" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include layout="@layout/discover_sticker_list2_title_layout" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="12.0dip" layout="@layout/common_space_1px_layout" />
+    <android.support.v7.widget.GridLayout android:id="@id/grid_view_sticker_home_list2" android:paddingLeft="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:columnCount="3" />
+    <View android:background="@color/color_dddddd" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include layout="@layout/discover_sticker_list3_title_layout" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="12.0dip" layout="@layout/common_space_1px_layout" />
+    <android.support.v7.widget.GridLayout android:id="@id/grid_view_sticker_home_list3" android:paddingLeft="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:columnCount="3" />
+    <View android:background="@color/color_dddddd" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include layout="@layout/discover_sticker_list4_title_layout" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="12.0dip" layout="@layout/common_space_1px_layout" />
+    <android.support.v7.widget.GridLayout android:id="@id/grid_view_sticker_home_list4" android:paddingLeft="12.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:columnCount="4" />
+    <View android:background="@color/color_dddddd" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include layout="@layout/discover_sticker_list5_title_layout" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginBottom="12.0dip" layout="@layout/common_space_1px_layout" />
+</LinearLayout>

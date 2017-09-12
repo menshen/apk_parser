@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/welcome_page_sec3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/skip_button" android:background="@drawable/welcome_skip" android:layout_width="43.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/welcome_skip" android:layout_alignParentRight="true" />
+        <Button android:textSize="20.0dip" android:textStyle="bold" android:textColor="#ff0fab5c" android:id="@id/page_button" android:background="@drawable/while_bg" android:layout_width="274.0dip" android:layout_height="42.0dip" android:layout_marginBottom="30.0dip" android:text="@string/guide_page_btn_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/dialog_update_bg" android:layout_width="fill_parent" android:layout_height="192.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_left_cloudy" android:visibility="gone" android:layout_width="228.0dip" android:layout_height="60.0dip" android:src="@drawable/dialog_update_cloud3" android:layout_alignParentBottom="true" />
+    <FrameLayout android:layout_width="300.0dip" android:layout_height="210.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <com.mobile.indiapp.widget.CloudView android:layout_gravity="bottom|center" android:id="@id/iv_middle_cloudy" android:layout_width="186.0dip" android:layout_height="146.0dip" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/iv_right_cloudy" android:visibility="gone" android:layout_width="132.0dip" android:layout_height="42.0dip" android:src="@drawable/dialog_update_cloud1" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_rocket_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/rocket_circle" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="48.0dip" android:src="@drawable/dialog_update_rocket_circle" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/rocket" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="48.0dip" android:src="@drawable/dialog_update_rocket" />
+    </FrameLayout>
+</RelativeLayout>

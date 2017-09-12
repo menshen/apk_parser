@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/color_ffffff" android:paddingLeft="15.0dip" android:paddingTop="18.0dip" android:paddingRight="17.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_16sp" android:textStyle="bold" android:textColor="@color/color_343434" android:ellipsize="end" android:id="@id/product_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="5.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/color_f13e3b" android:id="@id/product_price" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:includeFontPadding="false" android:layout_below="@id/product_name" />
+        <TextView android:textSize="14.0sp" android:textStyle="italic" android:textColor="@color/upgrade_progress_number" android:gravity="bottom" android:id="@id/product_origin_price" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="6.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/product_price" android:layout_below="@id/product_name" android:layout_alignTop="@id/product_price" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/product_name" android:layout_alignTop="@id/product_price" android:layout_alignBottom="@id/product_price" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/product_brand" android:layout_width="wrap_content" android:layout_height="20.0dip" />
+            <TextView android:textSize="@dimen/text_size_12sp" android:textStyle="bold" android:textColor="@color/color_f13e3b" android:layout_gravity="center_vertical" android:id="@id/website" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/code_layout" android:background="@color/color_ffffff" android:paddingLeft="15.0dip" android:paddingRight="27.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/copy" android:background="@drawable/download_green_bg" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="Copy" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_16sp" android:textColor="@color/color_343434" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/product_code" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:maxLines="1" android:layout_toLeftOf="@id/copy" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <View android:id="@id/code_layout_divider" android:background="@color/common_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/description_layout" android:background="@color/color_ffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip">
+        <TextView android:text="@string/e_life_deals_product_description" style="@style/e_life_daily_title_style" />
+        <com.mobile.indiapp.widget.ExpandableTextView android:id="@id/expand_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" expandableTextView:maxCollapsedLines="3" expandableTextView:animDuration="0" expandableTextView:animAlphaStart="1.0" xmlns:expandableTextView="http://schemas.android.com/apk/res-auto">
+            <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/color_828282" android:id="@id/expandable_text" android:paddingLeft="12.0dip" android:paddingRight="8.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="18.0dip" />
+            <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/expand_collapse" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-27.0dip" android:layout_marginRight="2.0dip" />
+        </com.mobile.indiapp.widget.ExpandableTextView>
+    </LinearLayout>
+    <View android:id="@id/description_layout_divider" android:background="@color/common_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</LinearLayout>

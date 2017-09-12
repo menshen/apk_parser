@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textColor="#ffdbaf35" android:ellipsize="end" android:id="@id/name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <ImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxWidth="200.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="#ff8c8c8c" android:layout_gravity="right" android:id="@id/chatTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" android:text="20:46" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_container" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_refresh_bg" android:background="@drawable/home_xrecycle_refresh_header_bg" android:layout_width="wrap_content" android:layout_height="50.0dip" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/root_anim" android:layout_width="fill_parent" android:layout_height="120.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_828282" android:id="@id/refresh_success_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/pull_to_refresh" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_chest_box_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/home_xrecycle_refresh_header_ic_bg" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/rl_mascot" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/iv_mascot" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginBottom="-3.0dip" android:src="@drawable/home_xrecycle_refresh_header_mascot_1_" android:scaleType="matrix" android:layout_above="@id/iv_waterpipe" android:layout_alignRight="@id/iv_waterpipe" android:layout_alignEnd="@id/iv_waterpipe" />
+            <ImageView android:id="@id/iv_waterpipe" android:layout_width="36.0dip" android:layout_height="10.0dip" android:src="@drawable/home_xrecycle_refresh_header_waterpipe" android:scaleType="matrix" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/iv_prize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/home_xrecycle_refresh_header_ic_prize1" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_9apps_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:src="@drawable/home_xrecycle_refresh_header_ic" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

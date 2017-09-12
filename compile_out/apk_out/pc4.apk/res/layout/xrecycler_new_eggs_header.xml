@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/new_recommend_egg_bg" android:background="@drawable/icon_new_recommend_header_eggs" android:layout_width="fill_parent" android:layout_height="75.0dip" />
+    <TextView android:gravity="center" android:id="@id/new_recommend_egg_text" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="28.0dip" android:text="123456" />
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+</LinearLayout>

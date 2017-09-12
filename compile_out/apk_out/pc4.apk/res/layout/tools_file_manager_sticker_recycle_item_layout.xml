@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_file_manager_sticker_layout" android:layout_width="104.0dip" android:layout_height="104.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_file_manager_sticker_image" android:layout_width="104.0dip" android:layout_height="104.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <CheckBox android:id="@id/cb_file_manager_sticker_item_choose" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/square_checkbox" />
+</RelativeLayout>

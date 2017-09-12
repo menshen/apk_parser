@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobile.indiapp.widget.ScrollLayout android:id="@id/detail_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/detail_top_img_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/app_detail_big_height">
+        <ImageView android:id="@id/detail_blur_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/app_green_icon" android:scaleType="centerCrop" />
+        <android.support.v7.widget.RecyclerView android:id="@id/detail_screenshots_recycle_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="192.0dip" android:layout_centerVertical="true" />
+        <com.mobile.indiapp.widget.RecyclerIndicator android:id="@id/detail_screenshots_indicator_layout" android:background="@drawable/app_detail_pic_bg" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include android:id="@id/detail_header_layout" layout="@layout/app_detail_header_bar_layout" />
+    <FrameLayout android:id="@id/detail_open_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/detail_open_item_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/detail_open_icon_view" android:visibility="gone" android:layout_width="@dimen/apps_item_icon_width" android:layout_height="@dimen/apps_item_icon_width" android:src="@drawable/app_green_icon" android:scaleType="centerCrop" />
+        <com.mobile.indiapp.widget.LabelImageView android:id="@id/detail_open_icon_subscript" android:layout_width="@dimen/apps_item_icon_width" android:layout_height="@dimen/apps_item_icon_width" android:scaleType="centerCrop" app:label_distance="@dimen/card_subscript_distance" app:label_height="@dimen/card_subscript_height" app:label_backgroundColor="@color/color_00be67" app:label_textSize="@dimen/text_size_10sp" app:label_orientation="LEFT_TOP" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/app_actionbar_height" layout="@layout/app_detail_scroll_layout" />
+    <include android:id="@id/detail_app_info_layout" layout="@layout/app_detail_stick_layout" />
+</com.mobile.indiapp.widget.ScrollLayout>

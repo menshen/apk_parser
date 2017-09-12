@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/e_life_deals_top_selling_today" style="@style/e_life_daily_title_style" />
+    <View android:background="@color/color_dddddd" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@color/color_dddddd" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+    <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/color_00be67" android:gravity="center" android:id="@id/get_more" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/e_life_deals_get_more" />
+    <View android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+</LinearLayout>

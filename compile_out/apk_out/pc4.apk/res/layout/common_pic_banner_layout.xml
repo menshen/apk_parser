@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.TouchViewPaper android:id="@id/common_banner_viewpaper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mobile.indiapp.widget.ViewPagerIndicator android:id="@id/common_banner_indicator_view" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" fpi:fpi_width="6.0dip" fpi:fpi_height="6.0dip" fpi:fpi_gap="6.0dip" fpi:fpi_isSnap="true" fpi:fpi_selectColor="@color/color_ffffff" fpi:fpi_unselectColor="#78efefef" fpi:fpi_cornerRadius="3.0dip" xmlns:fpi="http://schemas.android.com/apk/res-auto" />
+</RelativeLayout>

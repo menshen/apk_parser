@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.LoadingBirdView android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/progress_bird" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.mobile.indiapp.widget.LoadingBirdView>
+</LinearLayout>

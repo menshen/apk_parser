@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/menu_bg" android:layout_width="125.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/ll_detail" android:background="@android:color/white" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <ImageView android:id="@id/img_detail_ico" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/menu_detail" android:layout_centerVertical="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_798086" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/tools_app_update_menu_detail" android:layout_toRightOf="@id/img_detail_ico" android:layout_centerVertical="true" />
+            <View android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/llshare" android:background="@android:color/white" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <ImageView android:id="@id/img_share_ico" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/menu_share" android:layout_centerVertical="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_798086" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/tools_app_update_menu_share" android:layout_toRightOf="@id/img_share_ico" android:layout_centerVertical="true" />
+            <View android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rlignore" android:background="@android:color/white" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <ImageView android:id="@id/img_ignore_ico" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/menu_ignore" android:layout_centerVertical="true" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/color_798086" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/tools_app_update_menu_ignore" android:layout_toRightOf="@id/img_ignore_ico" android:layout_centerVertical="true" />
+            <View android:background="#ffd6d6d6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/saveMoneyLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/e_life_daily_price_title" style="@style/e_life_daily_title_style" />
+    <LinearLayout android:orientation="vertical" android:id="@id/buy_desc1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <ImageView android:id="@id/buy_desc_banner1" android:layout_width="fill_parent" android:layout_height="123.0dip" />
+    </LinearLayout>
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginLeft="12.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="12.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip">
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/color_e93b3b" android:gravity="center_vertical" android:background="@drawable/detail_bg_red_circle" android:paddingLeft="3.0dip" android:paddingRight="6.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:text="@string/popular" android:drawableLeft="@drawable/buy_ic_popular" android:drawablePadding="3.0dip" />
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/color_00be67" android:gravity="center_vertical" android:background="@drawable/detail_bg_green_circle" android:paddingLeft="3.0dip" android:paddingRight="6.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:text="@string/safe" android:drawableLeft="@drawable/buy_ic_safe" android:drawablePadding="3.0dip" />
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/color_ffa201" android:gravity="center_vertical" android:id="@id/buy_user_count" android:background="@drawable/detail_bg_yellow_circle" android:paddingLeft="3.0dip" android:paddingRight="6.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="10.0dip" android:text="@string/buy_people" android:drawableLeft="@drawable/buy_ic_people" android:drawablePadding="3.0dip" />
+    </LinearLayout>
+    <Button android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/color_ffffff" android:layout_gravity="center_horizontal" android:id="@id/accessibilityOpenBtn" android:background="@drawable/common_green_solid_corners_shape" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="15.0dip" android:text="@string/save_money" />
+    <include layout="@layout/divider_layout" />
+</LinearLayout>

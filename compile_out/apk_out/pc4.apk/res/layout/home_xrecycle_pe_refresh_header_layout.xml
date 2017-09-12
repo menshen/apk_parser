@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/root_anim" android:layout_width="fill_parent" android:layout_height="198.0dip">
+        <ImageView android:id="@id/iv_root_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageView android:id="@id/iv_pe_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/refresh_success_text" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_343434" android:id="@id/refresh_success_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:text="@string/pull_to_refresh" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <AbsoluteLayout android:layout_gravity="bottom" android:id="@id/al_gif" android:layout_width="fill_parent" android:layout_height="198.0dip" />
+</FrameLayout>

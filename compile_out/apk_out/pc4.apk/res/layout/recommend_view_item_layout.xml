@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_recommend_app_layout" android:background="@drawable/special_bg_selector" android:layout_width="60.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/view_recommend_app_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/app_green_icon" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/color_343434" android:ellipsize="end" android:id="@id/view_recommend_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Angry mather epic time" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/view_recommend_app_icon" android:layout_centerHorizontal="true" />
+    <com.mobile.indiapp.widget.DownloadButton android:id="@id/view_recommend_app_download" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="6.0dip" android:layout_below="@id/view_recommend_app_name" android:layout_alignLeft="@id/view_recommend_app_icon" android:layout_alignRight="@id/view_recommend_app_icon" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/left_drawable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/discover_coupon_item_coupon_left_icon" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/text_size_15sp" android:layout_gravity="center_horizontal" android:id="@id/title_scroll" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/e_life_daily_pass_title" android:includeFontPadding="false" />
+        <TextView android:textSize="@dimen/text_size_15sp" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/e_life_daily_title" android:includeFontPadding="false" />
+    </FrameLayout>
+    <ImageView android:id="@id/right_drawable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/discover_coupon_item_coupon_right_icon" />
+</LinearLayout>

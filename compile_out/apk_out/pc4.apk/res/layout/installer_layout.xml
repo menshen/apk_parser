@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_f6f6f6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/installer_scrollview" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/scanner_app_layout" />
+            <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <View style="@style/tools_setting_item_block_divider" />
+            <com.mobile.indiapp.widget.RecommendView android:orientation="vertical" android:id="@id/installer_recommend" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

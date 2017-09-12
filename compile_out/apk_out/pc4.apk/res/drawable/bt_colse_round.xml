@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffe2e2e2" />
+            <corners android:radius="@dimen/ac_price_close_round" android:topLeftRadius="@dimen/ac_price_close_round" android:topRightRadius="@dimen/ac_price_close_round" android:bottomLeftRadius="@dimen/ac_price_close_round" android:bottomRightRadius="@dimen/ac_price_close_round" />
+        </shape>
+    </item>
+    <item android:left="1.0px" android:top="1.0px" android:right="1.0px" android:bottom="1.0px">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/ac_price_close_round" android:topLeftRadius="@dimen/ac_price_close_round" android:topRightRadius="@dimen/ac_price_close_round" android:bottomLeftRadius="@dimen/ac_price_close_round" android:bottomRightRadius="@dimen/ac_price_close_round" />
+        </shape>
+    </item>
+</layer-list>

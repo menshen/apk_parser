@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/main_tab_tools_radius" />
+    <solid android:color="@color/color_ffffff" />
+    <padding android:left="@dimen/main_tab_tools_padding_left_right" android:top="0.0dip" android:right="@dimen/main_tab_tools_padding_left_right" android:bottom="0.0dip" />
+    <size android:height="@dimen/main_tab_tools_height" />
+    <stroke android:width="1.5dip" android:color="@color/color_e62b30" />
+</shape>

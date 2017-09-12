@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="70" android:drawable="@drawable/refresh_bird_01" />
+    <item android:duration="70" android:drawable="@drawable/refresh_bird_02" />
+    <item android:duration="70" android:drawable="@drawable/refresh_bird_03" />
+    <item android:duration="70" android:drawable="@drawable/refresh_bird_04" />
+    <item android:duration="70" android:drawable="@drawable/refresh_bird_05" />
+    <item android:duration="70" android:drawable="@drawable/refresh_bird_06" />
+    <item android:duration="70" android:drawable="@drawable/refresh_bird_07" />
+    <item android:duration="70" android:drawable="@drawable/refresh_bird_08" />
+</animation-list>

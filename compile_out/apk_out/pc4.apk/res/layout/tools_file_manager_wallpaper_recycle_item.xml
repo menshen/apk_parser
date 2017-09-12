@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_file_manager_wallpaper_iten_layout" android:layout_width="166.0dip" android:layout_height="122.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_file_manager_wallpaper_image" android:layout_width="166.0dip" android:layout_height="122.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    <CheckBox android:id="@id/cb_file_manager_wallpaper_item_choose" android:background="@drawable/common_checkbox_big_selector" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:button="@null" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/special_bg_selector" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/view_search_hint_title" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:text="Whatsapp" android:singleLine="true" android:layout_centerVertical="true" />
+    <ImageView android:gravity="center_vertical" android:id="@id/view_search_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/search_right_arraw" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <View android:id="@id/view_line" android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

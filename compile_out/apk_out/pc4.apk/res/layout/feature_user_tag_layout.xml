@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/header_view" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <View android:id="@id/header_line" android:background="#ff0076ee" android:layout_width="4.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/color_4d5359" android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:text="@string/app_feature_tag_area_title" android:singleLine="true" android:layout_toRightOf="@id/header_line" android:layout_centerVertical="true" />
+        <Button android:id="@id/closeBtn" android:background="@drawable/tags_title_closed_btn_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/userTagRecycleView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/featureTagBtnsLayout" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_below="@id/dialog_content">
+        <Button android:id="@id/left_button" android:background="@drawable/dialog_cancle_btn_selector" android:layout_width="0.0dip" android:layout_height="36.0dip" android:text="@string/check_update_cancel" android:layout_weight="1.0" />
+        <Button android:textColor="@color/color_ffffff" android:id="@id/right_button" android:background="@drawable/download_green_btn_selector" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:text="Save to discover" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginTop="12.0dip" />
+</LinearLayout>

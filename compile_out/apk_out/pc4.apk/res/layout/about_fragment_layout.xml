@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_about" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/hidden_view" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/iv_9apps_icon" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="84.0dip" android:src="@drawable/ic_launcher" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/iv_9apps_icon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/ic_about_9apps_logo" android:layout_below="@id/iv_9apps_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/color_565656" android:layout_gravity="bottom|center" android:id="@id/about_version_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/iv_9apps_icon_text" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/llStorySpecial" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_above="@id/about_facebook_layout" android:layout_alignLeft="@id/about_facebook_layout">
+        <ImageView android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/story_about_icon" />
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/color_343434" android:linksClickable="false" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nine_stort_about" android:layout_centerVertical="true" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/about_facebook_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:layout_above="@id/tv_copyright" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ic_about_facebook" />
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/color_343434" android:linksClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_share_to_facebook" />
+    </LinearLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@color/color_828282" android:gravity="center" android:id="@id/tv_copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.5dip" android:text="@string/about_copyright" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

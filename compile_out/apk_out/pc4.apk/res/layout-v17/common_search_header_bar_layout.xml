@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_search_bar_layout" android:background="@drawable/header_shadow_bg" android:layout_width="fill_parent" android:layout_height="@dimen/common_title_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/navigation_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_centerVertical="true" />
+    <RelativeLayout android:background="@drawable/actionbar_input_bg_grey" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_toRightOf="@id/navigation_button" android:layout_centerVertical="true" android:layout_toEndOf="@id/navigation_button">
+        <EditText android:textSize="14.0sp" android:textColor="#ff343434" android:id="@id/search_edit_text" android:background="@null" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:singleLine="true" android:layout_toLeftOf="@id/imageView4" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:layout_toStartOf="@id/imageView4" android:layout_alignParentStart="true" />
+        <ImageButton android:id="@id/search_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/search_line_input" android:layout_toLeftOf="@id/search_button" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="click_to_download">डाउनलोड करने के लिए क्लिक करें</string>
+    <string name="download">डाउनलोड</string>
+    <string name="download_menu_delete">हटाना</string>
+    <string name="download_menu_setAs">के रूप में सेट करें</string>
+    <string name="download_menu_share">शेयर</string>
+    <string name="download_no_sdcard">कोई एसडी कार्ड नहीं , डाउनलोड नहीं कर सकते</string>
+    <string name="install">स्थापित करें</string>
+    <string name="is_downloading">%1$s डाउनलोड कर रहा है , कृपया प्रतीक्षा करें ...</string>
+    <string name="notification_download">टास्क डाउनलोड अधिसूचना</string>
+    <string name="notification_download_content">डाउनलोडिंग(aa) पूरे किए(bb)</string>
+    <string name="set_ringtone_ok">सफलतापूर्वक सेट</string>
+    <string name="setting_wallpaper">वालपेपर सेट करें, कृपया प्रतीक्षा करें</string>
+    <string name="sharing_by_messenger">मैसेंजर</string>
+    <string name="sharing_text">9Apps सबसे अच्छा कभी app store है ! यह नि: शुल्क और तेज है। इसे करने की कोशिश करने के लिए कृपया जल्दी करो , http: //www.9apps.com/android-apps/9apps/</string>
+    <string name="sticker_detail_updatedtime">अपडेटेड समय %1$s</string>
+    <string name="sticker_download_all">सभी डाउनलोड</string>
+    <string name="sticker_share_from">से शेर करें</string>
+    <string name="update_all">सभी अद्यतन करें</string>
+</resources>

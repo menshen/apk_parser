@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/file_manager_header_content_layout" android:layout_width="fill_parent" android:layout_height="50.5dip">
+        <View android:id="@id/divider_view_bg" android:background="@color/color_f6f6f6" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="14.0sp" android:textColor="@color/color_828282" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/file_header_text" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="42.0dip" android:text="sticker file" />
+        <View android:id="@id/divider_line" android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+</LinearLayout>

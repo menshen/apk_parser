@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_item_layout" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layout_video_cover" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_centerVertical="true">
+        <ImageView android:id="@id/video_icon" android:layout_width="120.0dip" android:layout_height="68.0dip" android:src="@drawable/video_ic_default" />
+        <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/run_time_text" android:background="@drawable/corners_bg_for_discover" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="16.0dip" android:layout_marginBottom="10.0dip" android:text="20:00" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/video_detail_Information_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/layout_video_cover" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="#ff343434" android:ellipsize="end" android:id="@id/video_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="New Text" android:singleLine="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff828282" android:id="@id/view_counts_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/video_title" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/color_d0d0d0" android:id="@id/divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="|" android:layout_toRightOf="@id/view_counts_text" android:layout_alignTop="@id/view_counts_text" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff828282" android:id="@id/publish_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/divider" android:layout_alignTop="@id/view_counts_text" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/video_downloadable_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/view_counts_text">
+            <ImageView android:id="@id/iv_downloadable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_detail_ic_download" />
+            <TextView android:textSize="@dimen/text_size_10sp" android:textColor="@color/color_00be67" android:id="@id/tv_video_downloadable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Downloadable" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginRight="12.0dip" android:layout_alignLeft="@id/video_detail_Information_layout" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

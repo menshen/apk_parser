@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/screen_folder_divider_line" android:background="@color/color_565656" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginRight="24.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/header_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="24.0dip" android:text="@string/more" android:drawableRight="@drawable/more" android:layout_below="@id/screen_folder_divider_line" android:layout_alignParentRight="true" android:drawableEnd="@drawable/more" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_ffffff" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:text="@string/screen_folder_recommend_apps_title" android:includeFontPadding="false" android:layout_alignBaseline="@id/header_more" />
+    <android.support.v7.widget.RecyclerView android:id="@id/apps_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_below="@id/header_more" />
+</RelativeLayout>

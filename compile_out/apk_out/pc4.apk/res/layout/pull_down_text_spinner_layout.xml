@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_setting_spinner" android:layout_width="160.0dip" android:layout_height="@dimen/title_spinner_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_828282" android:gravity="center|right" android:id="@id/tv_setting_spinner_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:text="English" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_setting_spinner_arrows_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_expand_more" />
+</LinearLayout>

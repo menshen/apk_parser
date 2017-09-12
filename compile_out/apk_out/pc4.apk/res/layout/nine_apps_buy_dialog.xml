@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:background="#fff04747" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/skip_button" android:background="@drawable/welcome_skip" android:layout_width="53.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="CLOSE" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/page3_icon" android:layout_width="185.0dip" android:layout_height="325.0dip" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:text="We found you have installed 9Apps" />
+        <TextView android:textSize="12.0sp" android:textColor="#e6ffffff" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.5dip" android:text="@string/welcome_title2" />
+        <Button android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/page_button" android:background="@drawable/welcome_button" android:layout_width="221.0dip" android:layout_height="46.0dip" android:layout_marginTop="43.0dip" android:text="Enable Now" />
+    </LinearLayout>
+</RelativeLayout>

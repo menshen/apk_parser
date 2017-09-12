@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="must_have_app_user_bottom">62.799988dip</dimen>
+    <dimen name="must_have_app_user_size">12.0sp</dimen>
+    <dimen name="must_have_bling_big_left">38.0dip</dimen>
+    <dimen name="must_have_bling_big_top">76.0dip</dimen>
+    <dimen name="must_have_button_height">40.0dip</dimen>
+    <dimen name="must_have_defeat_top">5.0dip</dimen>
+    <dimen name="must_have_result_score_size">64.0sp</dimen>
+    <dimen name="must_have_score_result_height">234.0dip</dimen>
+    <dimen name="must_have_share_bottom">20.0dip</dimen>
+    <dimen name="must_have_top">25.0dip</dimen>
+    <dimen name="must_have_user_score_size">16.0sp</dimen>
+    <dimen name="must_have_user_top">-10.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.SelectorImageView android:id="@id/icon_small" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="centerCrop" android:layout_above="@id/desc" android:layout_centerHorizontal="true" />
+    <com.mobile.indiapp.widget.SelectorImageView android:id="@id/icon_big" android:layout_width="51.0dip" android:layout_height="51.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/color_7f8b95" android:gravity="center_horizontal" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/icon_big" android:layout_centerHorizontal="true" />
+</merge>

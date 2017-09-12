@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#fffff3c2" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+        <ImageView android:id="@id/icWifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:src="@drawable/ic_wifi" />
+        <ImageView android:id="@id/icClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:src="@drawable/ic_close" android:layout_alignParentRight="true" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff343434" android:id="@id/wifiTipsTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/app_update_wifi_title" android:layout_toLeftOf="@id/icClose" android:layout_toRightOf="@id/icWifi" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff828282" android:id="@id/wifiTipsTips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/app_update_wifi_tips" android:layout_toLeftOf="@id/icClose" android:layout_toRightOf="@id/icWifi" android:layout_below="@id/wifiTipsTitle" />
+    </RelativeLayout>
+</FrameLayout>

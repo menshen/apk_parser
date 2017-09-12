@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/chatTextRoot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="#ffdbaf35" android:ellipsize="end" android:id="@id/name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:id="@id/chatTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0dip" android:textColor="#ff8c8c8c" android:id="@id/chatTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20:46" />
+        <View android:id="@id/read_status" android:background="@drawable/nine_nine_ic_unread" android:layout_width="16.0dip" android:layout_height="14.0dip" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+</FrameLayout>

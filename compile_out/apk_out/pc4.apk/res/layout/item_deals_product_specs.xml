@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/color_f7f7f7" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip">
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/upgrade_progress_number" android:gravity="center_vertical" android:id="@id/specs_key" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/color_333333" android:gravity="center|right" android:id="@id/specs_value" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/color_ececec" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+</LinearLayout>

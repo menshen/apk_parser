@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_26" android:layout_marginRight="@dimen/dp_26"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/header_layout" android:paddingLeft="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="@dimen/dp_132" android:layout_marginBottom="@dimen/dp_40">
+            <TextView android:textSize="@dimen/sp_36" android:textColor="@color/color_FBD335" android:id="@id/header_title" android:paddingTop="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Congratulation" />
+            <ImageView android:id="@id/title_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/e_life_coupon_unique_code_dialog_crash" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:textSize="@dimen/sp_28" android:textColor="@color/white" android:id="@id/header_content" android:paddingRight="@dimen/dp_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You get the coupon code" android:layout_below="@id/header_title" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/update_logo" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginBottom="@dimen/dp_20" android:src="@drawable/ic_launcher" />
+        <TextView android:textSize="@dimen/sp_24" android:textColor="@color/color_727272" android:gravity="center_horizontal" android:id="@id/content" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" android:text="Here is your coupon code \nYou can use in Amazon" />
+        <TextView android:textSize="@dimen/sp_42" android:textColor="@color/color_B9183A" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/coupon_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" />
+        <View android:background="@drawable/e_life_coupon_unique_code_divider" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layerType="software" />
+        <Button android:textSize="@dimen/sp_28" android:textStyle="bold" android:textColor="@color/color_ffce00" android:id="@id/copy_code" android:layout_width="fill_parent" android:layout_height="@dimen/dp_65" android:layout_margin="@dimen/dp_36" android:text="Copy Code" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_22" android:src="@drawable/e_life_coupon_unique_code_close" />
+</LinearLayout>

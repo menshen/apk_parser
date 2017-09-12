@@ -1,0 +1,3150 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_91 (Oracle Corporation)
+
+Name: res/drawable-xhdpi-v4/wallpaper_ic_big_default.png
+SHA1-Digest: QTRoVsJhxBv+qaBsxrowqpqSmmc=
+
+Name: res/drawable-xhdpi-v4/dialog_update_rocket_circle.png
+SHA1-Digest: LVdj1+DauU5PGUg59osX7Z5yECE=
+
+Name: res/anim/push_up_out.xml
+SHA1-Digest: jsgJwUmguS2a2sMoVNr/0gV/8vg=
+
+Name: res/drawable-xhdpi-v4/main_tab_tools.png
+SHA1-Digest: 8cNGHOsZna8SE1vYrMKmEhr2crU=
+
+Name: res/layout/feature_user_tag_item_layout.xml
+SHA1-Digest: ZxKOR2y/OWRTBDe3FT7AaipV5XE=
+
+Name: res/drawable/item_produce_bottom.xml
+SHA1-Digest: uzGxkKSkGHS4QZQxj2BOGHFrqQw=
+
+Name: res/layout/special_item_header_layout.xml
+SHA1-Digest: nTB6EGqdZ5iI7fhvLVAm74jvCnI=
+
+Name: res/drawable/special_transparent_bg_selector.xml
+SHA1-Digest: +PZTshnN9HbyXGvOiwn9zV5nVcw=
+
+Name: res/drawable-xhdpi-v4/icon_downloaded_normal.png
+SHA1-Digest: m20JPWmO8rO+d1hEba6PX/N0g5U=
+
+Name: res/drawable/spirit_water_color_one.xml
+SHA1-Digest: 1zzb9dew/QeeNzVH7amimYYnxpE=
+
+Name: res/drawable/e_life_coupon_unique_code_box.xml
+SHA1-Digest: 0eosAGSVkaie5qYBov/eWGfUhVY=
+
+Name: res/drawable/app_green_icon.xml
+SHA1-Digest: ymsccEXkwguQqcDvuyTU9B/w6uc=
+
+Name: res/layout/discover_coupon_item_copuon_layout.xml
+SHA1-Digest: FRZSy4hJqYPWYoMLBGAWJCzFQ7Q=
+
+Name: res/drawable-xhdpi-v4/layer_translate.9.png
+SHA1-Digest: NJeIHjerR4bAYxIhHZmE9A1ffHs=
+
+Name: res/layout-v17/content_card__app_item_clear_layout.xml
+SHA1-Digest: fHAfEXVEHN/rnDTRCh6X6UbzYe0=
+
+Name: res/drawable/main_tab_bg.xml
+SHA1-Digest: 1O2HFf8R3Ug9XJwuz0Roj37BXvY=
+
+Name: res/drawable-xhdpi-v4/share_fb_logo.png
+SHA1-Digest: QtJNPeB+qogRa+pswWtjtbdFHBI=
+
+Name: res/layout/item_screen_folder_downloaded_app.xml
+SHA1-Digest: DeB89mRtmcISg+52q4/RzH1oUfc=
+
+Name: res/layout/must_have_dialog_fragment.xml
+SHA1-Digest: YeY2NQ7Ci/3t7dWlJG+onREzLfQ=
+
+Name: res/layout/xrecycler_new_eggs_header.xml
+SHA1-Digest: tU9zJ5uQYTdcPYoDhk37DMzJtxs=
+
+Name: res/drawable-xhdpi-v4/video_ic_default.png
+SHA1-Digest: F+KiWerqZhmNJJS6bJ0Wm3JFpTc=
+
+Name: res/layout-v17/app_card_detail_page.xml
+SHA1-Digest: 3AR6q/CRkjpzXzcXDnDgCSvhPxg=
+
+Name: res/layout/file_manager_tab_item_text_layout.xml
+SHA1-Digest: k7aErexWTTa722dVTFHdA9o4F40=
+
+Name: res/drawable-xhdpi-v4/accessbility_step1.png
+SHA1-Digest: d4eh4nZBj9ryxmeoX/7lb0fGaU0=
+
+Name: res/layout/scanner_app_layout.xml
+SHA1-Digest: q7mX4UOnUNVg5eQgnIaNmqClzJw=
+
+Name: res/drawable-xhdpi-v4/iv_guide_tab.png
+SHA1-Digest: qnmb6t/m/YxYPk4rDaCsKJFqva8=
+
+Name: res/drawable-xhdpi-v4/share_whatapps_logo.png
+SHA1-Digest: 4j86a9hJu5RB5CkigptATGhH1F0=
+
+Name: res/layout/pull_down_text_spinner_layout.xml
+SHA1-Digest: 8Af52QsiQLWl58jdX+GtzUoDKUQ=
+
+Name: res/drawable-xhdpi-v4/detail_ic_free.png
+SHA1-Digest: nEc8jWiLz3NvjsVMfWI34V97NtE=
+
+Name: res/layout/recommend_view_item_layout.xml
+SHA1-Digest: 3m7Oqv7CGy2n1UT3ONhfcmpdUy0=
+
+Name: res/drawable/download_more_bg.xml
+SHA1-Digest: VrsWeSa1FbhQvDLJCaejVj1ktiw=
+
+Name: res/drawable-xhdpi-v4/icon_like.png
+SHA1-Digest: q7MuxvnsA9ekW8W2Lm5IdsA9ImA=
+
+Name: res/drawable/bg_share_widnow_selecter.xml
+SHA1-Digest: Jv1ygMFXuZMs/27KVPAE/DRdg28=
+
+Name: res/drawable/screen_shot_share_bg.xml
+SHA1-Digest: ofinV5UZWj8VQ5D5Z09qm7Zmq+0=
+
+Name: res/drawable-xhdpi-v4/sharing_ic_messenger.png
+SHA1-Digest: eQhGbaXLJGIgtmU1zutFRfoG67o=
+
+Name: res/drawable/fastdownload_green_bg.xml
+SHA1-Digest: r8u/G1xTcAZgm5BTyQklpLI4buQ=
+
+Name: res/drawable/item_produce_bg.xml
+SHA1-Digest: TT8EPYT9N9y2ElDXxWd0LxtsFS4=
+
+Name: res/drawable-xhdpi-v4/icon_new_recommend_header.png
+SHA1-Digest: Oxe0vv2NVkMbK3zRL2CQ4SnUAbE=
+
+Name: res/drawable/lay_price_iv.xml
+SHA1-Digest: +tvR5NuSr0+OiiXWBVzZ8M8kXgE=
+
+Name: res/drawable/white_rectangle_press_bg.xml
+SHA1-Digest: UDmkxIQZ3kNmyX9uvFSG4cPFATE=
+
+Name: res/drawable-xhdpi-v4/celetalk_icon_tap.png
+SHA1-Digest: 3AArd5qtWn6jigGgrUmmvj67554=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_02.png
+SHA1-Digest: mH05KAoWiQICeGiqJBiF2MAB6LI=
+
+Name: res/drawable-hdpi-v4/notificaiton_install.png
+SHA1-Digest: Y08OH1n3BfldhkACeMjkza8I9lo=
+
+Name: res/layout/entertainment_title_layout.xml
+SHA1-Digest: QQ+CprUIhDByK/7hpNzxsEAz2ww=
+
+Name: res/drawable/spirit_water_color_third.xml
+SHA1-Digest: mD8k0ZHA0DdHrgocDL6qKY/8SaM=
+
+Name: res/drawable-xhdpi-v4/loading_small.png
+SHA1-Digest: FW30x7HOUGpn+HIsk4AGi9hBEPQ=
+
+Name: res/drawable/lay_price_content_top.xml
+SHA1-Digest: YrNg/tbD/Wpic8BR1Vi7UY/429g=
+
+Name: res/layout/discover_sticker_list4_title_layout.xml
+SHA1-Digest: U+AAYu8IWoIUiDq1v7W4USbREjo=
+
+Name: res/drawable-xhdpi-v4/menu_set_as.png
+SHA1-Digest: cUIFt5hXqYzIG7tdFRarId3KCyI=
+
+Name: res/drawable-xhdpi-v4/story_page_btn_return.png
+SHA1-Digest: imPA9AxAdrscWYN9lUkCuzzuhvI=
+
+Name: res/layout/tools_file_manager_sticker_recycle_item_layout.xml
+SHA1-Digest: kJJ0H5q/T7PWBwwWIR81un9+lxI=
+
+Name: res/layout/discover_video_tab_list_layout.xml
+SHA1-Digest: mtn+nhVlm3zSq3FYop/lK80KthM=
+
+Name: res/drawable-xhdpi-v4/story_download_err.png
+SHA1-Digest: YoaA3LSP/TRwFvpIwxb3GjPlv2Q=
+
+Name: res/layout/notification.xml
+SHA1-Digest: GOveAAGID7VHFibTdAW+CNfCuZI=
+
+Name: res/drawable-hdpi-v4/notificaiton_update_big.png
+SHA1-Digest: sP4VSiUFctQruTTzwtuboYd4rmQ=
+
+Name: res/drawable-xhdpi-v4/accessbility_step2.png
+SHA1-Digest: TbATUg+UX+PVD6m85/bD4r41XeI=
+
+Name: res/layout/share_webview.xml
+SHA1-Digest: 6x0p0jNn59KmE85vtpj5pd8pCbU=
+
+Name: res/layout/common_dialog_layout.xml
+SHA1-Digest: wruCiUORDguR45U6/+o3Za+HFK8=
+
+Name: res/drawable-xhdpi-v4/icon_search_history_delete_press.png
+SHA1-Digest: Wp0Fh3i+tOltH5aKKamOzD2d/wY=
+
+Name: res/layout/discover_sticker_list_item_layout.xml
+SHA1-Digest: 9lrr8vdldSDFv2E4ec1eMhhvdSI=
+
+Name: res/drawable-xhdpi-v4/header_shadow_bg.9.png
+SHA1-Digest: c6R5TXIgsASBzEfd0mtBCxIKGi4=
+
+Name: res/drawable/tools_setting_switch_selector.xml
+SHA1-Digest: mjvNubG8i4wdZcyOeHhWdartV1g=
+
+Name: res/drawable-xhdpi-v4/story_entrance_bg.png
+SHA1-Digest: 63PNjcUeoUGznyxnhrf1HQPFXyw=
+
+Name: res/layout/search_fragment.xml
+SHA1-Digest: NODhvs9Qz/REyzY5fqdrTgiZsDg=
+
+Name: res/layout/window_access.xml
+SHA1-Digest: FT3zn5pTbMU455vFND7rMLlih94=
+
+Name: res/drawable-xhdpi-v4/common_green_btn.9.png
+SHA1-Digest: wDLvPOzuVoETbVbYGBVwk64FEgg=
+
+Name: res/drawable-xhdpi-v4/wallpaper_ic_bar_back_normal.png
+SHA1-Digest: nKdqcoQNbxPlhOj6UcgjQRD3qN8=
+
+Name: res/layout/tools_file_manager_wallpaper_recycle_item.xml
+SHA1-Digest: q9DWzXOZxXG3upkRtlXSLo/9SJk=
+
+Name: res/drawable/download_green_press_bg.xml
+SHA1-Digest: XzPmfaqMhpO8RHRhIv10NjMwjjM=
+
+Name: res/layout/button_unspecified.xml
+SHA1-Digest: ujzOA7PhmAcUZ7KSZDFBd97Wlcg=
+
+Name: res/layout/sub_new_fragment_layout.xml
+SHA1-Digest: NZr/SKZKGBB60/ag7tXg2JJ27yY=
+
+Name: res/drawable-xhdpi-v4/common_disable_btn.9.png
+SHA1-Digest: +O0Q7F1PywWp3gy5j9oTxI7lw8A=
+
+Name: res/drawable-xhdpi-v4/splash_bg_top.png
+SHA1-Digest: Z9FEhOATrg1eyAsVTY2oJHwzsWY=
+
+Name: res/layout/item_deals_title_layout.xml
+SHA1-Digest: wEQ3N4Z2St+BEtRZo2tG65Z7Et4=
+
+Name: res/layout/story_page_last_layout.xml
+SHA1-Digest: HeZ1KHY7r+tJ4/jfNg1HC1h5sww=
+
+Name: res/drawable-xhdpi-v4/celetalk_tips_blue_bg.9.png
+SHA1-Digest: awriebOsH7eHnI62VSlIpWO43QE=
+
+Name: res/layout/wallpaper_detail_layout.xml
+SHA1-Digest: lrtjGdVSfMm60Hj9RArtBBHJTHI=
+
+Name: res/drawable-xhdpi-v4/video_content_card_detail_tips.9.png
+SHA1-Digest: 7jDOHomTeEtWDXemmFIxThyb8GI=
+
+Name: res/layout/discover_video_item_list_special.xml
+SHA1-Digest: e0vNo6THDA3EpynVy3LHdXP1uHQ=
+
+Name: res/drawable/checkbox_bg.xml
+SHA1-Digest: MjJh6CysVGZKDihvKpQx0E6dpyQ=
+
+Name: res/drawable-xhdpi-v4/download_test.png
+SHA1-Digest: 1gSttF6TBX8GV+FMH1oCoBQ+WUQ=
+
+Name: res/drawable-xhdpi-v4/purple_heart.png
+SHA1-Digest: Hys+XjX8j87X1S1ZHrxMTBBGhVc=
+
+Name: res/layout/main_tab_layout.xml
+SHA1-Digest: Pg2zEhl+55N06fPubowz8+LOSmw=
+
+Name: res/drawable/common_item_special_bg_shape.xml
+SHA1-Digest: 9o1vdQKGYOyw7pZ67acYGbpmeHs=
+
+Name: res/drawable/refresh_bird.xml
+SHA1-Digest: Bz/mMoWpRMqPsTUkLVtQI/8r5Ds=
+
+Name: res/xml/phone_accessibility.xml
+SHA1-Digest: QYNVkwJ2YxrSvL7zeoYIdMDPRYo=
+
+Name: res/drawable/rect_grey_border_white_bg.xml
+SHA1-Digest: leWBvEB+pxFXTdFyxDk+C1RBuH8=
+
+Name: res/drawable-xhdpi-v4/common_not_content.png
+SHA1-Digest: 1ZpgvpKE7oPp2UUKByy0LK76KO4=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_scan_ic_3.png
+SHA1-Digest: FdfIN9ILwWbCO+HI79UgUiSSfKo=
+
+Name: res/drawable/celetalk_round_button_bg2.xml
+SHA1-Digest: KPH+qMr/j23uQWxvsOkove09DMQ=
+
+Name: res/drawable/item_produce_left.xml
+SHA1-Digest: o1MTOhpMvL7/yjjiZUuvJnIrb6Q=
+
+Name: res/drawable/spirit_water_green.xml
+SHA1-Digest: wOcIKXJy3iYrpBuIPx8O0xD6Tmc=
+
+Name: res/layout/home_pic_banner_layout.xml
+SHA1-Digest: lhpIxIgMWAy0UH6PJ7v67kyqE+s=
+
+Name: res/drawable-xhdpi-v4/discover_sticker_share_btn.png
+SHA1-Digest: 01l8Qz7WfkYFAWqR/Wyw2JK8K2Q=
+
+Name: res/drawable-xhdpi-v4/menu_check_update_icon.png
+SHA1-Digest: CG3ePOb3YIGG78dGI9zEwi3/omg=
+
+Name: res/drawable-xhdpi-v4/menu_delete.png
+SHA1-Digest: suAhWESGVAMnZ1VsXLstPU37ic0=
+
+Name: res/drawable/screen_folder_menu_update_selector.xml
+SHA1-Digest: 6AwPV5S2AVfgzzgC5ayoHXi3RVA=
+
+Name: res/drawable/item_produce_line.xml
+SHA1-Digest: nsKzHDjZ/od80MVMQfNiF802o0I=
+
+Name: res/drawable-xhdpi-v4/share_twitter_logo.png
+SHA1-Digest: Yb87+itR2Xt75392HxZXk7Tj8YQ=
+
+Name: res/layout/apps_tab_item_layout.xml
+SHA1-Digest: 6ZtrOmEhpN0ZjKi1hPDXpPLSGyg=
+
+Name: res/drawable/corners_bg_for_discover.xml
+SHA1-Digest: GhTS6In6ww6R+9OxMuFMTZSRkkU=
+
+Name: res/layout/login_progress_layout.xml
+SHA1-Digest: GPWF2zQYlgYSYuXmXCPd8OmJr+8=
+
+Name: res/drawable-xhdpi-v4/icon_disliked.png
+SHA1-Digest: f5LsCSKlxDQ3BEbl2ZXy/fgkb3k=
+
+Name: res/layout/apps_fragment_layout.xml
+SHA1-Digest: jMUWK4UN+dLTvTdABghdSeLqOLA=
+
+Name: res/drawable-hdpi-v4/cha_price.png
+SHA1-Digest: 6R8pnTdBqR/KDbhWC0aB8nn0WLM=
+
+Name: res/layout/celetalk_album_layout.xml
+SHA1-Digest: 3MWFKEugLndgg/mKOQaMgzyN/4g=
+
+Name: res/layout/musthave_dialog_layout.xml
+SHA1-Digest: its7pcF/XXGw3eexKFNxAiAoK+Q=
+
+Name: res/drawable-xhdpi-v4/icon_clear_cache_press.png
+SHA1-Digest: flquOsXwQNRdICJ84/+zj3qqeec=
+
+Name: res/layout/fragment_splash_layout.xml
+SHA1-Digest: Md8fZVJPBcDbb3JhcYwP3XKBLmo=
+
+Name: res/drawable-xhdpi-v4/arrow.png
+SHA1-Digest: VcrU1BDhlUpu2kn8NsNo1qsZ97w=
+
+Name: res/drawable-xhdpi-v4/download_num_bg.9.png
+SHA1-Digest: uCmyPOx+K6+Uxvi5eW5WVGU1N20=
+
+Name: res/layout/ac_dialog_price.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_01.png
+SHA1-Digest: WksT14pUB+36RYy6EmFrcFty3gU=
+
+Name: res/layout/musthave_dialog_result_layout.xml
+SHA1-Digest: naBqf872955MsF/TQ50p7Iib3Fg=
+
+Name: res/layout/timing_dialog.xml
+SHA1-Digest: 9ubFODsxfeZv/hhgnt2iGVEZLfQ=
+
+Name: res/drawable/download_progressbar_bg_shape.xml
+SHA1-Digest: SKMp4rEIZTTVeKrgIHWOZ6y2Ols=
+
+Name: res/drawable-xhdpi-v4/icon_update_normal.png
+SHA1-Digest: 2CvFDjd475tJeHFsEBvxQi5sq7o=
+
+Name: res/drawable-xhdpi-v4/bg_out_of_stock.png
+SHA1-Digest: /uOp2kZz8oqW4PlE50x9wOEGZBw=
+
+Name: res/layout/e_life_daily_title_layout.xml
+SHA1-Digest: elPPYG7GpAovNzcTSiX/DbpjN6U=
+
+Name: res/drawable/btn_red_stroke_normal.xml
+SHA1-Digest: qH3KSE0Lp/SYWiY0X1aTPhTT0uo=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_scan_ic_2.png
+SHA1-Digest: vEpXRm5+KKBBxbklRemk6J9A8pY=
+
+Name: res/drawable/download_grey_press_bg.xml
+SHA1-Digest: w/s5Wd0RbrGaR5SbpZBu3hR0tno=
+
+Name: res/layout/adapter_produce_offers_item.xml
+SHA1-Digest: 6i3YzuLfHropv+iKGNtp+hVwZ5g=
+
+Name: res/drawable/e_life_deals_search_bg.xml
+SHA1-Digest: QLVumFAK4QGJIliuDBWs9zZLas0=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic_bg.png
+SHA1-Digest: fqLqneNaGs/ylP/BRL63laM6+zA=
+
+Name: res/raw/daemon
+SHA1-Digest: mFueJom13E1tH7HrIc80MvU4CXY=
+
+Name: res/layout/dialog_e_life_deal_download.xml
+SHA1-Digest: /bpcYtDnpAvi9eYbh1GCxuAT4jw=
+
+Name: res/layout/price_comparison_outside_guide_dialog_layout.xml
+SHA1-Digest: oLS6PaUMK4TsbrSxWfssO1gBJH8=
+
+Name: res/layout/default_header_layout.xml
+SHA1-Digest: vlqiW1LDa5rW5SCrhlyXvELryAU=
+
+Name: res/drawable-xhdpi-v4/default_icon.png
+SHA1-Digest: 3Xwn+0xLGylxo9lZtDW0a+YPENc=
+
+Name: res/drawable-xhdpi-v4/detail_ic_sectrity.png
+SHA1-Digest: Wpf2VfE3+WDU5cADKz2Wxv2+t78=
+
+Name: res/drawable-xhdpi-v4/feature_title_green_bg.9.png
+SHA1-Digest: Y3kbd24YGPCevxMHWrAjvv8W3og=
+
+Name: res/layout/app_item_header_layout.xml
+SHA1-Digest: odfOPcUuVMZI7bNdOzUFX7nf5Ag=
+
+Name: res/layout/notification_install_small_layout.xml
+SHA1-Digest: S/QiCndI6boPZZwU8HVrb2jruRc=
+
+Name: res/drawable-xhdpi-v4/common_actionbar_ic_back_white_normal.png
+SHA1-Digest: MKZA2Og9XiGDoUPEpUhilpcxUi0=
+
+Name: res/drawable-xhdpi-v4/common_actionbar_ic_circle_white_normal.9.
+ png
+SHA1-Digest: eeJO6qpWgsjrz0U+vlHracTn+4g=
+
+Name: res/layout/must_have_item_fragment_layout.xml
+SHA1-Digest: 13ua0wDjCAbtZTwhcj3ZBwdKOJM=
+
+Name: res/layout/search_app_recommend_item_layout.xml
+SHA1-Digest: VtALhHuXVdmYA04MsutOVXknv88=
+
+Name: res/drawable-xhdpi-v4/fastdownload_download.png
+SHA1-Digest: bSQjxeEUlq1XZyH3mlUbu9ob5Vk=
+
+Name: res/layout/discover_sticker_list1_title_layout.xml
+SHA1-Digest: MPBs+OwAaE2gNPmg1E8tqmjV+ZY=
+
+Name: res/layout/search_hint_list_layout.xml
+SHA1-Digest: 6xkyRUL7ry92kTR5P+txM5pjFKk=
+
+Name: res/layout/home_update_layout.xml
+SHA1-Digest: xlquYTS4kCjcHi3Mrbuqf+wrgho=
+
+Name: res/layout/app_sharing_layout.xml
+SHA1-Digest: 0Uos9HCfzkkGvRtZgjM6IlhaUtw=
+
+Name: res/drawable-hdpi-v4/special_bg.9.png
+SHA1-Digest: BNATNhNA10fOKx21O9GGtIvEHcY=
+
+Name: res/layout/tools_home_fragment_layout.xml
+SHA1-Digest: 9JBpUOZTin50hiTFGFy38PBtoWQ=
+
+Name: res/layout/item_deals_search_history_layout.xml
+SHA1-Digest: kjZnPbbHtLyryYxs5JEc8DFF4JA=
+
+Name: res/drawable/e_life_coupon_unique_code_divider.xml
+SHA1-Digest: 4ZMpYj/xVVUJG4zJAnROMzuWzKM=
+
+Name: res/drawable-xhdpi-v4/spirit_cross.png
+SHA1-Digest: +xQCkAgCr0cE+8iK0H3qPUjDmek=
+
+Name: res/layout-v17/ac_dialog_price_product_info.xml
+SHA1-Digest: /v+PKQaNnOEvaOk7vqwrVZ1pbQ8=
+
+Name: res/layout/vidmate_video_content_card_layout.xml
+SHA1-Digest: VXjQDY0x6D9tuD2rTcjj3Uno1VE=
+
+Name: res/drawable/detail_bg_green_circle.xml
+SHA1-Digest: bUyLzvkX7yP398AiUYMjrHQSyy8=
+
+Name: res/layout/story_page_normal_layout.xml
+SHA1-Digest: 9kYVIxwzbI19LOXSbH5RaANy6BI=
+
+Name: res/layout/item_deals_search_result_layout.xml
+SHA1-Digest: PBBa5zJHL8nssl1AGmdiAIfS0eQ=
+
+Name: res/layout/window_spirit_close_icon_layout.xml
+SHA1-Digest: OW3YUtgbpVMlmjdzwvg3p3OvJ3U=
+
+Name: res/layout-v17/search_hot_keywords_layout.xml
+SHA1-Digest: HvxtV1IRhbyvpFdItqR4Cn3kMNQ=
+
+Name: res/drawable/wallpaper_grey_normal_bg.xml
+SHA1-Digest: jIhSf2OOkJWtzRHtTMTXmlorMq4=
+
+Name: res/layout/celetalk_layout.xml
+SHA1-Digest: LJROJ4HZCqckD6uBgtQ12B5CoaY=
+
+Name: res/drawable-xhdpi-v4/cha_price.png
+SHA1-Digest: F3FLovX+Bi4sExKGu9zNKYIDCpE=
+
+Name: res/drawable-xhdpi-v4/spirit_close.png
+SHA1-Digest: XSVncTjE2Cjwcdpc0PuLfyW+XoM=
+
+Name: res/drawable-xhdpi-v4/download_iv_star.png
+SHA1-Digest: VFlwWuomkPMGv+BEOmNH/WSAwFQ=
+
+Name: res/layout/adapter_produce.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/layout/dialog_e_life_coupon_unique_code.xml
+SHA1-Digest: 2USCpd4T/UYLg8DtqoKAnZHualE=
+
+Name: assets/home_app_data_IN.json
+SHA1-Digest: Kw0jYHDGlaa/oGaW0sT2PTTs8Oc=
+
+Name: res/drawable/arrow_right_icon_selector.xml
+SHA1-Digest: 3heblOL3DcJ4eN26Vqw/1dSgSNE=
+
+Name: res/drawable/screen_msg_green_btn_selector.xml
+SHA1-Digest: 648G99dHndbDWHBvZBKN2o+uTUQ=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_scan_ic_4.png
+SHA1-Digest: V/67xjA7GXTMQwn0J8A5vjsWUs4=
+
+Name: res/color/txt_00be67_selector.xml
+SHA1-Digest: pTrIHPm9dLrfW5IMELQId9e1TLM=
+
+Name: res/drawable-hdpi-v4/feature_title_blue_bg.9.png
+SHA1-Digest: 3r/h2cKNHQw02XNCO5pGv6UHtUA=
+
+Name: res/layout/view_load_dialog.xml
+SHA1-Digest: VdkTJAxvawRLdEFgXtqyrYBE6cg=
+
+Name: res/anim/push_right_in.xml
+SHA1-Digest: hVdBXSdzN/hgGBR6SAN4u27fBz4=
+
+Name: res/layout/common_empty_recyclerview_layout.xml
+SHA1-Digest: r527IvIHwmFNhuUCkoHytHcUirw=
+
+Name: res/layout/discover_video_row_layout.xml
+SHA1-Digest: LBN+puXmiIXZOidkpZ+u24lzK+M=
+
+Name: res/layout/common_search_header_bar_layout.xml
+SHA1-Digest: ey0IOZcAhmJUSjbqo7dkOSyP3Dw=
+
+Name: res/layout-v17/common_dialog_layout.xml
+SHA1-Digest: 4NkfvjyqyHOD4nc42CoAJk+E1X0=
+
+Name: res/drawable/dialog_green_btn_selector.xml
+SHA1-Digest: dtPg6u6lP/NYNR0kgfbn2+jeLYg=
+
+Name: res/drawable-xhdpi-v4/common_circle_help.png
+SHA1-Digest: oD9KAIMRUNftYg8m34jETPFC8lw=
+
+Name: res/drawable-xhdpi-v4/top_star.png
+SHA1-Digest: tTCwLG88qs/tp1yQO+Mi/K2tn4w=
+
+Name: res/drawable-xhdpi-v4/celetalk_bottombar_emotion.png
+SHA1-Digest: tlBuT6sWCPEJymUCKZOf979ugxE=
+
+Name: res/layout/category_detail_manage_fragment_layout.xml
+SHA1-Digest: JwVHRVzuVhV8Ckq8Oxl2eG9Wtp8=
+
+Name: res/layout/tools_file_manager_fragment_main.xml
+SHA1-Digest: FKztGMPUtM7y813b+X9nIWlDGUw=
+
+Name: res/drawable-xhdpi-v4/celetalk__topbar_call.png
+SHA1-Digest: Y4b0OZegZoH83PHJC56LbzxbauU=
+
+Name: res/layout-v17/item_deals_search_layout.xml
+SHA1-Digest: ge8zmql8cFydp6TNiQ3TnhFweE8=
+
+Name: res/drawable-xhdpi-v4/icon_more_normal.png
+SHA1-Digest: vtfG9dDpt2D3+Tn9nJ7EhtPfui0=
+
+Name: res/layout/detail_ratebar_layout.xml
+SHA1-Digest: iqOoo2CTH93YwTZjuuT+41gMGlc=
+
+Name: res/layout/content_card_app_item_layout.xml
+SHA1-Digest: Rdd/1vJ7u+ilcBNdlX2tKOQA+Zg=
+
+Name: res/drawable-xhdpi-v4/demo_buy_banner1.webp
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: res/layout/story_home_entrance_view.xml
+SHA1-Digest: iFO+xa8JBLkL/Y6qRLh4hAczEFw=
+
+Name: res/drawable-xhdpi-v4/home_tab_small_databack.png
+SHA1-Digest: 1XCfacAD3bRdIJagn3yBC4SIaKo=
+
+Name: res/layout/vk_open_auth_dialog.xml
+SHA1-Digest: M04yI5pcpKW1qenZWCxxxy9U0zA=
+
+Name: res/layout/divider_layout.xml
+SHA1-Digest: UgevP5a/nNgma89fe6MM7AlKilE=
+
+Name: res/drawable-xhdpi-v4/e_life_coupon_unique_code_dot.png
+SHA1-Digest: 0UE10aJXX4lmL97d3TzI8PyPHww=
+
+Name: res/drawable-xhdpi-v4/sticker_pic_icon.png
+SHA1-Digest: 3n9J28gxts4YMTZ1GCAxDfiL+EQ=
+
+Name: res/layout/tools_app_update_fragment_layout.xml
+SHA1-Digest: /jUt/k8nJ2q6OzEr+3cpfTiU45Q=
+
+Name: res/drawable/nine_nine_toast_bg.xml
+SHA1-Digest: ufWLEaYxeRH44OJ//k9Fn296dJI=
+
+Name: res/drawable-xhdpi-v4/celetalk_share_desc_bg.9.png
+SHA1-Digest: o8UA88u4YBWCknSnf5TQkwSHZzI=
+
+Name: res/drawable-xhdpi-v4/dialog_warm_update_ic.png
+SHA1-Digest: 4VE/UHsH+NzxABQuLYukA+TA2uM=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_header_bg.png
+SHA1-Digest: +Z3ASL4VTq0vhOmZawmWbIExL/M=
+
+Name: res/layout/vidmate_video_header_layout.xml
+SHA1-Digest: LwIoPRwZXcKJoUTEI/KoPUiDetE=
+
+Name: res/drawable/bg_share_toast_shape.xml
+SHA1-Digest: 9orHJsra0PBMyGIcEQv0Mz4X3SA=
+
+Name: res/drawable-xhdpi-v4/detail_ic_score_star_normal_big.png
+SHA1-Digest: VugsGtxucauZyPB9zvRSw6zdO84=
+
+Name: res/drawable-xhdpi-v4/video_play_icon.png
+SHA1-Digest: OvlvGy8TaeMzNclw+BS4LEqoAL0=
+
+Name: res/layout/welfare_fragment_layout.xml
+SHA1-Digest: RoG3czIhKwPw2f86PXiVzPC3WYk=
+
+Name: res/drawable/bg_status_with_stroke_grey.xml
+SHA1-Digest: hSZSZgeIHsKEeuGGGz5iP47/GuA=
+
+Name: res/drawable/spcial_more_icon_selector.xml
+SHA1-Digest: JJ/isnPwSCpjzx0pbVnH/Wtg5CI=
+
+Name: res/drawable/common_actionbar_ic_circle_grey_selector.xml
+SHA1-Digest: 4Rk3Z9pgoJoK9SooAKeA/yj0ylk=
+
+Name: res/layout/dialog_must_have_scan_view_layout.xml
+SHA1-Digest: BTss0oHrl5wwcS/PQW1AIgXC+gc=
+
+Name: res/drawable/screen_msg_gray_btn_selector.xml
+SHA1-Digest: 5lW3+AQhfPlWR8tT2CkPED0HHKk=
+
+Name: res/layout/common_special_item_layout.xml
+SHA1-Digest: yof9YtR8WzMwv4OfBuICm4TrXLY=
+
+Name: res/layout/discover_sticker_category_layout.xml
+SHA1-Digest: 1S461hJwL/sJkF18IScU/O2CLx8=
+
+Name: res/anim/push_down_in.xml
+SHA1-Digest: ank2dBjKEmqTk9oAchN8VvNbWl0=
+
+Name: res/drawable-xhdpi-v4/menu_detail.png
+SHA1-Digest: krmpX5VLt+9nEL0IR80LcGpusAc=
+
+Name: res/layout/dialog_update_header_layout.xml
+SHA1-Digest: Z3FFPTtC0U4M/o0o4pkaqIay/+E=
+
+Name: res/layout/u2i_recommend_view_layout.xml
+SHA1-Digest: jUTFvfsXHNaB2BHuw5EGcswW91g=
+
+Name: res/drawable-xhdpi-v4/download_flag.png
+SHA1-Digest: V4B6LHjT1OLh5a98G4NYX7z0g88=
+
+Name: res/drawable-xhdpi-v4/home_tab_small_best.png
+SHA1-Digest: HV8YArLZE4Li0CsWVItWJg3seEE=
+
+Name: res/drawable-xhdpi-v4/empty_red_heart.png
+SHA1-Digest: 47OBGjnnd8KViBgryQID9o4AEg4=
+
+Name: res/drawable/app_red_bg.xml
+SHA1-Digest: RI4kpbETIW+Hx7GaMuI3mtY96zc=
+
+Name: res/xml/authenticator.xml
+SHA1-Digest: W3r+AZeuAIo4wYxTOQjc2FivuDo=
+
+Name: res/drawable-xhdpi-v4/search_line_input.png
+SHA1-Digest: EgLcFT17oQH1kZbTLPVUH/2eXqU=
+
+Name: res/drawable-xhdpi-v4/icon_screen_folder.png
+SHA1-Digest: CXv/hNY+pEZ3IdBfJU6U0GBkHgc=
+
+Name: res/anim/slide_left_out.xml
+SHA1-Digest: R6weCFNZufmrw76+fUZFs2sEBf0=
+
+Name: res/layout/apps_category_detail_tab_item_layout.xml
+SHA1-Digest: sT/93DdUB+DDlbisLrx/IOFI+mE=
+
+Name: res/drawable/item_produce_line_right.xml
+SHA1-Digest: 1iEHAh7SAEbiTflVRAQNLr1CmY0=
+
+Name: res/drawable-xhdpi-v4/screen_msg_icon_star_press.png
+SHA1-Digest: TU62jN7PRfKWcZVxJhIF+OzZoj8=
+
+Name: res/drawable-xhdpi-v4/story_page_btn_refresh.png
+SHA1-Digest: EQsFyBMLd9hqyREfmzhR69K7O3Y=
+
+Name: res/drawable-xhdpi-v4/wallpaper_ic_bar_share_press.png
+SHA1-Digest: vMos1kwtylBt/kIDHUWOXZz8H04=
+
+Name: res/drawable-xhdpi-v4/icon_dislike.png
+SHA1-Digest: P/iF++QWKqQkTqW9S1oKtzORXio=
+
+Name: res/layout/home_skin_tips_header.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/drawable/app_red_icon.xml
+SHA1-Digest: C3kbNsiJWZ2rZeBWhr0yO/H4cy4=
+
+Name: res/anim/pulse.xml
+SHA1-Digest: VgRn6V8HAo2ep5GCsadLIt/B7pM=
+
+Name: res/layout-v17/app_detail_header_bar_layout.xml
+SHA1-Digest: S9oNg1x87i2iClh/EYDcFb9PJsQ=
+
+Name: res/layout/button_download.xml
+SHA1-Digest: yQM7TFfQz/mqoXwMQipa7Vcx+qU=
+
+Name: res/drawable/drag_refresh_loading.xml
+SHA1-Digest: 5V6bCvAaMg7PgUaJk51i0h+LiMk=
+
+Name: res/layout/installer_layout.xml
+SHA1-Digest: 9YRADvoEPpG0Ct7zN6x3XWrqpYs=
+
+Name: res/layout/tab_tools_layout.xml
+SHA1-Digest: LRFATCeP39NVTd5y8eOaAeYb7AE=
+
+Name: res/drawable-xhdpi-v4/dialog_close_press.png
+SHA1-Digest: rKFZkJqwgAfsfmQDXwv8SLtBu4Q=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic.png
+SHA1-Digest: qka1t5ui8KDvEerXBuyyHbZtvr4=
+
+Name: res/layout/discover_tab_item_text_layout.xml
+SHA1-Digest: n++qMFL7GUUhkga7bjNJnNIxqxo=
+
+Name: res/drawable/common_actionbar_ic_circle_white_selector.xml
+SHA1-Digest: j9xkTisdUFD7sgnjqvRpvZj8GI4=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic_failed.png
+SHA1-Digest: kAlKaKKHZkWGpKJUocN0yC1IBZU=
+
+Name: res/drawable-xhdpi-v4/ic_local_msg_menu_down.png
+SHA1-Digest: c6txW/p+XdPs68BwIYnVAQ9y8yo=
+
+Name: res/drawable-xhdpi-v4/home_tab_category.png
+SHA1-Digest: MWR5FQYns4lVMAy5TPrbDm32iUg=
+
+Name: res/layout/chat_textview_layout.xml
+SHA1-Digest: 4T65CkVLPrXX8Ewh1dYV0s53w5s=
+
+Name: res/anim/app_layout_alpha.xml
+SHA1-Digest: MU9Qetdr9oePDYg/nAhJjHRyqBc=
+
+Name: res/drawable-xhdpi-v4/common_checkbox_big_checked.png
+SHA1-Digest: l3SgHVELEXRG4gLTCE+LG0uq4/c=
+
+Name: res/layout/ranked_app_item_layout.xml
+SHA1-Digest: AXU8HGSYH2VxTojS9K8o2n7N6l8=
+
+Name: res/drawable-xhdpi-v4/menu_settings_icon.png
+SHA1-Digest: 0PQbVAP2RnX8xcSVXAWyopNRbfM=
+
+Name: res/drawable-xhdpi-v4/ic_expand_less.png
+SHA1-Digest: iStE/qVasyMZvaOjizVA8lx5oPE=
+
+Name: res/drawable/screen_folder_menu_download_selector.xml
+SHA1-Digest: 5cxlqADwXXyQX7O1ZuKqDAxZXko=
+
+Name: res/drawable-hdpi-v4/close_access.png
+SHA1-Digest: oFh1GDX/BDgfQndZdQLAehJwafs=
+
+Name: res/layout/tools_file_manager_music_fragment.xml
+SHA1-Digest: w5T3rLPhfHfYeyvxgamzKj6tcaw=
+
+Name: res/layout/apps_category_type_layout.xml
+SHA1-Digest: w6x51cYp+G7HmAoeckaG0YodfXk=
+
+Name: res/layout/feedback_fragment_layout.xml
+SHA1-Digest: I7n3Cm8xx8r9zmP9Iipm8zxl+5Y=
+
+Name: res/drawable-xxhdpi-v4/dialog_must_have_bling_big_ic.png
+SHA1-Digest: Y2oKAqR4p6t3/hX0Vns7Y0SPI8I=
+
+Name: res/layout/tools_app_update_list_item_title_layout.xml
+SHA1-Digest: KEPKiS6gdHG/noO/E83uHq/YBBY=
+
+Name: res/drawable-xhdpi-v4/sharing_ic_shareit.png
+SHA1-Digest: TvL4iYaS4onpoPz8zoTV4U/Iuko=
+
+Name: res/layout/fragment_elife_deals_search.xml
+SHA1-Digest: QCD8oVm5uhjuxxgoa2Ud6TvcaGs=
+
+Name: res/layout/e_life_coupon_unique_code_rule_layout.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/drawable/feedback_bg_edittext_normal.xml
+SHA1-Digest: xUKSNPHRG7biCoVblXO6Ggq+4xE=
+
+Name: res/layout/loading_dialog.xml
+SHA1-Digest: uQtb44QKG28maFrCi9+bb8VP3gY=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_mascot_1_.png
+SHA1-Digest: 3dqPtEpIOHuHRvTqMTkh6hX29PQ=
+
+Name: res/layout/about_fragment_layout.xml
+SHA1-Digest: AeVLnVgw2mjjtQ8tVwjRRscLb9A=
+
+Name: res/layout/item_deals_product_specs.xml
+SHA1-Digest: 1f1+gHIJL5/z0B7PPdge2Joce2U=
+
+Name: res/anim/push_left_out.xml
+SHA1-Digest: YIYbCLdxbzvK06J0OlAKC6jd+5o=
+
+Name: res/drawable-xhdpi-v4/menu_share.png
+SHA1-Digest: GsodlU/wRgWttA120kt2tpRtV9w=
+
+Name: res/drawable-xhdpi-v4/produce_arrow.png
+SHA1-Digest: o/t9T1RD72sGkbr4ojjj4j476e8=
+
+Name: res/drawable-xhdpi-v4/discover_daily_header_bg_1.webp
+SHA1-Digest: 0nwOuqrDPUYDMzZfP/dlfg0flZU=
+
+Name: res/layout/wallpapery_detail_item_layout.xml
+SHA1-Digest: eOJ7ESlXJnKJuG28K34/rCxlI8U=
+
+Name: res/drawable-xhdpi-v4/music_ic_default.png
+SHA1-Digest: qiNnIPHfq8wun9o8Ivd1zd4GhPs=
+
+Name: res/layout/fragment_video_content_card_detail.xml
+SHA1-Digest: Tj19CV4WEzDerVfNPrpf2GocBN0=
+
+Name: res/layout/search_item_auto_correct_layout.xml
+SHA1-Digest: dzSHy348r8x7f4BRsC+h8bhp8n4=
+
+Name: res/drawable-hdpi-v4/notificaiton_download_big.png
+SHA1-Digest: qdMAwLDZ4Ps4qeAEh5vX3XaN/cw=
+
+Name: res/drawable/white_side_transparent_bg_selector.xml
+SHA1-Digest: t9M2ZsQHJ9WSGDrbLG3rKn0RdDQ=
+
+Name: res/layout/download_view_layout.xml
+SHA1-Digest: W4V9IcRxlCKogoiOpXpIG4gtvGQ=
+
+Name: res/drawable-xhdpi-v4/more_press.png
+SHA1-Digest: lcJH8WAdPSnwR7H97e/1xUdi+hQ=
+
+Name: res/drawable-xhdpi-v4/xian.9.png
+SHA1-Digest: 2jYKfP3Hd+YhLOtRBDkDqzy7+RM=
+
+Name: res/drawable-hdpi-v4/notificaiton_update.png
+SHA1-Digest: Yw3FS+A+uNIcLurrhZ/h+94GYHM=
+
+Name: res/drawable-xhdpi-v4/ic_special_title_top_searcher.png
+SHA1-Digest: fzn2mHdq5plSgHf+l+nvfV8/4zE=
+
+Name: res/drawable-xhdpi-v4/ic_local_msg_menu_up.png
+SHA1-Digest: utCXgeX0VwwC/DRQrSVOk/yrkyE=
+
+Name: res/layout/fragment_must_have.xml
+SHA1-Digest: hNN88P7MAFbtbAcZ0I8AvPJ5TyA=
+
+Name: res/layout-v17/discover_coupon_detail_copuon_dialog_layout.xml
+SHA1-Digest: Oymiy7wyUyZsD0jp6fcbk/SL2tw=
+
+Name: res/drawable/app_cyan_bg.xml
+SHA1-Digest: mvKq4HclhtzZUPLwOyPDVQx9k+M=
+
+Name: res/drawable-xhdpi-v4/splash_screen_share_press.png
+SHA1-Digest: CdYUQ0LbuGAAhUgOKCLfkj9bMH4=
+
+Name: res/layout/view_spirit_product_list.xml
+SHA1-Digest: JLM6idJw/Uejzs2ggCtBz+JQrqI=
+
+Name: res/drawable-xhdpi-v4/icon_file_normal.png
+SHA1-Digest: BqsDY7rrf28KwOEqPM6aajlPyyo=
+
+Name: res/layout/new_recommend_eggs_layout.xml
+SHA1-Digest: 5CSY5RE5HZCEUekT+KiAKdGrKGQ=
+
+Name: res/drawable/white_rectangle_bg_selector.xml
+SHA1-Digest: biBF7KLsVCX2t9Y5gcOT5Wiyijs=
+
+Name: res/drawable-xhdpi-v4/discover_sticker_title_icon.png
+SHA1-Digest: VQhu9UJRKvD9nS8OjuWZzkgtMFk=
+
+Name: res/layout/app_item_layout.xml
+SHA1-Digest: vCfC85YU/J3k1vZ8/FwfV5ePCTA=
+
+Name: res/drawable-hdpi-v4/notificaiton_btn_bg.9.png
+SHA1-Digest: /m2TsfUZwJWkJWCuwt1s6DacU6U=
+
+Name: res/drawable-xhdpi-v4/wallpaper_ic_setaswallpaper.png
+SHA1-Digest: utkbIkWsQn3Fz6YQnNY319WjAz8=
+
+Name: res/drawable/folder_menu_text_color_selector.xml
+SHA1-Digest: DflAc4MvVQAFw1ETpVtgz1wezVY=
+
+Name: res/drawable-xhdpi-v4/notify_shanchuan_app.png
+SHA1-Digest: seBS2Zp/F9f3H6v8Z4gKr9rHwLg=
+
+Name: res/layout/activity_main_layout.xml
+SHA1-Digest: W+CT5aqYLGiA9RpsGTxAymD5f18=
+
+Name: res/layout/celetalk_option_msg.xml
+SHA1-Digest: y6A6sXjFpbQQLTMj/wbkPV8gJoA=
+
+Name: res/drawable/spirit_rounded_corners.xml
+SHA1-Digest: Hy1YIJkw2GTNOEz4VR5vUfE+5vs=
+
+Name: res/drawable-xhdpi-v4/menu_ignore.png
+SHA1-Digest: nwQ6R0umu8Tj/iWJPfxM59xdarE=
+
+Name: res/drawable/dialog_close_btn_selector.xml
+SHA1-Digest: EqV7mS9H+fxQm3V/ye/3IN0iJ2o=
+
+Name: res/anim/push_right_out.xml
+SHA1-Digest: 9Pf2JiUCkLdBoRuMyipgRW3vO/8=
+
+Name: res/layout/adapter_spirit_ad_item.xml
+SHA1-Digest: dd0fxqpjXBZF3UQNe0I6wrS/Y10=
+
+Name: res/drawable/special_bg_selector.xml
+SHA1-Digest: JTOnwllmIwP6u1iqQj1PAgmLiWA=
+
+Name: res/drawable-xhdpi-v4/icon_new_hot.png
+SHA1-Digest: t7oTCFImePhKl5+odQTL77U4rpc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 0KsMBsm2PRsEUBowM3Rq0qZDf1g=
+
+Name: res/layout/discover_video_header_layout.xml
+SHA1-Digest: gGgv02vgUcL7CDB74aUFVpqsfY0=
+
+Name: res/drawable-xhdpi-v4/splash_screen_arrow.png
+SHA1-Digest: +k23crQ71nWJcEvSZvZVv0n5xzQ=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_bg.png
+SHA1-Digest: 4CkXGjG0tNdbdodEmgRwxVERoko=
+
+Name: res/layout/e_life_price_comparison_layout.xml
+SHA1-Digest: KqsgrMjfNCh8pSH0MTIM5N9VDR0=
+
+Name: res/drawable/green_side_white_bg.xml
+SHA1-Digest: hXpHDVA88N6kjGvNuCih1DRtnwU=
+
+Name: res/layout/home_top_collapse_layout.xml
+SHA1-Digest: ar/GABhBdokkCfPSukUOORrHMUM=
+
+Name: res/drawable-xhdpi-v4/sharing_ic_bluetooth.png
+SHA1-Digest: GGXFP9003k0PkXi/MbXzPM8pQQ4=
+
+Name: res/drawable-xhdpi-v4/bg_about.webp
+SHA1-Digest: sx0O308uNBlkGChgS+XnVoQ/fbI=
+
+Name: res/drawable-xhdpi-v4/details_default.png
+SHA1-Digest: NvFf0ciqW5JUlockbx+nzX9Lh60=
+
+Name: res/layout/common_child_header_bar_layout.xml
+SHA1-Digest: qDRCDg+hAgOQUpT9IeUdx2uiyJE=
+
+Name: res/drawable-xhdpi-v4/detail_ic_score_star_press_middle.png
+SHA1-Digest: JJ/1vcj+F4LMcCGPXTVr/IAJ0II=
+
+Name: res/drawable/progress_downloading_mgr.xml
+SHA1-Digest: Fy7vgqtUz66PFuV444ltCfWPxIc=
+
+Name: res/drawable-xhdpi-v4/celetalk_alert_icon.png
+SHA1-Digest: 4cKzN0tkfePH5WLSq1G7qOn5G4I=
+
+Name: res/drawable/splash_green_skip_btn_selector.xml
+SHA1-Digest: rC00goKGaC4J8WQ0B0SXPNspnT0=
+
+Name: res/layout/search_app_item_layout.xml
+SHA1-Digest: Urdr/mwbuBHCyPPvWryIdsFvI2A=
+
+Name: res/drawable-xhdpi-v4/tools_home_app_uninstall.png
+SHA1-Digest: h9cd0ODRfiJi6XkltGrpMUgWsIY=
+
+Name: res/layout/guide_activity_main_layout.xml
+SHA1-Digest: 8ovAOaySbzQV8y51W6ZFcFEyU7U=
+
+Name: res/drawable/while_bg.xml
+SHA1-Digest: J+jHqc5p7NmXAHSmK5U+XHDHrsM=
+
+Name: res/drawable-v21/splash_bg.xml
+SHA1-Digest: AnOBGIXgKsLp0o8UJUvlWz3PBu4=
+
+Name: res/layout/e_life_deal_search_word_textview.xml
+SHA1-Digest: eGinYMzksqiNHZrOs3RofRIsBwI=
+
+Name: res/layout-v17/discover_coupon_item_copuon_banner_layout.xml
+SHA1-Digest: 6tvlJk/max3bK4C5MXIu6Y/pS0M=
+
+Name: res/drawable/common_checkbox_small_selector.xml
+SHA1-Digest: SsO2sgQny+c+I6t6yuTJZsWlYiI=
+
+Name: res/drawable-xhdpi-v4/share_fb_rectangle_logo.png
+SHA1-Digest: MKB4frJOYz70wDiFsUEW/jHjlJQ=
+
+Name: res/drawable-xhdpi-v4/screen_msg_green_btn_press.9.png
+SHA1-Digest: v5bGudyapbxCBxPVncC/DPqO2SM=
+
+Name: res/drawable-xhdpi-v4/feature_title_blue_bg.9.png
+SHA1-Digest: xE4/TR7JJ0PNDEThNDBihol4MQE=
+
+Name: res/drawable-xhdpi-v4/bluetooth_guide_bg.webp
+SHA1-Digest: +DiR25eqIEd390N4WifJlCCAMVY=
+
+Name: res/drawable-xhdpi-v4/icon_search_normal.png
+SHA1-Digest: XmQI9yzEDxRM5wGnRH1XFWySj3s=
+
+Name: res/drawable-xhdpi-v4/sticker_pic_forward.png
+SHA1-Digest: 7Vbkpx/GOChh2FRb/wmcgF2xBaQ=
+
+Name: res/layout/tools_app_update_list_item_layout.xml
+SHA1-Digest: sefaNEm1XJqkidg14Ow59Cgj12M=
+
+Name: res/drawable/dialog_cancle_btn_grey_pressed.xml
+SHA1-Digest: GklS/+f9vva6xM8g6ACgRh0ItAc=
+
+Name: res/drawable/installer_button_selector.xml
+SHA1-Digest: ZcLhJ5kxOz2X7PMAVZ8uj/ori8w=
+
+Name: res/drawable-xhdpi-v4/celetalk_msg_left_corner.9.png
+SHA1-Digest: iWhUT+34zytGckMt/mLc2DZ3Y14=
+
+Name: res/layout/feature_user_tag_layout.xml
+SHA1-Digest: vNun3rwJYBne6i/jqp+saHXot0w=
+
+Name: res/drawable-xhdpi-v4/welcome_skip.9.png
+SHA1-Digest: /kshaWT/J0H3d5mAfa3Z+E8NmJk=
+
+Name: res/xml/syncadapter.xml
+SHA1-Digest: JXXup87FfdDzoAeQe90qC/lHBjU=
+
+Name: res/drawable-xhdpi-v4/screen_msg_close.png
+SHA1-Digest: gwuM07r276NM3LWT2UtchxIjK1o=
+
+Name: res/anim/slide_right_in.xml
+SHA1-Digest: mVg6oB4pLyTDFF5pwqzXc2Mue1U=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_item_coupon_title_bg_1.9.p
+ ng
+SHA1-Digest: vXCJSRKrhu8b+T3Tb0fhT4qSaVk=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: RzCwaXdHfOmObNQX3G50GWnHb/A=
+
+Name: res/layout/ac_dialog_price_ordinal.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/layout/fragment_widget.xml
+SHA1-Digest: pcf8FKr3eyJNJjxGKmc/JHOOrZU=
+
+Name: lib/armeabi/libsgmain.so
+SHA1-Digest: a1/QK+DnNsoWBAavvjx5Cr1T8Zg=
+
+Name: res/drawable-xhdpi-v4/bg_share_window_click_share.xml
+SHA1-Digest: zibfFI+0t2AEULbSqcDSm5XlQOE=
+
+Name: res/drawable-xhdpi-v4/celetalk_bottombar_camera.png
+SHA1-Digest: 1Q6h0YHdhSonet8KOU4M4JSd/Hs=
+
+Name: res/drawable-xhdpi-v4/close_icon.png
+SHA1-Digest: 87A8PJWJffafsK9ZslmK0JHfr48=
+
+Name: res/drawable-xhdpi-v4/home_tab_game.png
+SHA1-Digest: NGV6bBJnxj3Tyu+AW81w/68Sbaw=
+
+Name: res/layout/story_grid_item.xml
+SHA1-Digest: oUhoy9YQk4IEJUZ0OsAoMZGx6bA=
+
+Name: res/drawable-xhdpi-v4/feedback_redio_on.png
+SHA1-Digest: KoFz0vINgw8oUjNefMF7mHpYbKM=
+
+Name: res/drawable/btn_grey_bg_normal.xml
+SHA1-Digest: OttWTFPNUexgoawNS60qA16tdQ8=
+
+Name: res/drawable-xhdpi-v4/download_ic_no_data.png
+SHA1-Digest: DivwKgPGQu54xnYPI3mwnOjwjH8=
+
+Name: res/drawable/tv_bg_download_browser.xml
+SHA1-Digest: GsxYwy8HLFaC94v73yL4P/M/rxU=
+
+Name: res/layout/activity_screen_msg_layout.xml
+SHA1-Digest: NQaV4lthvmbPA0HI7fgCqGbZaMk=
+
+Name: res/layout/home_agility_item_layout.xml
+SHA1-Digest: wxZTrNPZvvp91IzVh168DGXSoBY=
+
+Name: res/drawable/e_life_share_drawable.xml
+SHA1-Digest: AQpHE2MdQHz7KoyC/09igweaOBc=
+
+Name: res/drawable-xhdpi-v4/menu_invite_icon.png
+SHA1-Digest: /z9rF4e+FK+f1BNOntAmjoBmStw=
+
+Name: res/layout/discover_coupon_detail_copuon_dialog_layout.xml
+SHA1-Digest: ESZRZvVUgpOIeKe6ICKjjcUM3Cg=
+
+Name: res/drawable-xhdpi-v4/buy_ic_safe.png
+SHA1-Digest: vzu1DZz9AVJ1HhvG4PjJsQjUycQ=
+
+Name: res/drawable/spirit_water_orgin.xml
+SHA1-Digest: mWMkhGNEznNMsrSfCsk3YCl1MN4=
+
+Name: res/drawable-xhdpi-v4/icon_app_detail_feedback_pressed.png
+SHA1-Digest: MAcJHrusW+IXA6gGAYG+ddAsIkg=
+
+Name: res/layout/window_access_accessbility.xml
+SHA1-Digest: dHtm1q0ZZTRVO4OcFCDO1XY4x/Q=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic_successl.p
+ ng
+SHA1-Digest: +lM9kNVvEQyaSLkWkp7akc+CTLM=
+
+Name: res/drawable-xhdpi-v4/elide.png
+SHA1-Digest: 15cfuYznWru+LPS10p05oreAFpQ=
+
+Name: res/layout/item_deals_latest_offer_layout.xml
+SHA1-Digest: s6dUBKAuqrm7bvy5xdwq64g2Jn4=
+
+Name: res/drawable/progress_bar_downloading.xml
+SHA1-Digest: X3W5VgKQinpY4ToXh0PJpflakwQ=
+
+Name: res/drawable-hdpi-v4/triangle.png
+SHA1-Digest: 16ThvT0o+a8/9wOXKhkwliF632c=
+
+Name: res/layout/discover_coupon_home_head_layout.xml
+SHA1-Digest: aJdOpZzTt5tgCpGv7cO40VIBo/U=
+
+Name: res/layout/window_produce_image_page.xml
+SHA1-Digest: Uyjb8Ax6S1leXOA6bnZNDzs7VNU=
+
+Name: res/layout/price_comparison_guide_dialog_layout.xml
+SHA1-Digest: aHzl3tfIa3lg9Vuv2WR5PobdXtA=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_item_coupon_title_bg_3.9.p
+ ng
+SHA1-Digest: FfZfykp5f4W9OFnDKuXo+M17k6Y=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic_prize5.png
+SHA1-Digest: nt8DFpncGbiOXp8EJqM9FUeYvsg=
+
+Name: res/drawable-xhdpi-v4/icon_more_white_pressed.png
+SHA1-Digest: VzU0yalMi6zrJT+cffGzGcFkWLg=
+
+Name: res/drawable-xhdpi-v4/men_login_icon.png
+SHA1-Digest: Y84doVe2JEU7Zk0dQHwBpBhFdyw=
+
+Name: res/layout/app_screenshots_item_layout.xml
+SHA1-Digest: rsVCLp8Kw1y0H8dy2Mz3Zkt1/F0=
+
+Name: res/drawable-xhdpi-v4/screen_msg_bg.9.png
+SHA1-Digest: GaBE+pr2gMSUjo3kJKLWK7xB7bM=
+
+Name: res/drawable-xhdpi-v4/tools_app_uninstall_name.png
+SHA1-Digest: eVLqfA4kzC2wTNdSYEhhQVlxLB4=
+
+Name: res/drawable/screen_folder_menu_clear_selector.xml
+SHA1-Digest: GKdNTpfjcMrKPKFdIqQUSrCgyvQ=
+
+Name: res/layout-v17/window_spirit_mascot.xml
+SHA1-Digest: JoL8ldxEc0In0oeUDONdZHLTe5Q=
+
+Name: res/drawable/celetalk_round_button_bg3.xml
+SHA1-Digest: ojsGf6GcZYEjOGabnd4Tx539iQw=
+
+Name: res/drawable-mdpi-v4/bg_share_window_xender_share.xml
+SHA1-Digest: ou+XlFmtHLmUWmMKQx7b899A2TU=
+
+Name: res/drawable/item_produce_line_left.xml
+SHA1-Digest: cpRjlIH0Bm1eFvY+eue/NymCBCQ=
+
+Name: res/drawable-xhdpi-v4/ic_right_arrow_disable.png
+SHA1-Digest: qYR5FHREPP0TODVrkG8ExyMM/Kc=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: hC8SR31XzvtWoAhu1NLWOvRiekM=
+
+Name: res/drawable-xhdpi-v4/main_tab_games_selected.png
+SHA1-Digest: NBBtr+YrZHtPWcMq1KQilEmVoY4=
+
+Name: res/layout/language_item_layout.xml
+SHA1-Digest: MYWl+pVCHulsGAJeEqsJgDRRowM=
+
+Name: res/drawable-xhdpi-v4/arrow_right.png
+SHA1-Digest: 4mBZmbNNYHpNdKHP+6twdwvupWM=
+
+Name: res/drawable-xhdpi-v4/e_life_coupon_unique_code_close.png
+SHA1-Digest: 7axNhapRyWHSkoEops7n5N9udzs=
+
+Name: res/drawable-xhdpi-v4/download_ic_close.png
+SHA1-Digest: 9okqLueUiHkZFQFA4XSfWsf/WuY=
+
+Name: res/drawable-xhdpi-v4/common_checkbox_small_checked.png
+SHA1-Digest: geirXy1Df6zRWol8h6LXce+X+tQ=
+
+Name: res/drawable-xhdpi-v4/menu_top_bg.webp
+SHA1-Digest: zCKr97k8A3ouUU15UzaO5+k8ac8=
+
+Name: res/layout/celetalk_fake_whatapps_header.xml
+SHA1-Digest: E84Z1SHHekY9zT/gG4SxoY/R8dw=
+
+Name: res/layout/common_loading_layout.xml
+SHA1-Digest: /1uV2aT+URqApY5qIOQR+mtKgHg=
+
+Name: res/drawable-xhdpi-v4/icon_new_recommend_header_bg.png
+SHA1-Digest: Xhqmg2ZLFnXHesQ013jX0bg528Q=
+
+Name: res/layout/tools_app_manager_fragment_layout.xml
+SHA1-Digest: sMykjf+P0aoHik+EeD+L4n/pWzw=
+
+Name: res/layout/common_item_special_card.xml
+SHA1-Digest: AR2uCA1XBGmpRgLHDjTbujkyOao=
+
+Name: res/drawable-hdpi-v4/feature_title_green_bg.9.png
+SHA1-Digest: SYpjcwq8RHDviTysU30EVwar2BE=
+
+Name: res/drawable-xhdpi-v4/ic_wifi.png
+SHA1-Digest: k0POJdmNDORw2xtOnMt4oRdXVL0=
+
+Name: res/layout/screen_folder_header_menu_layout.xml
+SHA1-Digest: 6OfsKzCzpa7NWHeMhSM8k/ekMgs=
+
+Name: res/layout/discover_sticker_home_download_layout.xml
+SHA1-Digest: rHi3pTbp1x0PkDtiNDuxeA61yZE=
+
+Name: res/drawable/lay_price_adapter_shop_red.xml
+SHA1-Digest: Ljr4cT5PO5/8iLuKjcLoKN9Dcfw=
+
+Name: res/drawable-xhdpi-v4/download_top_curve.png
+SHA1-Digest: rxvy/81fX9WKWaeXfq+zxsTVFdQ=
+
+Name: res/layout/search_app_item_layout_with_tiltle.xml
+SHA1-Digest: FCN/x85tkaSKKzYBW0fiA8B3IYk=
+
+Name: res/drawable-xhdpi-v4/ic_shareit_gift_1.png
+SHA1-Digest: B7yZQtRJAct6wVwnWc1ryThGsh8=
+
+Name: res/drawable/detail_ratingbar_star_tip.xml
+SHA1-Digest: onuRcinkjzmIDa8R44tJVUl93nA=
+
+Name: res/layout/celetalk_share_layout.xml
+SHA1-Digest: J5OtcluP0Gq3KrUgAMneu2gHyfs=
+
+Name: res/layout/view_share_intercept_window.xml
+SHA1-Digest: I6t97PzcrXLeJvgLNZkFV+SFIhc=
+
+Name: res/drawable/entertainment_more_button_selector.xml
+SHA1-Digest: Kzc2eqcsyMkkrT20ippCaYtKPHY=
+
+Name: res/drawable/update_grey_bg.xml
+SHA1-Digest: 3CYlKbDUcWMv+6PZDl7ejA46V3M=
+
+Name: res/drawable-xhdpi-v4/common_actionbar_ic_circle_grey_normal.9.p
+ ng
+SHA1-Digest: 9rFqTCPMeG7Bv4z+2YB6VJRz0HU=
+
+Name: res/drawable-xhdpi-v4/home_tab_music.png
+SHA1-Digest: xTHvm5aK7Nu1xQsJuMx3HJCyUdw=
+
+Name: res/drawable-xhdpi-v4/splash_screen_download_btn_press.9.png
+SHA1-Digest: dlvLbA0iYeuGzbDTDRNjtvSqWk0=
+
+Name: res/drawable-xhdpi-v4/arrow_right_red.png
+SHA1-Digest: 1W6MbwHZWOq22kWmAEEJdCIc4ik=
+
+Name: res/drawable-xhdpi-v4/welcome_page_sec2.webp
+SHA1-Digest: yUIrnZ7R7I0fuKkMnC+ljwF+lko=
+
+Name: res/drawable-xhdpi-v4/main_tab_entertainment_selected.png
+SHA1-Digest: NSIaOO+5awHQHaOxr8zsDYk2790=
+
+Name: res/drawable-xhdpi-v4/ic_xender_gift.png
+SHA1-Digest: yR7JlzSCamikewrz9Ia7mh8bQk8=
+
+Name: res/drawable-xhdpi-v4/main_tab_home.png
+SHA1-Digest: SlKmB2Q0UtQJrd5JdWjjDqCqNLo=
+
+Name: res/layout-v17/content_card_app_item_layout.xml
+SHA1-Digest: jmrKZMoZf3c9e0w/9EG0vfp7pCs=
+
+Name: res/drawable-xhdpi-v4/feedback_redio_off.png
+SHA1-Digest: 6LbSd6iuyf5VbRpd0ygGE31eVXo=
+
+Name: res/layout/home_xrecycle_refresh_header_layout.xml
+SHA1-Digest: RwW2nrImpvTNw/YP91kfs7gpRsQ=
+
+Name: res/drawable-xhdpi-v4/menu_clear_icon.png
+SHA1-Digest: zPLnsOEcS1sy4aUtyjP0BiB/fEU=
+
+Name: res/drawable-xhdpi-v4/icon_app_detail_feedback_normal.png
+SHA1-Digest: YKPXPsadXdMaqvTgXozydqRKNpI=
+
+Name: res/drawable/common_ic_app_gray_bg.xml
+SHA1-Digest: 2yTdDNGg6fszl5/GLopUDqtxT00=
+
+Name: res/layout/tools_setting_fragment_layout.xml
+SHA1-Digest: G1uv5ZneC4St1qiH/r+PlJJQC2U=
+
+Name: res/drawable/celetalk_suprise_btn_selector.xml
+SHA1-Digest: Ru/Um+Fcvn/8JycTKA4HRjSBn80=
+
+Name: res/drawable-xhdpi-v4/discover_sticker_detail_saved.png
+SHA1-Digest: 4J2TBE0IjPNg0VXWaPFKz2gWgaE=
+
+Name: res/layout/lock_app_layout.xml
+SHA1-Digest: wHPNiGVsl6DO73sNsxObVAcP7uc=
+
+Name: res/drawable/splash_green_share_btn_selector.xml
+SHA1-Digest: BIawEjQ/QcnkwQx1lLyuH9u8miU=
+
+Name: res/layout/search_hot_keyword_textview.xml
+SHA1-Digest: L0LnpNj8xB5apwM82Zx85cTNw7s=
+
+Name: res/drawable-xhdpi-v4/menu_bg.9.png
+SHA1-Digest: R4eGqwc3e9GtrkkrI+nHUVw7ih8=
+
+Name: res/drawable/progress_bar_fastdownloading.xml
+SHA1-Digest: VleYRbOrVyx1y1ggwJfWz3PQ9S0=
+
+Name: res/layout/tools_flie_manager_video_recycle_item_layout.xml
+SHA1-Digest: 4F2jDWxVO2O25aD/ZQ7Kcd97NrM=
+
+Name: res/drawable/item_produce_list.xml
+SHA1-Digest: AZExnuNhUBQU7YiNj+qasKpEKBA=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_bling_ic.png
+SHA1-Digest: mVVCAYcCdAwVt7OxmZTl2+Ud78A=
+
+Name: res/drawable/detail_ratingbar_star.xml
+SHA1-Digest: U8J4EO0ygA9AWd34wpahrOfICM8=
+
+Name: res/drawable/spirit_water_defalut.xml
+SHA1-Digest: a3IkkIFPD2eYMduFZxj+JxKYTCM=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic_prize4.png
+SHA1-Digest: ish+19uKJvBAOqL2zwZLEvvo4sQ=
+
+Name: res/drawable-xhdpi-v4/dialog_update_cloud1.png
+SHA1-Digest: oB5EqxwrbKdusCzmS2vYw7k7LzQ=
+
+Name: assets/bid.txt
+SHA1-Digest: KvgbDTHhupToJV/peQAbOZqDONQ=
+
+Name: res/drawable/tv_bg_download.xml
+SHA1-Digest: SXTygKx/bBJAVm/L3zXu2ZRsq0k=
+
+Name: res/drawable-xhdpi-v4/bluetooth_button_bg_normal.9.png
+SHA1-Digest: ByAOzRyfd6iehuIlnHOAimbqXCI=
+
+Name: res/layout/tools_file_manager_activity_main.xml
+SHA1-Digest: pLxjMGr/b9PxAu9LiZZyMU7FWRs=
+
+Name: res/drawable-xhdpi-v4/sharing_ic_facebook.png
+SHA1-Digest: Ug5RoPdKVeh/7fa/Lrw8nKNpGSY=
+
+Name: res/layout/screenshots_detail_layout.xml
+SHA1-Digest: bVz28ZdGpjLazbbiqKmYZnp50DY=
+
+Name: res/drawable-xhdpi-v4/tools_setting_switch_on.png
+SHA1-Digest: 3P6g1+20SXkk4D9N2gdl7isHBf4=
+
+Name: res/drawable/screen_msg_ratingbar_drawable.xml
+SHA1-Digest: v9qiR8a+MOE5F0AhIx71ZRojQuE=
+
+Name: assets/du.txt
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: res/drawable/green_side_white_bg_selector.xml
+SHA1-Digest: lhjnud7nCrOOfW73c1axa1OIyTw=
+
+Name: res/layout/layout_video_list_sub_item.xml
+SHA1-Digest: AKZAR1CigoOqwaHbTbKLc2WaQIU=
+
+Name: res/drawable-xxhdpi-v4/feature_title_green_bg.9.png
+SHA1-Digest: WdNWolQd1LMxs8lnR0FMdcD2OTk=
+
+Name: res/drawable/common_video_time_bg_shape.xml
+SHA1-Digest: LQpBgySWQrDtx3AGFISqdZe9lYI=
+
+Name: assets/microlog.properties
+SHA1-Digest: qtzq8LRAAQbG2cpJlvCU5RCv3z8=
+
+Name: res/drawable/lay_price_adapter_shop_gray.xml
+SHA1-Digest: MnDpf63kXcz87hxTrQzsMI8999M=
+
+Name: res/drawable-xhdpi-v4/tools_home_file_manager.png
+SHA1-Digest: /nqI3LIYbx/Q0VORWdld7ZrD/FU=
+
+Name: res/layout/tools_app_manager_uninstall_item_layout.xml
+SHA1-Digest: bW4GkEfDkROhk3Xeh4p6HgdggMM=
+
+Name: res/layout/category_head_layout.xml
+SHA1-Digest: YVrPMJv13F3h2emi1V88DQjI3tw=
+
+Name: res/layout/discover_sticker_detail_item_layout.xml
+SHA1-Digest: fJgbL7WMF2OA4rybLgsfdNaQ9cs=
+
+Name: res/drawable-xhdpi-v4/language_popup_bg.9.png
+SHA1-Digest: ccdt/sr1pDCU4ARhe9n2W5g8Q5g=
+
+Name: res/drawable-xhdpi-v4/app_uninstall_install_phone.png
+SHA1-Digest: 9GEM1suKAKBA9p12Rvqtdjzdl3w=
+
+Name: res/drawable-xxhdpi-v4/feature_title_blue_bg.9.png
+SHA1-Digest: Tl+zwy9SwX8RhC8jt7jnm6YJQcc=
+
+Name: res/drawable-xhdpi-v4/common_bg_score.png
+SHA1-Digest: 1PK+mgvkbb1AEyIzBIDi7kf9lEs=
+
+Name: res/drawable-xhdpi-v4/main_tab_games.png
+SHA1-Digest: aH6SxyxnA+lEvceTZaj3NHxf5Eg=
+
+Name: res/drawable-xhdpi-v4/celetalk__topbar_info.png
+SHA1-Digest: hvfCtPiQ6umkAPUORjveFSZRZlw=
+
+Name: res/drawable/app_purple_icon.xml
+SHA1-Digest: q02wjfcaBskGtwpbzSU31pmCXjI=
+
+Name: res/layout/common_special_feature_item_layout.xml
+SHA1-Digest: Ac+WYb6H+AeA/mv7SIcOofZ0/d8=
+
+Name: res/drawable-xhdpi-v4/icon_file_press.png
+SHA1-Digest: gy7cs+lJYJda1jD2iXkF/LekjSQ=
+
+Name: res/layout/main_layout.xml
+SHA1-Digest: N2qULh+2XZ3STNtfP2X02mS8H2o=
+
+Name: res/drawable-xhdpi-v4/celetalk_bottom_send.png
+SHA1-Digest: SRj+mzxo4ogxjiRDV+4iDbeVhYY=
+
+Name: res/layout/lock_update_all_layout.xml
+SHA1-Digest: 0Qel8ZPhZWsp49HMf0EsZ64fSGc=
+
+Name: res/layout/ac_dialog_offers_loading.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/drawable-xhdpi-v4/sticker_pic_backward.png
+SHA1-Digest: vDKqZS5CAHD010RdcaU6hZ33GH8=
+
+Name: lib/armeabi/libuninstall.so
+SHA1-Digest: w1I91Oh79OezyCoXQD71yqq5ii0=
+
+Name: res/drawable-xhdpi-v4/main_tab_apps.png
+SHA1-Digest: kjGsRl/KWK2gvMDXCoeYGHWXrNQ=
+
+Name: res/layout/search_app_recommend_layout.xml
+SHA1-Digest: g7nF9ZXFQP5m8+L+U958DwJpH2g=
+
+Name: res/drawable-xhdpi-v4/sharing_ic_more.png
+SHA1-Digest: X8TxcQqH/HVQwxHpxU6gGl3hgfc=
+
+Name: res/drawable/download_progressbar_progress_shape.xml
+SHA1-Digest: BEwR6uf8OBBwGHBj+FSeYY5GneE=
+
+Name: res/drawable-xhdpi-v4/ic_shareit_gift_2.png
+SHA1-Digest: I2ejEM+MnJDVz+hYmqGpnYXVvqI=
+
+Name: res/layout/app_detail_fragment_layout.xml
+SHA1-Digest: kOfflvbHDnGcVSDi4LBRv2+0+zU=
+
+Name: res/drawable-xhdpi-v4/nine_nine_ic_unread.png
+SHA1-Digest: 7+GkA/9eaU715XkyQ1V+FEJHW7Q=
+
+Name: res/drawable-xhdpi-v4/defalut_image.png
+SHA1-Digest: P3N3SxKCArCHcO/1igQ19pLPpxQ=
+
+Name: res/drawable-xhdpi-v4/choosen_disable.png
+SHA1-Digest: LBhN2V6S0x2i+kFmHA2DtgwzVpw=
+
+Name: res/drawable-xhdpi-v4/tags_title_closed_btn_normal.png
+SHA1-Digest: r79uuuZUC+A2jBoQgqyt1XBjEJQ=
+
+Name: res/drawable-ldpi-v4/ic_launcher.png
+SHA1-Digest: V+a5CC2Ow/FeuIR5R29DKppb8+E=
+
+Name: res/layout/home_tab_layout.xml
+SHA1-Digest: xCGVdmGbYlEvcvm7lm90X+vma70=
+
+Name: res/drawable/bg_transparency_to_grey.xml
+SHA1-Digest: QD6+lWH9XlfBpuz5yf+vOJKlcl4=
+
+Name: res/drawable/spirit_water_blue.xml
+SHA1-Digest: CLQYLIlN3QCXnTN7SoPqkCbP4aQ=
+
+Name: res/layout/home_scroll_card_layout.xml
+SHA1-Digest: +5g6XBC7P5hyvYKh4Xi7sysqYKk=
+
+Name: res/layout/screen_folder_apps_layout.xml
+SHA1-Digest: S4asDLbyiu/hefkUTBg/9GqhYxM=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic_prize3.png
+SHA1-Digest: fZtVbg3dZaWpsA/84TI5txGAogA=
+
+Name: res/drawable-xhdpi-v4/story_download_stop.png
+SHA1-Digest: 3MdaVpELJgg8WGrU6aAzKiiBs0g=
+
+Name: res/layout/vidmate_video_detail_fragment.xml
+SHA1-Digest: Bw7iSWm/u2jNQ3IAu2mloaXyrDA=
+
+Name: res/drawable-xhdpi-v4/app_uninstall_install_sdcard.png
+SHA1-Digest: i31F/kGdoIrClp583Cvr4OJrvas=
+
+Name: res/drawable-xhdpi-v4/celetalk_topbar_more.png
+SHA1-Digest: dbO39pZOH+T3PtFbzSCKYYXqcYo=
+
+Name: res/layout/new_feature_special_list_layout.xml
+SHA1-Digest: yT9R58+Bn8nrXKxzbbJ3G1bMfAQ=
+
+Name: res/drawable/wallpaper_save_text_selector.xml
+SHA1-Digest: NinbCwzQzeCJSEEic1owlBLkvJA=
+
+Name: res/drawable/main_tab_shadow_bg.xml
+SHA1-Digest: DWySCamr7IOXFmnbcPAtySHgIpk=
+
+Name: res/layout/price_comparison_guide_confirm_dialog_layout.xml
+SHA1-Digest: LhmRAE+tdmJ6agHapj356C3VD1s=
+
+Name: res/drawable-xhdpi-v4/story_home_entrance_btn.9.png
+SHA1-Digest: M2youZDCKimu9vtmoihtNxsPGYc=
+
+Name: res/layout/story_page_fragment.xml
+SHA1-Digest: 1r/aDzoMw+3TgDhzVrWEeIt1BiI=
+
+Name: res/drawable/price_xian.9.png
+SHA1-Digest: 2jYKfP3Hd+YhLOtRBDkDqzy7+RM=
+
+Name: res/drawable-xhdpi-v4/search_ic_hot.png
+SHA1-Digest: UV10nmOuK9K66UUXaYLYXyvDPVU=
+
+Name: res/drawable-xhdpi-v4/wallpaper_ic_bar_share_normal.png
+SHA1-Digest: /DNcxaaJZRNIbw3fpaf7vKMxIZ4=
+
+Name: res/drawable-xhdpi-v4/tools_app_uninstall_date.png
+SHA1-Digest: pm+cRUfpFY43H8DRvkNGctkc940=
+
+Name: res/layout-v17/menu_item_list_layout.xml
+SHA1-Digest: 9eTLLd0wn8KoIEiD8KL6wnZd/+8=
+
+Name: res/layout/app_card_detail_page.xml
+SHA1-Digest: 9b3Vl/xmdZjQgAiu61RV3r8e4zA=
+
+Name: res/drawable-xhdpi-v4/mushhave_ic_indicate.png
+SHA1-Digest: dwVxXHmDSTW+XUU3KsjeVTcNWsc=
+
+Name: res/drawable-xhdpi-v4/sharing_ic_twitter.png
+SHA1-Digest: eJD6PzPMGIWn+QaSevxhEaMlE0M=
+
+Name: res/drawable-xhdpi-v4/sticker_download_finish.png
+SHA1-Digest: bQ8Yf/twwcQAbmglkdFLaQkYAqM=
+
+Name: res/drawable-xhdpi-v4/elife_deals_shop.png
+SHA1-Digest: DvyoUabhe9+7x/aP1GOqIYuiJ0k=
+
+Name: res/drawable/splash_green_download_btn_selector.xml
+SHA1-Digest: EPEztJK1wMrIaHS/I5rFNCHSgMI=
+
+Name: res/anim/push_up_in.xml
+SHA1-Digest: FRxl0Z/aJW6ig5BvaR8XMkRbA7c=
+
+Name: res/drawable-xhdpi-v4/category_tools.png
+SHA1-Digest: 9mDqdwH4pzlRh2UDmGv//XagAQc=
+
+Name: res/layout/discover_sticker_list3_title_layout.xml
+SHA1-Digest: YfG+JwHZWpm4pORl/XlSJ2LCtR4=
+
+Name: res/drawable-xhdpi-v4/download_more_press.png
+SHA1-Digest: Xnor2ejG1OeaABbHgswoyWc9Pxw=
+
+Name: res/drawable/common_white_card_botton_bg.xml
+SHA1-Digest: ItwoGlEgwGI+BUg6k79d6ql9rtI=
+
+Name: res/drawable-xhdpi-v4/wallpaper_ic_bar_back_press.png
+SHA1-Digest: UTNLOYV5Aq8BgehBHYMU8duTcac=
+
+Name: res/drawable-xhdpi-v4/yellow_heart.png
+SHA1-Digest: ndI3dxJ//h0nA6UF8lx8p1YP6AM=
+
+Name: res/drawable-xhdpi-v4/banner_top_games_bg.webp
+SHA1-Digest: fjpP1i0VTDAMuj7wFxVYlMORawA=
+
+Name: res/layout/tools_app_update_wifi_layout.xml
+SHA1-Digest: DCkOHcixVww6r+7Dq7TqfgtM6Ko=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_nine_loading_ic.png
+SHA1-Digest: 9e9PPCv2CKZYQtEVbtOeZAav+5k=
+
+Name: res/drawable/screen_folder_menu_file_selector.xml
+SHA1-Digest: NjCe9Vjx4dtpD9yQqwk0glHYmLU=
+
+Name: res/layout/tab_item_text_layout.xml
+SHA1-Digest: nbRulG2EcKF3Rg22NihBmlNwD78=
+
+Name: res/drawable-xhdpi-v4/sharing_ic_whatsapp.png
+SHA1-Digest: ZQfDqRQ2MaNMU8T8Yu2Stv6Va9w=
+
+Name: res/drawable/btn_radio.xml
+SHA1-Digest: 28Gh7XHKxHXoNpOz8eI/BIt0eic=
+
+Name: res/drawable/rotate_image.xml
+SHA1-Digest: AzKh4pc3EO2bsgTLloG3GyTQUxw=
+
+Name: res/layout/share_activity_layout.xml
+SHA1-Digest: IR1aqQOZBF5njfQG1cU8GCEaQlQ=
+
+Name: res/drawable/feedback_bg_edittext.xml
+SHA1-Digest: riKQ6qYPu4BiWRVexGKtG8w6q8w=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_head_agility_game.png
+SHA1-Digest: U0aZuPsEe0CueMegkOQh0ZTCmbo=
+
+Name: res/drawable/white_side_transparent_press_bg.xml
+SHA1-Digest: 5a06BZe6D+/rvtbUzRCsE06wsbc=
+
+Name: classes.dex
+SHA1-Digest: 5qiQaCGr4JAxSKtJqsRuzaGdKQs=
+
+Name: res/layout/guide_activity_main_layout2.xml
+SHA1-Digest: mvdDpUu+YagMClVi92w1J/gT2mA=
+
+Name: res/layout/dialog_update_daily_layout.xml
+SHA1-Digest: rvnohHgK97X77bEYbspsTN4Znz4=
+
+Name: res/drawable-xhdpi-v4/screen_msg_icon_star_empty.png
+SHA1-Digest: YP2y29QZA+Y71aTblnb13+QQHxE=
+
+Name: res/layout/celetalk_option_item.xml
+SHA1-Digest: tCLZQvdMjlEKLZmyGRH13yrJP0A=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_phone.png
+SHA1-Digest: UoDr+srmH2OunEL2blBf+He93Ck=
+
+Name: res/drawable-xhdpi-v4/icon_new_update_time.png
+SHA1-Digest: GvL0srhtuHpUnto0m98YOgLuD78=
+
+Name: res/drawable/download_green_enable_bg.xml
+SHA1-Digest: w/s5Wd0RbrGaR5SbpZBu3hR0tno=
+
+Name: res/layout/tools_settting_activity_main_layout.xml
+SHA1-Digest: /xBQoUUos/JuQ1313tFauZFc1eQ=
+
+Name: assets/home_app_data_ID.json
+SHA1-Digest: ID6rrK4PsrqDkJOdMYH0xMozXuE=
+
+Name: res/drawable/e_life_coupon_unique_code_bg.xml
+SHA1-Digest: 2sKmW1wUz+Ahz8fXBw1YXqdKGZg=
+
+Name: res/drawable/icon_app_detail_feedback.xml
+SHA1-Digest: yOsWHYwcOqjhInuhNze99FBg+qk=
+
+Name: res/drawable/spirit_water_yellow.xml
+SHA1-Digest: 6UZ/yz7n+OFetf0j6ngyXD+h9eU=
+
+Name: res/layout/ac_web_shop.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/layout/tools_app_manager_uninstall_fragment_layout.xml
+SHA1-Digest: pyLauPFDLb0+mtEf1T31iehb+2Q=
+
+Name: res/anim/slide_left_in.xml
+SHA1-Digest: mGZFII9fkJuWbm3HPzMkqf7DaPg=
+
+Name: res/layout/item_deals_top_selling_layout.xml
+SHA1-Digest: sp7qfndz5Jd4/psFi8q5vpKcxC0=
+
+Name: res/drawable/celetalk_suprise_btn_press.xml
+SHA1-Digest: C/qeUKX0AquNqU+ChQmSPvTW7GU=
+
+Name: res/drawable-xhdpi-v4/home_skin_tips_icon.png
+SHA1-Digest: Wp0Fh3i+tOltH5aKKamOzD2d/wY=
+
+Name: res/drawable-xhdpi-v4/entertainment_video_title_icon.png
+SHA1-Digest: VAknMv5Uy0+nVSqD6uZUaPfM1TI=
+
+Name: res/drawable-xhdpi-v4/red_circle_bg_step_2.png
+SHA1-Digest: IWsQNB1KXSsDl9yWYzDL0KXgt0E=
+
+Name: res/drawable/dialog_green_btn.xml
+SHA1-Digest: sxcgXBUML2xMkezveUhSd2URmdo=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic_prize2.png
+SHA1-Digest: 699otD0IS1jjAfw18oZyuLzyFZM=
+
+Name: res/drawable-xhdpi-v4/top_mark_2.png
+SHA1-Digest: U9Myz8rwu7z7xWRsvSzBkSm7BiE=
+
+Name: res/drawable-xhdpi-v4/welfare_top_banner.png
+SHA1-Digest: w00vVWDxvzWrivS7FFRIzqsjtk0=
+
+Name: res/layout/download_header_list_layout.xml
+SHA1-Digest: e3wI0RWtXxwHJFWzM27EYKZOLvw=
+
+Name: res/drawable-xhdpi-v4/welcome_page_sec3.webp
+SHA1-Digest: YVxiqr1Xa0rGCwwO/NSkk6kbNHQ=
+
+Name: res/layout/search_hot_keywords_layout.xml
+SHA1-Digest: 5xycP4D/fanupXwS11h++3inc7c=
+
+Name: res/drawable-xhdpi-v4/entertainment_cd_cover.png
+SHA1-Digest: Wp0Fh3i+tOltH5aKKamOzD2d/wY=
+
+Name: res/drawable-xhdpi-v4/bg_progressbar.png
+SHA1-Digest: zSM5fDrUzSF5wJdj9m+P4yv94gc=
+
+Name: res/drawable/item_produce_line_all.xml
+SHA1-Digest: 7hpKlBVH0UlTItfnvitIZRy0xKk=
+
+Name: res/drawable-xhdpi-v4/menu_likeus_icon.png
+SHA1-Digest: oY+Iw/OfSXJknLPirv6yIaE99ME=
+
+Name: res/drawable-xhdpi-v4/ic_expand_more.png
+SHA1-Digest: LWlnMNvOSVm9pCLBNk3A1/nfTUk=
+
+Name: res/drawable/app_down_load_round.xml
+SHA1-Digest: D5W7o2Ywc/xppEbPi6dyV4t6lEA=
+
+Name: res/drawable-xhdpi-v4/dialog_bg.9.png
+SHA1-Digest: VqDmQUik73J+t5VT+NgK/5v5n6k=
+
+Name: res/layout/discover_sticker_home_head_layout.xml
+SHA1-Digest: nn9wad91vWlC0BcGzkpdujoCAWs=
+
+Name: res/drawable/red_corner_bg.xml
+SHA1-Digest: 1O2HFf8R3Ug9XJwuz0Roj37BXvY=
+
+Name: res/drawable-xhdpi-v4/e_life_coupon_unique_code_dialog_crash.png
+SHA1-Digest: gVt6m0wc68HjCxmxa8inanjNwMY=
+
+Name: res/drawable-xhdpi-v4/refresh_cock_03.png
+SHA1-Digest: igxX6IAJCJtFkrESxKEd6OmXB4A=
+
+Name: res/layout/ac_dialog_price_offers_new.xml
+SHA1-Digest: 8csri470BHiJr/iFAhrP2jbg0lU=
+
+Name: resources.arsc
+SHA1-Digest: Swup9kBa0TY1gZhknhumrbEvyTs=
+
+Name: res/layout/e_life_brand_list_layout.xml
+SHA1-Digest: JT5leQpcFuGOgryf1MJaXStpN9Q=
+
+Name: res/drawable-xhdpi-v4/tools_home_clear_trash.png
+SHA1-Digest: 9qJVuawOWGALPw+e3RLdmo5zJ1M=
+
+Name: res/layout/welcome_page_sec3.xml
+SHA1-Digest: pYAUS19R03fFNzxX9FRkavBoHVU=
+
+Name: res/layout-v17/download_item_list_downloading_layout.xml
+SHA1-Digest: IDuMpypYmyeqOF7unbzdy7HEFqY=
+
+Name: res/layout/download_item_no_data.xml
+SHA1-Digest: bFeHHrD5ctNYzt8h+NAq5TGHZjI=
+
+Name: res/layout/window_demo.xml
+SHA1-Digest: Uzv8jEZ3upz1Vb4rTEMnsvCn3nw=
+
+Name: res/layout/home_banner_layout.xml
+SHA1-Digest: T8SvvBKiFUEDdhHwwAu6baVKAeA=
+
+Name: res/layout/search_hint_listitem.xml
+SHA1-Digest: Ee9ywwlepadTwWBQIPl6jj4q68k=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_bg.png
+SHA1-Digest: FkeHNlUdtq+nsifF/YKiOm78P7k=
+
+Name: res/drawable-xhdpi-v4/tools_setting_switch_off.png
+SHA1-Digest: 3mBXSODx6KcyQD0CO1LkluWBiT4=
+
+Name: res/layout/number_indicator_spinner.xml
+SHA1-Digest: otGdJRDdAa0mcUD40SwVxiQJpso=
+
+Name: res/layout/screen_folder_fragment.xml
+SHA1-Digest: hoacCsv09EJQauU+Fi/Mr31GVyQ=
+
+Name: res/drawable/app_blue_icon.xml
+SHA1-Digest: u4jOBgODZCJV0IcffW4T9ou9jD8=
+
+Name: res/drawable-xhdpi-v4/menu_widget.png
+SHA1-Digest: dEbRJ+nOsRgy+mxJquykbLjfdgs=
+
+Name: res/layout/dialog_upgrade_layout.xml
+SHA1-Digest: i3qRN3oRScuoiueilWiKoCwQEMY=
+
+Name: res/layout/tab_merge_layout.xml
+SHA1-Digest: fW/1aGpNSW5VyQYh17d+nlqph5k=
+
+Name: res/layout-v17/screen_folder_apps_layout.xml
+SHA1-Digest: bUB9VGtyp51lO8VVC8NJ1TjWXu4=
+
+Name: res/drawable/green_side_white_press_bg.xml
+SHA1-Digest: KH5XD0bAIbtPFQ9nhKhbfPcp1dw=
+
+Name: res/drawable/app_yellow_bg.xml
+SHA1-Digest: 4y9c76tW5ykLuSF8fdy7DKiK/4Y=
+
+Name: res/drawable-xhdpi-v4/app_default_icon.png
+SHA1-Digest: t0rkAmQulvDuYMPC3SIHl8ejCAg=
+
+Name: res/drawable/main_tab_tools_red_shape.xml
+SHA1-Digest: jUcYd0Eh7zOs2ZOxqbHWJtv8OAU=
+
+Name: res/layout/download_item_list_downloaded_layout.xml
+SHA1-Digest: 1gJLJXSbKU1ZN7dKndUcPLNY1PE=
+
+Name: res/drawable-xhdpi-v4/tools_app_uninstall_size.png
+SHA1-Digest: rC9fz5wTVlV5Z1QLZTf8RDFNhDs=
+
+Name: res/drawable-xhdpi-v4/dialog_update_cloud3.png
+SHA1-Digest: E9NrCwPs3UWF7T7ClxmcTM8ZHro=
+
+Name: res/layout/feature_special_list_layout.xml
+SHA1-Digest: ia7GZ062Ux+e705SRt1ioxCqj4A=
+
+Name: res/drawable-xhdpi-v4/triangle.png
+SHA1-Digest: 16ThvT0o+a8/9wOXKhkwliF632c=
+
+Name: res/drawable/bg_share_window_share.xml
+SHA1-Digest: tBmhTPKZcDEr2wBQmWleM3AC+qo=
+
+Name: res/drawable-xhdpi-v4/discover_sticker_detail_save.png
+SHA1-Digest: q8F97eFXNpLoqKs8llJlyWl19VA=
+
+Name: res/drawable-xhdpi-v4/celetalk__topbar_pack.png
+SHA1-Digest: hMvlv6Wa2zqbM4uVIOlBPe+vmTs=
+
+Name: res/drawable-xhdpi-v4/e_life_coupon_unique_code_default.png
+SHA1-Digest: aRqTKgjDgkh3d9ra+uvRUFVogsQ=
+
+Name: res/drawable-xhdpi-v4/choosen.png
+SHA1-Digest: iOeRd+pp852+rjZRQDRYz/XFI+0=
+
+Name: res/drawable-xhdpi-v4/discover_action_bar_help.png
+SHA1-Digest: awGnUZAlgWOi19Lws3XwJnmfQaA=
+
+Name: res/drawable-xhdpi-v4/ic_close.png
+SHA1-Digest: 9okqLueUiHkZFQFA4XSfWsf/WuY=
+
+Name: res/layout/discover_sticker_list_layout.xml
+SHA1-Digest: 3+ywXoZuC/tt88rPGxshlO0UfhA=
+
+Name: res/drawable-xhdpi-v4/no_data_loading.png
+SHA1-Digest: x2kk1wGpyBsBZ8W3lPB3zq52wEA=
+
+Name: res/drawable-xhdpi-v4/discover_sticker_dowbload_btn.png
+SHA1-Digest: zwB1JnrhZcpBEKho9MnGXrfWvp0=
+
+Name: res/layout-v17/common_child_header_bar_layout.xml
+SHA1-Digest: nrreAh8z7KOpi3MoApQapniNpis=
+
+Name: res/drawable-xhdpi-v4/icon_liked.png
+SHA1-Digest: pzrB1zO9OJdtt7VaW7E/VEufbtQ=
+
+Name: res/drawable-xhdpi-v4/splash_bg_icon.png
+SHA1-Digest: kIJTDs2nutNZSRw0Zspb3AsdTHQ=
+
+Name: res/layout/pull_to_refresh.xml
+SHA1-Digest: lawVZRK8at+R1YfR99FQLFNZUKw=
+
+Name: res/drawable/app_detail_title_bg.xml
+SHA1-Digest: wj8RaL4pJ8gyFmyXpYfamKoa+5Q=
+
+Name: res/layout/root_empty_layout.xml
+SHA1-Digest: rZ1kl8RUdUltzLxhiq5z2ufU+h0=
+
+Name: res/drawable-xhdpi-v4/nine_nine_gift_icon.png
+SHA1-Digest: 7Qd34UE2GUE72DGf0HrqB3lMZUI=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_ic_prize1.png
+SHA1-Digest: 3aan8GLwOazWwNG/gp9uxO5WgG0=
+
+Name: res/drawable-xhdpi-v4/tools_home_iphone_img.png
+SHA1-Digest: ecVeo8u3LzKKma8pVpDPbxb/kbM=
+
+Name: res/drawable-xhdpi-v4/refresh_cock_02.png
+SHA1-Digest: 8AkKu6RpumNV698b+UMe9HR7uIg=
+
+Name: res/layout/set_ringtone_alert_dialog.xml
+SHA1-Digest: +zwLSZFBC1SqD8AAr0ZOI2pSiXw=
+
+Name: res/layout/tools_app_uninstall_menu_layout.xml
+SHA1-Digest: phzE2RL7PRJWt7HsRVtAMlQVmxw=
+
+Name: res/layout/home_tab_item_layout.xml
+SHA1-Digest: Y9YJUo+jNHgvJjYI+C8LTEk45pw=
+
+Name: res/layout/tools_home_tool_list_item_layout.xml
+SHA1-Digest: n9T7wuLEqXMm8E8hCAhmB+kXG3A=
+
+Name: res/layout/vidmate_video_card_app_item_layout.xml
+SHA1-Digest: 4In1Rhu2d6Un30GR1zuICujtGL0=
+
+Name: res/layout/e_life_content_card_layout.xml
+SHA1-Digest: jmL0VR2f0xwbAMRLqtJc9s9xoNM=
+
+Name: res/layout/home_buy_notice_layout.xml
+SHA1-Digest: tsFNTcpmMk9KY7iJETmbVLcKXek=
+
+Name: res/drawable/btn_white_stroke_normal.xml
+SHA1-Digest: Of/OiP2wjOZqODNqB2kXxbnWntI=
+
+Name: res/layout/tools_file_manager_file_recycleview_item_header_layou
+ t.xml
+SHA1-Digest: x9G8TWOjvUm998EInSM7VAOCLiY=
+
+Name: res/layout/common_space_8dp_layout.xml
+SHA1-Digest: Aqn0Fn2xMwgTGaNdJSPqKUkN+aE=
+
+Name: res/layout/home_fragment_layout.xml
+SHA1-Digest: x6qYSkBciAhIYFajs1iKYGS5ckM=
+
+Name: res/drawable-xhdpi-v4/common_indicator_nomal.png
+SHA1-Digest: giO+a0C/Igdas5xDdSiWBxC2UGU=
+
+Name: res/drawable-xhdpi-v4/buy_icon.png
+SHA1-Digest: g2JcqG3vd4l8WAGZFvND4IP7zoo=
+
+Name: res/drawable-xhdpi-v4/tools_home_sdcard_img.png
+SHA1-Digest: 1zHewsEsAXACMbWIcfsM5qvsBYw=
+
+Name: res/drawable-xhdpi-v4/loading_big.png
+SHA1-Digest: gJpoP6/1DWr24IhEyu8WoY5gI1Y=
+
+Name: res/drawable-xhdpi-v4/detail_rating_add_one.png
+SHA1-Digest: bKg3UVdOwuPNjhkaBQn+JPaNH9c=
+
+Name: res/drawable-xhdpi-v4/ic_about_9apps_logo.png
+SHA1-Digest: bYKPQKcNZ1GZAArL9kmLWltbNw8=
+
+Name: res/drawable-xhdpi-v4/rating_bg.9.png
+SHA1-Digest: s/yG71379u4kyejWBBS20lBNSQI=
+
+Name: res/drawable-xhdpi-v4/spirit_notify_bg.9.png
+SHA1-Digest: /yWZKIj+Jsg31PjvijqJ2UoJ73U=
+
+Name: res/layout/discover_sticker_list2_title_layout.xml
+SHA1-Digest: 1HOgRziDyxpM7lYU8vHVp3EN85Q=
+
+Name: res/drawable/bg_white_top_line.xml
+SHA1-Digest: yJcUk+S9dkHVgK8DPwk6D/wghGE=
+
+Name: res/drawable/common_white_share_selector.xml
+SHA1-Digest: ji0jJQH4ArvMRv6qw1CzIclVEDE=
+
+Name: res/drawable-xhdpi-v4/close_access.png
+SHA1-Digest: u+QJfZA0XZUNixW3gDsSNvgs8cs=
+
+Name: res/drawable-xhdpi-v4/story_page_btn_share.png
+SHA1-Digest: bqwHKRd//u9WhPHfLHLOx0iFdYY=
+
+Name: res/layout-v17/scanner_app_layout.xml
+SHA1-Digest: XuEta2bBi/CDIml0j/fJpvlJYLE=
+
+Name: res/drawable-xhdpi-v4/splash_screen_hare.png
+SHA1-Digest: igdpBfYf42dTOUchdPUhvDcGYLc=
+
+Name: res/drawable-xhdpi-v4/common_select_icon.png
+SHA1-Digest: R0/hcakU69UwXj4U0zwxNhqxWBo=
+
+Name: res/layout/notify_update_all_layout.xml
+SHA1-Digest: 0SYtqw0mPRzadHvpi3AbHVJ19Ws=
+
+Name: res/drawable-xhdpi-v4/tools_home_app_backup.png
+SHA1-Digest: AwQJgwFVyICfTOvm7K7eSBV1l7s=
+
+Name: res/layout/fragment_result_layout.xml
+SHA1-Digest: yfQe1NHFWdoTUGEzs5FD49cxxC4=
+
+Name: res/layout/window_spirit_head_tab.xml
+SHA1-Digest: lkgSB4bC3BHUEY8wlKr9NB93zHw=
+
+Name: res/drawable/app_cyan_icon.xml
+SHA1-Digest: bI3+qC/i2mgRurmRLWl7QQb+gTc=
+
+Name: res/drawable-xhdpi-v4/share_twitter_rectangle_logo.png
+SHA1-Digest: HJs5YLzCJuBidSG3gi2f+135AA8=
+
+Name: res/drawable/tv_bg_price_chart_no.xml
+SHA1-Digest: GsxYwy8HLFaC94v73yL4P/M/rxU=
+
+Name: res/drawable-xhdpi-v4/home_tab_best.png
+SHA1-Digest: tUytm4PfyEAVbzLKwcNTvWiX804=
+
+Name: res/drawable-xhdpi-v4/celetalk_msg_right_.9.png
+SHA1-Digest: MJC6iheBL4HgkTXVLrBOJdG6/Zw=
+
+Name: res/drawable-xhdpi-v4/iv_produce_back_left.png
+SHA1-Digest: XeBXzAwpNUT4fLGy2ZccIJ7ApYY=
+
+Name: res/layout-v17/discover_video_header_layout.xml
+SHA1-Digest: G+RJ0YD6thsI9jOP97ohafusqdI=
+
+Name: res/drawable/video_search_text_bg_shape.xml
+SHA1-Digest: /U3K2eoyyHpCHeE2h62K9QSqqsI=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_item_coupon_title_bg_2.9.p
+ ng
+SHA1-Digest: OuVgsfiARJFped5YNJ4Pse18YZQ=
+
+Name: res/drawable-xhdpi-v4/top_mark_1.png
+SHA1-Digest: TaZTFabGrXA86Hs0qGLuq4bQ9Uo=
+
+Name: res/layout/ac_dialog_price_offers_detail.xml
+SHA1-Digest: A23p32Ox2x7Bxz7LyIpO5Yd49Mk=
+
+Name: res/drawable-xhdpi-v4/tools_home_move_to_sdcard.png
+SHA1-Digest: hEN/NHcQHJJWM0IxTEzl0pnTEkU=
+
+Name: res/drawable/special_details_shadow_bg.xml
+SHA1-Digest: zei8hvxpH+HJ1ltmK0ytB6lefvo=
+
+Name: res/layout/tools_app_update_no_data_layout.xml
+SHA1-Digest: 8oIuY0/vcK3gZ5McjR0v9GX7v0w=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_item_percent_icon.png
+SHA1-Digest: 4ZcItVHYqBN3umPItx3CyCaoQKA=
+
+Name: res/layout/common_layout_special_card.xml
+SHA1-Digest: 9w9lpuArMKl0eC6/VEDz76yVXcE=
+
+Name: res/drawable-xhdpi-v4/main_tab_tools_selected.png
+SHA1-Digest: Prm9C2zi3uQrjKinh0htwdAhmS8=
+
+Name: res/drawable-xhdpi-v4/common_ic_tips_question.png
+SHA1-Digest: s7P4S45zFzLofXMoI6BJfIFkYsA=
+
+Name: res/drawable/celetalk_round_button_bg.xml
+SHA1-Digest: 9R3V35xpYN9EsfB/TUGK7izzLrY=
+
+Name: res/layout/app_list_item_layout.xml
+SHA1-Digest: 9Ak1zPPGVJR/Yg+04lzl4Rwujqg=
+
+Name: res/drawable/app_purple_bg.xml
+SHA1-Digest: cJ92afMv9i5GpP5utof45Hri3G8=
+
+Name: res/drawable/item_produce_ad.xml
+SHA1-Digest: KvixfepYP/+SmD2jtzRKmkrRvOM=
+
+Name: res/layout/language_popup_layout.xml
+SHA1-Digest: p77iyxYyH43uslI0B8x0mjkyi+0=
+
+Name: res/layout/dialog_clean_cache_finished_layout.xml
+SHA1-Digest: n9fYfajrd6EY6/FZ2LA0BrQYDWA=
+
+Name: res/drawable/item_produce_top.xml
+SHA1-Digest: /MPBPWKiSpAE30f7X/qztTXgE/4=
+
+Name: res/layout/nine_nine_toast_layout.xml
+SHA1-Digest: VXysbBIHiwaZKFQGo79DOLdWKWA=
+
+Name: res/anim/push_down_out.xml
+SHA1-Digest: Wff/WOhkra49lczEg6LGDI8Z6fQ=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_item_coupon_separate_line.
+ 9.png
+SHA1-Digest: L8E0DZW4C85zhHCSR1+3XJVBGKo=
+
+Name: res/drawable/app_blue_bg.xml
+SHA1-Digest: BubYey3f5UR7ZssUs96UtrCvyrg=
+
+Name: res/drawable-xhdpi-v4/screen_msg_green_btn_normal.9.png
+SHA1-Digest: fp4hxFo+PZvhxBvwKV3CbVPk6RM=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_item_coupon_right_icon.png
+SHA1-Digest: Vi/bJXETJ5I5YafMq/zHpDZpuhs=
+
+Name: res/drawable-xhdpi-v4/celetalk_topbar_next.png
+SHA1-Digest: 0QEJ+ebjskmG3OM/9RPf4Zkaf+I=
+
+Name: res/drawable-xhdpi-v4/rating_star.png
+SHA1-Digest: xLjMGixtlZ0PlpGTvKiCcAsMFco=
+
+Name: res/drawable/title_while_bg.xml
+SHA1-Digest: eCxrzsV9veX3CF5X4EA3zDt5XaQ=
+
+Name: res/drawable-xhdpi-v4/refresh_cock_01.png
+SHA1-Digest: 9fPuvNcq79qtwbHHsIuGziGvu6I=
+
+Name: res/layout/discover_video_detail_fragment.xml
+SHA1-Digest: O821pJixuyU29KuT3UTubDpi6OM=
+
+Name: res/drawable-xhdpi-v4/celetalk_msg_right_corner.9.png
+SHA1-Digest: VuslqdBME/ZpwS+5hkwz6eQuY1Y=
+
+Name: res/drawable/celetalk_bottom_bar_bg.9.png
+SHA1-Digest: v5/W+mB8pEyWfZzeKoKDaQKi5jc=
+
+Name: res/drawable/wallpaper_detail_share_selector.xml
+SHA1-Digest: 7kK1PhTAcSPPa5++tBHl4X2SEdI=
+
+Name: res/drawable-xhdpi-v4/detail_ic_score_star_press_little.png
+SHA1-Digest: yLkhqwkAQ9QFePvllRctD8Ny62Y=
+
+Name: res/layout/common_webview_layout.xml
+SHA1-Digest: ap1JzxgA2YNKNNhw3EUN/4lXHLQ=
+
+Name: res/drawable-xhdpi-v4/e_life_coupon_unique_code_header_bg.png
+SHA1-Digest: PUYyVJIZ18luf1xziTwbIchwigI=
+
+Name: res/layout/discover_daily_foot_layout.xml
+SHA1-Digest: VXZfP+9iD5SKyYxknploiBjWmG0=
+
+Name: res/drawable-xhdpi-v4/share_whatapp_rectangle_logo.png
+SHA1-Digest: m4Ljbf3pd6kaEw5g7spg6e9WuRQ=
+
+Name: res/drawable/detail_bg_red_circle.xml
+SHA1-Digest: 37blebm/g19Mz+zG5vHxzOXH+HI=
+
+Name: res/drawable-xhdpi-v4/home_tab_small_game.png
+SHA1-Digest: PfPtYezQ3Y1+foHdZ47O5XqMzf8=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_07.png
+SHA1-Digest: BqjKBwJx+jfuD2dp3BXbH+UEBrU=
+
+Name: res/drawable-xhdpi-v4/icon_more_press.png
+SHA1-Digest: HAYFMXs2avOCmQJzDZRsIVoJSXY=
+
+Name: res/drawable/download_grey_bg_selector.xml
+SHA1-Digest: 5JU234UvuokSNaowlVtz2dRiRfc=
+
+Name: res/layout/download_item_list_downloading_layout.xml
+SHA1-Digest: besS+wKcQLW+8uFvX9Y2SDqPDsQ=
+
+Name: res/drawable/square_grey_bg.xml
+SHA1-Digest: EDBlUwQK7sO9wh6oXaR+g7TOWdE=
+
+Name: res/drawable-xhdpi-v4/menu_about_icon.png
+SHA1-Digest: wEK9/yG7uXu9huXfLZm1D1lhFKg=
+
+Name: res/layout/common_banner_wrap_layout.xml
+SHA1-Digest: 9f0ccCj2lSSiH2DzMUcGtrSRKxI=
+
+Name: res/drawable-xhdpi-v4/icon_new_update_time_blue.png
+SHA1-Digest: YJWWQyDtgZYcy4Ii58jFZuFSURU=
+
+Name: res/layout/ac_dialog_price_product_info.xml
+SHA1-Digest: iWq3QVuyxA2Os+NSNxKwqDpbs84=
+
+Name: res/drawable/white_rectangle_bg.xml
+SHA1-Digest: bmXkeMvcFrgOl1/d4vio1EUx8VA=
+
+Name: res/layout/discover_sticker_list5_title_layout.xml
+SHA1-Digest: JFPybYioHkE3zFw4RsT4V+5tIy8=
+
+Name: res/layout/vidmate_video_fragment.xml
+SHA1-Digest: zTyu+3JcYKPmfwr+GtBC/DtUz2A=
+
+Name: res/layout/notify_update_all_large_layout.xml
+SHA1-Digest: VVoMwQ7GhsvlDU0tXzgWq7T9bpU=
+
+Name: res/layout/dialog_must_have_header_layout.xml
+SHA1-Digest: /HeE79+nP4VsaX15ZU6s0DJYEOc=
+
+Name: res/drawable-xhdpi-v4/pop_download_default_banner.png
+SHA1-Digest: EQ3qug7GLly66iEr+5xnTUy1lJc=
+
+Name: res/layout/adapter_produce_item.xml
+SHA1-Digest: T2ta2S8lhMx/WWVAsoASre1y8aM=
+
+Name: res/drawable-xhdpi-v4/screen_msg_gray_btn_normal.9.png
+SHA1-Digest: lcsxVWbGT6Qa60mekHWjf8ylOfQ=
+
+Name: res/drawable/common_green_solid_corners_shape.xml
+SHA1-Digest: G2bCcYfMZCIpnX09ZcchGPmhvDE=
+
+Name: res/drawable/tools_setting_item_selector.xml
+SHA1-Digest: VLRwXgXqj59UgyZn8vVPgSeDd4U=
+
+Name: res/drawable/common_round_button.xml
+SHA1-Digest: jDecPIsJAYY+vVToQlHE46ZQSA0=
+
+Name: res/layout/category_item_layout.xml
+SHA1-Digest: q38/gloHGlQwYzQHvUZGa+/O934=
+
+Name: res/layout/window_produce_guide_list.xml
+SHA1-Digest: yOhUHUSrLwpxOA4jMHBVhCI+1zg=
+
+Name: res/drawable/app_green_bg.xml
+SHA1-Digest: C932jFMNB2Yw+6e7chRd+v51bJQ=
+
+Name: res/drawable-xhdpi-v4/common_ic_white_share_press.png
+SHA1-Digest: 5B3jvAcLHtuAzUYi79DFhZj28U8=
+
+Name: res/anim/app_alpha.xml
+SHA1-Digest: sGCPsw6i31df4nWPeUPvW7aVxsY=
+
+Name: res/drawable-xhdpi-v4/sticker_default_icon.png
+SHA1-Digest: MycW9tx+79AykTyB8WjN3YngoVQ=
+
+Name: res/drawable-ldpi-v4/icon_screen_folder.png
+SHA1-Digest: na+r6+amhpiBsf4aEGKvYvUx4ZM=
+
+Name: res/layout/download_alert_dialog_layout.xml
+SHA1-Digest: jgaAZt8QOv09Y+/iBecQw5XznF8=
+
+Name: res/anim/push_left_in.xml
+SHA1-Digest: tN4yMTtfUivYnfDleQEEvnd2JvE=
+
+Name: res/anim/slide_right_out.xml
+SHA1-Digest: Ia2qM6opx8BhhyjUtx3RUvx23/o=
+
+Name: res/drawable-xhdpi-v4/top_mark_3.png
+SHA1-Digest: tyJfWyOsmLosD1SKNDGTtMyInNE=
+
+Name: res/drawable-xhdpi-v4/common_network_error.png
+SHA1-Digest: 4BX2/IjLm7fOsbKvVD4ygkqD6fw=
+
+Name: res/drawable-xhdpi-v4/feed_back_default_bg.png
+SHA1-Digest: /7XmRVCDMo/jxG7jnPJe4tBImTo=
+
+Name: res/layout/item_deals_product_info.xml
+SHA1-Digest: P0er4IjfB3FXUqMwGUmkHrRg1X0=
+
+Name: res/drawable-mdpi-v4/icon_screen_folder.png
+SHA1-Digest: hK7L5TIzpP+pcGhGox4+2bQF+44=
+
+Name: res/drawable-xhdpi-v4/bluetooth_index_bg.png
+SHA1-Digest: uf0LV/xhRnss18TFtqqWW2uxC2s=
+
+Name: res/layout/pull_down_spinner_layout.xml
+SHA1-Digest: bfoamFyccA/ztfBUnF/naXyFk+Q=
+
+Name: assets/mch.txt
+SHA1-Digest: 1dTNB2FqVCiRt+wtAlezoktphW4=
+
+Name: res/drawable/progressbar_cirlce.xml
+SHA1-Digest: Z4Xs5Jvn3MMWvQthVrsdj+TLbKU=
+
+Name: res/drawable/must_have_result_bg_bg.xml
+SHA1-Digest: FF5qiKK2P9PMSuPYpoINMIdUBAI=
+
+Name: res/drawable-xhdpi-v4/common_actionbar_ic_circle_white_press.9.p
+ ng
+SHA1-Digest: ZKuz+MKH9BQn+3oSHm8qQKQa/So=
+
+Name: res/drawable/common_ic_app_mask_bg.xml
+SHA1-Digest: ragYyaK+KbxbffTVNimbpZh12fY=
+
+Name: res/drawable-xhdpi-v4/detail_ic_data_packageic.png
+SHA1-Digest: XtB4Z2jM4b2jiRhyhq7FCAx6ras=
+
+Name: res/drawable-xhdpi-v4/home_tab_small_music.png
+SHA1-Digest: 9J4DFkPGhxyMeAAHkrBIwCqrabo=
+
+Name: res/drawable-xhdpi-v4/dialog__must_have_ic_close.png
+SHA1-Digest: P4Y32duhI41nksMGSPNr+p4v6C0=
+
+Name: res/drawable/lay_price_title_bg.xml
+SHA1-Digest: tLqA/tOMW3lEF7A+DxvP0vPnooE=
+
+Name: res/layout/dialog_select.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/drawable-xhdpi-v4/detail_ic_gift.png
+SHA1-Digest: V0GWbVmcOJnRLlWeCRIz9StoxQA=
+
+Name: res/layout/welfare_list_item_info_layout.xml
+SHA1-Digest: 2nrwr3p/LXkLDsR1wnTeVjUL648=
+
+Name: res/drawable-xhdpi-v4/dialog_update_bg.webp
+SHA1-Digest: MscP4twNbYb4J3x1wz1R2oFoIlI=
+
+Name: res/drawable-xhdpi-v4/sharing_ic_xender.png
+SHA1-Digest: Ra2ODvg0S4Ae9GnIT6cowtc0oOk=
+
+Name: res/layout/welfare_list_item_tag.xml
+SHA1-Digest: c0tL8JlJiLCxcS3vVrlnJYVgB1Y=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: i1nQjsshL5HXTpyCCCbYVmaGxtE=
+
+Name: res/layout/e_life_daily_coupon_layout.xml
+SHA1-Digest: 8Aje3ceu0REKbcYm51XwLPZUoxg=
+
+Name: res/drawable-xhdpi-v4/celetalk_msg_left.9.png
+SHA1-Digest: kJKLi+axLOu4z7xITB/wA7CtLHY=
+
+Name: res/layout/home_xrecycle_pe_refresh_header_layout.xml
+SHA1-Digest: LbyVWumLIJcQLGmVh6p9/sM+ogA=
+
+Name: res/layout/menu_item_list_layout.xml
+SHA1-Digest: Q67B288506nvUBn9o6LwlWVLSts=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_08.png
+SHA1-Digest: dQ4+xwyKXbkw1yexPkLBmsZnHoM=
+
+Name: res/drawable-xhdpi-v4/common_indicator_press.png
+SHA1-Digest: wGwyMPUQLfoluSDD8IlvkJN+j9s=
+
+Name: res/drawable-xhdpi-v4/common_actionbar_ic_download_white_normal.
+ png
+SHA1-Digest: 8OJG4YPFm+ieXR6JkdygOeEvUUY=
+
+Name: res/layout/tools_app_update_menu_layout.xml
+SHA1-Digest: gUprrrQ5qTKLriOSAuSfhJU093M=
+
+Name: res/drawable/item_produce_selected.xml
+SHA1-Digest: /ivW1MYyzb0PrRzs02fzAlnD74k=
+
+Name: res/drawable-xhdpi-v4/actionbar_user.png
+SHA1-Digest: 9RsPpDcQvMtlXjCYdm07Ajqto1c=
+
+Name: res/drawable/common_ic_app_green_bg.xml
+SHA1-Digest: yG5vG4VERsCkD5+NLRN11X5Res8=
+
+Name: res/layout/window_download_app.xml
+SHA1-Digest: RkNMrqJXJ9GRqevk4lNFE5eRBrw=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_item_coupon_left_icon.png
+SHA1-Digest: v0gYBps1vRnQTX2ve4gG+JsUq8Y=
+
+Name: res/layout/notify_app_layout.xml
+SHA1-Digest: H+ztLx3xs9GWm14wZqpradTDXF4=
+
+Name: res/drawable/share_confirm_bg_selector.xml
+SHA1-Digest: 3ES/lmQCXgq6J8e6PjCSMSsqI6Y=
+
+Name: res/layout/item_vidmate_video_layout.xml
+SHA1-Digest: xffm/wDKd7/4fBj3yjJMRV4fZms=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: jqq0U8qRN/0Mb4UIRWOwYgSncZk=
+
+Name: res/drawable-xhdpi-v4/e_life_card_share.png
+SHA1-Digest: VA6FNP+IA9/xXrqzeCx1ViNs7/k=
+
+Name: res/drawable-xhdpi-v4/file_manage_music_play.png
+SHA1-Digest: Gi6p0Lch1pa7wZxKW812OFC0P30=
+
+Name: res/drawable-xhdpi-v4/wallpaper_ic_default.png
+SHA1-Digest: rsGFwGHWfiGqCMGP+w17oS7dtD8=
+
+Name: lib/armeabi/libppapkpatchso.so
+SHA1-Digest: J6PTvtvgUGG6BYiWW06HGTN2Pa0=
+
+Name: res/drawable-xhdpi-v4/ic_unselected_round.png
+SHA1-Digest: R7WdD3Qn2HhYVsyF2lfAXAgimjI=
+
+Name: res/layout/notify_app_large_layout.xml
+SHA1-Digest: w0u3VeaH2Fn3Wn6Jr27UWde3S9s=
+
+Name: res/drawable-xhdpi-v4/video_detail_ic_download.png
+SHA1-Digest: Pb0Rl80Hyf5rUjttaxCvkjdLw24=
+
+Name: res/layout/e_life_coupon_unique_code_layout.xml
+SHA1-Digest: aCu3xYz6/ND9Nl1MMJUgfY8JsLg=
+
+Name: res/layout/window_produce_detail.xml
+SHA1-Digest: 2NvPqDyWYqxcoQNG7eGnhea+kBI=
+
+Name: res/layout/e_life_deals_home_fragment_layout.xml
+SHA1-Digest: tg0lEflq45pJQq1g701DvfDiCAY=
+
+Name: res/drawable-xhdpi-v4/detail_ic_score_star_press_big.png
+SHA1-Digest: uLncwuU+xbLDnKbF248yRRQ1m6s=
+
+Name: res/layout/common_pic_banner_layout.xml
+SHA1-Digest: nffBfDjCs9HFaxIqPk3JcZlqAsM=
+
+Name: res/drawable/progress_bar_playing.xml
+SHA1-Digest: s1xFRI2TwQKLFVwPuUeRqnqG0U0=
+
+Name: res/drawable/window_access_image.png
+SHA1-Digest: m6APJMpXia52V1C+Xa5y83WS9sg=
+
+Name: res/drawable/download_grey_bg.xml
+SHA1-Digest: F9R2GpA/4139xPVUVDGehCWCU8g=
+
+Name: res/drawable-xhdpi-v4/light_yellow_heart.png
+SHA1-Digest: e3OyQLgS0MSpLsbiVJbrBgepppE=
+
+Name: res/drawable-xhdpi-v4/detail_ic_score_star_normal_middle.png
+SHA1-Digest: PxglhrH4cFATJlamqdAhA/FLTEw=
+
+Name: res/layout/discover_sticker_image_layout.xml
+SHA1-Digest: DdKv/p5Nistowyr9YEjzhTcsFE4=
+
+Name: res/layout/download_menu_layout.xml
+SHA1-Digest: p0P0fMlV+auQDh8B0dJEbW847vI=
+
+Name: res/drawable/wallpaper_detail_back_selector.xml
+SHA1-Digest: fQsuIvb9gxQA1knBLkd65b1Y9/c=
+
+Name: res/drawable-xhdpi-v4/main_tab_home_selected.png
+SHA1-Digest: B7AJLXS1z5J4GF3ck8EXUDj3wBI=
+
+Name: res/color/txt_343434_selector.xml
+SHA1-Digest: xCDP/4q2lqjpKmSHvcNd8J+KEyQ=
+
+Name: res/drawable/feedback_switch_selector.xml
+SHA1-Digest: TVCijuBsT7N6m/FJygRMW2lef58=
+
+Name: res/layout-v17/must_have_dialog_fragment.xml
+SHA1-Digest: vQYsB0ozJWe0s/796N47Vkj1yu8=
+
+Name: res/drawable/menu_item_selector.xml
+SHA1-Digest: JTOnwllmIwP6u1iqQj1PAgmLiWA=
+
+Name: res/drawable-xhdpi-v4/celetalk__topbar_return.png
+SHA1-Digest: jzKSr8czeBeqv+3Lec39BlQHd+E=
+
+Name: res/drawable-xhdpi-v4/icon_new_recommend_header_eggs.png
+SHA1-Digest: japHB96nLyiDobHfJvi1e8B/ugU=
+
+Name: res/drawable/search_feedback_btn_bg_shape.xml
+SHA1-Digest: en73aMV1qExAPgVLo5UIgPsDucA=
+
+Name: res/drawable-xhdpi-v4/welcome_page_sec1.png
+SHA1-Digest: CuGd6WIO+f8h3f5ZSlhAlnnvyys=
+
+Name: res/drawable/lay_price_content_bottom.xml
+SHA1-Digest: NTLl1haOXhq9zonb5P8GO+w2tIM=
+
+Name: res/drawable-xhdpi-v4/tools_no_app_update.png
+SHA1-Digest: bQzZ03AvHfFYZpyl3/DcPVrSgeU=
+
+Name: res/drawable-xhdpi-v4/installer_alert.png
+SHA1-Digest: ENIUQloimMr3A6wNjDUMwW4ZR7k=
+
+Name: res/layout-v17/adapter_produce_item.xml
+SHA1-Digest: VwV4vlcdq8a8yxUXzmdu7R28zU4=
+
+Name: res/layout/app_detail_header_bar_layout.xml
+SHA1-Digest: tEr/CHItXvovED5j4Bn2r35INRk=
+
+Name: res/layout/adapter_produce_new.xml
+SHA1-Digest: PVT9QEHHQ0+HvcJk9bpXXssMvdg=
+
+Name: res/drawable-xhdpi-v4/clean_cache_finished_header.webp
+SHA1-Digest: PEtZHZ2mW7AdGsRfxbDpOe9oO7A=
+
+Name: res/layout/top_item_layout.xml
+SHA1-Digest: R1jGLVfUxN3gw79aAYgw92uUCPQ=
+
+Name: res/drawable/video_search_header_bg_shape.xml
+SHA1-Digest: 13OYilO8Ods1YVtfFVy8VUSVMLE=
+
+Name: res/layout/common_banner_layout.xml
+SHA1-Digest: AYhTGCF3pDfSZKCUqECHiBV61PE=
+
+Name: res/layout/common_compat_layout.xml
+SHA1-Digest: oGxZLixM5TVIl1NitXoBXaPJTfQ=
+
+Name: res/drawable-xhdpi-v4/story_btn_tips_icon.png
+SHA1-Digest: 2PlnQ0Qi2Tg+GeEFleCdQKbBXMY=
+
+Name: res/drawable-xhdpi-v4/main_tab_fun.png
+SHA1-Digest: H3XFfZF5c9W+/7lasvaDKMv4Zbw=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_05.png
+SHA1-Digest: 6H+DemCR4JLFFqmwLDr834m4qlg=
+
+Name: res/drawable-xhdpi-v4/search_result_feedback_bg.9.png
+SHA1-Digest: ibmZcbcRjgMuSLoLsY9CtmrvW8g=
+
+Name: res/drawable-xhdpi-v4/common_checkbox_small_bg.png
+SHA1-Digest: zcHLRAU6BuPsmOEsH11Rdd4gwZI=
+
+Name: res/drawable-xhdpi-v4/home_tab_small_category.png
+SHA1-Digest: jJ8zVeT2vPy5WOofqqfxbOFHbyc=
+
+Name: res/drawable/fastdownload_while_bg.xml
+SHA1-Digest: gPnT0qLJmxXxl9zwQ/GIPb06zRM=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_mascot_3.png
+SHA1-Digest: sSx++9gRqGWADGBPJE0VlDr+eu0=
+
+Name: res/layout/menu_fragment_layout.xml
+SHA1-Digest: ywj7W4oi1fMk2Ho4iRrPbS2WUE4=
+
+Name: res/drawable/list_item_selector.xml
+SHA1-Digest: N8/sH+d1KgGAQhWSBKMCI1SUWQE=
+
+Name: res/drawable-xhdpi-v4/icon_clear_cache_normal.png
+SHA1-Digest: IXAhZG2Xu2Zx4zUmsr71uO+V7Xc=
+
+Name: res/drawable-xhdpi-v4/iv_offer_detail_back_right.png
+SHA1-Digest: MKHYkT6ZsFy8ZDXMGX88gDrBPL8=
+
+Name: res/drawable-xhdpi-v4/icon_more_white_normal.png
+SHA1-Digest: l7hunhbMW3njMIzeNjXXWHvHK/I=
+
+Name: res/layout/discover_coupon_item_copuon_banner_layout.xml
+SHA1-Digest: e+Gs3+xjGfI0ta+me26vTTZpK5c=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_shadow.png
+SHA1-Digest: DvFxX3txBq6pAo93/b+2ht5oQRI=
+
+Name: res/drawable-xhdpi-v4/search_ic_refresh.png
+SHA1-Digest: nd8o4G7lX17rG7oWoO6buuS/Fho=
+
+Name: res/drawable-xhdpi-v4/splash_screen_download_btn.9.png
+SHA1-Digest: JmQXWVajjrLGigR83RevrE9/sjE=
+
+Name: res/layout/home_banner_group_item_layout.xml
+SHA1-Digest: 4ECbfhrp1DfvOBJNx+2QfcfxYh0=
+
+Name: res/drawable-xhdpi-v4/actionbar_input_bg_grey.9.png
+SHA1-Digest: Qz3bNuegGJLVPUHywwsKh+2U5GY=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_percent_bg.png
+SHA1-Digest: YVKHJMd8oESMzvJ6xhDKNY7UrqU=
+
+Name: res/layout/fragment_elife_deals_top_selling.xml
+SHA1-Digest: DL2WNRJKLqyd74xMOcQyDIn0t+k=
+
+Name: res/drawable/window_access.xml
+SHA1-Digest: khC0LS/TVMxJN/lJeDzNVg44Yxg=
+
+Name: res/layout/agility_list_layout.xml
+SHA1-Digest: 70V/x9LoEwBdJBA7xE2qQptFFdk=
+
+Name: res/drawable-xhdpi-v4/home_feedback_circle_btn_bg.png
+SHA1-Digest: ygcH6dSdfkxwQzm19DWSAl1zTtU=
+
+Name: res/drawable-xhdpi-v4/iv_offer_detail_back_left.png
+SHA1-Digest: l2I3cQBLA8+GFs11/3PT+5ip+zU=
+
+Name: res/layout/fastdownload_download_header_up.xml
+SHA1-Digest: mpcRBlbiUBhWj4kFCPLf0HVVZu0=
+
+Name: res/drawable-xhdpi-v4/share_green_28_icon.png
+SHA1-Digest: Nqv4+zBsC4GBlt4gxQw5SdlatNA=
+
+Name: res/layout/app_introduction_share_item_layout.xml
+SHA1-Digest: MA0CIvDBdTGTFiNQR6pOZxGPVz0=
+
+Name: res/layout/recommend_view_layout.xml
+SHA1-Digest: 5L2+F1ESJim+XpYNynOEf3D6jWM=
+
+Name: res/layout/discover_sticker_album_list_item_layout.xml
+SHA1-Digest: Kq34QY5ja+W7mPYE0OQsaMZpgbc=
+
+Name: res/drawable/download_green_bg.xml
+SHA1-Digest: cHEv5LjWnAKKrhzuIS3m+Na28S8=
+
+Name: res/drawable/sharing_item_selector.xml
+SHA1-Digest: aVl+aiCsmC7sR9rBCjuCc5KJaQU=
+
+Name: res/layout/adapter_price_detail_specs_item.xml
+SHA1-Digest: mHli1YVSI2osa7FFPVELNevfW2o=
+
+Name: res/drawable/bg_h_with_stroke_dash.xml
+SHA1-Digest: 6+nWt3LkAjhbjUsSfOce2Xtplyw=
+
+Name: res/layout/new_recommend_title_item_layout.xml
+SHA1-Digest: jGpPO5DXiHE0yy1xLaVkX3aoFtw=
+
+Name: res/layout/home_content_card_layout.xml
+SHA1-Digest: rG0kCmZ5dzeZWYpTF/BwyoSX0FQ=
+
+Name: res/layout/window_webview_load.xml
+SHA1-Digest: 4e0lFNEPzZhe9H6iQ80H4okvq4I=
+
+Name: res/layout-v17/home_xrecycle_refresh_header_layout.xml
+SHA1-Digest: 3Ru3Cml2DRe+74G2H9iT78V4QSI=
+
+Name: res/layout/divider_layout_10dp.xml
+SHA1-Digest: Vo54ycTb8Ji9ODt666hO9ebpNS4=
+
+Name: res/drawable/item_produce.xml
+SHA1-Digest: 4DmUpd7VhoRyTBQbbMYH9cDHIxE=
+
+Name: res/drawable-xhdpi-v4/app_rating.9.png
+SHA1-Digest: EyhHhVAKnQDE1rWdhpcevxFOPAA=
+
+Name: res/drawable-xhdpi-v4/splash_bg_bottom.png
+SHA1-Digest: 7uduigOP56pY23LpI8sQ9V5Z/fg=
+
+Name: res/layout/common_space_1px_layout.xml
+SHA1-Digest: ETl2FB76QJFcaxUXDIjd2rg1d5o=
+
+Name: res/drawable/common_checkbox_big_selector.xml
+SHA1-Digest: gxyoqgdo8OCDynuoGGDH6PjqPCQ=
+
+Name: res/drawable-xhdpi-v4/story_download_pause.png
+SHA1-Digest: IEzPY/fsQFUlY1yLgZbG+kkJlZU=
+
+Name: res/layout/tools_app_manager_uninstall_item_title_layout.xml
+SHA1-Digest: zsxY8d+KsqqKZQH3gzLrbIA5xJQ=
+
+Name: res/drawable-xhdpi-v4/dialog_update_line.png
+SHA1-Digest: 1luo4MtHf0m/lTtOUwwgVZsEUeg=
+
+Name: res/drawable-xhdpi-v4/notification_install_all_big.png
+SHA1-Digest: YqC/h9ov2yNhLbAi1JcfSqClDCQ=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_06.png
+SHA1-Digest: gjEwXgpa+dH+pFdSEdR/zkjwoGU=
+
+Name: res/drawable/yw_1222_1dc6.jpg
+SHA1-Digest: 21ypFDuaA3ekwHebJW9o6EWR/Pk=
+
+Name: res/layout/discover_video_indonesia_detail_fragment.xml
+SHA1-Digest: 4Nsg2e9csQcDju16JG9O0APJJb0=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: HECIOfb+G+dgU8cQ/h4WAw9qeuU=
+
+Name: res/layout/window_spirit_mascot.xml
+SHA1-Digest: i8ZcR4f4PhfG4BkqZ6yksNnhyxM=
+
+Name: res/drawable/dialog_green_btn_press.xml
+SHA1-Digest: DQ7HPSqjdWKsI5hlVLpid4j3tGw=
+
+Name: res/drawable-xhdpi-v4/feature_conform_dialog_icon.png
+SHA1-Digest: ap+pGCExH5ozD2Gqd4OvTjXAjQ8=
+
+Name: res/drawable/feedback_bg_edittext_focused.xml
+SHA1-Digest: oAcNO8Xj8u29AGw3cYkt8d8MPg4=
+
+Name: res/layout/app_detail_stick_layout.xml
+SHA1-Digest: hWpDCjqWANGvE0PcrUu5wxJ7J+w=
+
+Name: res/drawable-xhdpi-v4/ic_selected_round.png
+SHA1-Digest: kIDFaVTqea6ZIh3rvJjEDtkXBgE=
+
+Name: res/drawable-xhdpi-v4/sticker_ic_default.png
+SHA1-Digest: 9Dkqkz+/OuzjTOyO3mH4wvwa844=
+
+Name: res/drawable-xhdpi-v4/wallpaper_ic_double_default.png
+SHA1-Digest: gWSP/uEmtmDPlIEXsToXB34GoFE=
+
+Name: res/layout/discover_daily_head_layout.xml
+SHA1-Digest: GLyN3p3Uw44dP7DnGYrqMR4vjao=
+
+Name: res/drawable/celetalk_topbar_bg.9.png
+SHA1-Digest: GPW898HGvDDeRCvSiovqJfvQsUM=
+
+Name: res/drawable/app_yellow_icon.xml
+SHA1-Digest: bg5tSe9D7/zLUZnjLf4thhlBJF4=
+
+Name: res/layout/fragment_e_life_deals_product_detail.xml
+SHA1-Digest: vNb0rYWLfhE8LNSgYyIryQmYax4=
+
+Name: res/drawable-xhdpi-v4/dialog_close_white_icon_normal.png
+SHA1-Digest: TFIIuvrXT5X6dnpYx4AgMu8iihk=
+
+Name: res/layout/special_details_fragment_layout.xml
+SHA1-Digest: 8q9HfBmzPjcdT4X3YwxOZxIuQnE=
+
+Name: res/drawable-xhdpi-v4/entertainment_ringtone_title_icon.png
+SHA1-Digest: Wp0Fh3i+tOltH5aKKamOzD2d/wY=
+
+Name: res/layout/tools_file_manager_music_item_layout.xml
+SHA1-Digest: ucWolpRjf/ZE9MeacaPybHh1n6A=
+
+Name: res/drawable/wallpaper_one_line_bg.xml
+SHA1-Digest: okCKH7nofJ9fLHj3IGEgMWKEbmU=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: NV9acM1bbpC/Wbk95r+c1VxK4Pw=
+
+Name: res/drawable-xhdpi-v4/ringtone_ic_default.png
+SHA1-Digest: smzYqEPoMktP0EfZN84eEMA1O5E=
+
+Name: res/drawable/app_detail_pic_bg.xml
+SHA1-Digest: YHv/7KdchRwl6KFRhrhdL7ahdag=
+
+Name: res/drawable/celetalk_option_btn_normal.xml
+SHA1-Digest: sBZVBKzgNdY8IF2EcIu7blBUZqo=
+
+Name: res/layout/e_life_deals_home_head_layout.xml
+SHA1-Digest: aBlqdA9ZK7IRVPWtD9UvjfbpCa0=
+
+Name: res/drawable-xhdpi-v4/tags_title_closed_btn_press.png
+SHA1-Digest: naY7k7xzMSz2Rze2ofP+mxJ4uXA=
+
+Name: res/drawable/download_green_btn_selector.xml
+SHA1-Digest: UhSWJxQ2cZ1f6QSLXVdBtOtpw+c=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_head_agility_shooping.png
+SHA1-Digest: Gw4wa1hRjUL10dAG55MF9hvX5I8=
+
+Name: res/layout/welfare_list_item_layout.xml
+SHA1-Digest: MkULOJiM07CE1dEW4bRhbnpOSNs=
+
+Name: res/layout/e_life_share_layout.xml
+SHA1-Digest: LbdsTkA0g+HuTPJGhqs1NJMNUUo=
+
+Name: res/drawable-xhdpi-v4/story_about_icon.png
+SHA1-Digest: DDsR6p05PeKXhcBlbP83dEQ/ZpU=
+
+Name: res/layout/musthave_view_item_layout.xml
+SHA1-Digest: h+pvMV/QV5eM4+5k1IOPShBsTYU=
+
+Name: res/layout/app_detail_scroll_layout.xml
+SHA1-Digest: /viU6PlArNkS2NsV9bIjlreGcH0=
+
+Name: res/layout-v17/common_search_header_bar_layout.xml
+SHA1-Digest: 5uH1L/gOBlNEMy7/JWp30lZQwQ8=
+
+Name: res/drawable-xhdpi-v4/nine_nine_dialog_banner.png
+SHA1-Digest: sUS+3QCafJ6tP2RTJ/R1jcLwgfw=
+
+Name: res/drawable-xhdpi-v4/icon_downloaded_press.png
+SHA1-Digest: 3HqofGxCcMM/vTPUA4bgTefKz7Q=
+
+Name: res/drawable-xhdpi-v4/tools_home_setting.png
+SHA1-Digest: vDh9ySa0wF1hlRH+x6nKJmtUQcc=
+
+Name: res/layout/vidmate_video_list_indicator.xml
+SHA1-Digest: 3PgnoqJTss87a0BxLaTC0wYmtXU=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_waterpipe.png
+SHA1-Digest: TpLHLedTEWqw01WWGPA3okW2tXM=
+
+Name: res/drawable/rect_green_border_white_bg.xml
+SHA1-Digest: HsgScjd3o2oDzFNGmFMkL0SWP/Y=
+
+Name: res/drawable-xhdpi-v4/buy_ic_popular.png
+SHA1-Digest: uvQlpc6D3ISk8epnXItSbAL+F9Q=
+
+Name: res/drawable/tags_title_closed_btn_selector.xml
+SHA1-Digest: DeAkh0C0ifDXHV6SiIb/UZDYxIg=
+
+Name: res/drawable/dialog_cancle_btn_selector.xml
+SHA1-Digest: d5rPsqXmiW8pzxkgzheb9nJVMCY=
+
+Name: res/drawable-xhdpi-v4/icon_screen_folder_tips.png
+SHA1-Digest: ttFObP7hhBylcf1DF0ejioM7hJc=
+
+Name: res/layout/discover_home_fragment_layout.xml
+SHA1-Digest: cK7hR+w+4r/iQObSIOyETUMKE8o=
+
+Name: res/drawable-xhdpi-v4/detail_ic_score_star_normal_little.png
+SHA1-Digest: at2X+qzDcY7nqk8F9R6D8xNtxxs=
+
+Name: res/drawable-xhdpi-v4/entertainment_music_title_icon.png
+SHA1-Digest: DM6zBtZGsMmNkq24KvyvFughj1U=
+
+Name: res/layout/share_dialog_view_item_layout.xml
+SHA1-Digest: qP+uvqURKYA8ZqRF0TGS7uMy7r8=
+
+Name: res/layout-v17/screen_folder_menu_more_layout.xml
+SHA1-Digest: 7cNw7RDN0Oj+570+ihn1BvCrEaA=
+
+Name: res/layout/content_card_clear_layout.xml
+SHA1-Digest: 3ho/yut25ppSRQNoT9wguwETPN8=
+
+Name: res/drawable/discover_sticker_while_wire_bg.xml
+SHA1-Digest: 7jn2LFX2FK/C/qOh17MrF161Vp0=
+
+Name: res/layout/discover_coupon_head_agility_item_layout.xml
+SHA1-Digest: Esreb4B8QAF8bGrq7pmtm4Yx+PY=
+
+Name: res/drawable-xhdpi-v4/common_download_bg.9.png
+SHA1-Digest: vzkMrnSExWPcGMS0vdk3X9Caypk=
+
+Name: res/layout/notification_bg.xml
+SHA1-Digest: zV1O/AWUJ3X8CkWP5XpaYX9QrSA=
+
+Name: res/drawable/title_while_bg_price.xml
+SHA1-Digest: 1ChmKd0GL86FdFkFeDavoddeaM4=
+
+Name: res/drawable-xhdpi-v4/special_icon_best.png
+SHA1-Digest: WwModoJtX7VhBOJn2vPoqG3v4yc=
+
+Name: res/drawable-xhdpi-v4/common_default_banner.webp
+SHA1-Digest: vaTMmSFC5O2yX6EJhZnRCGjt5uw=
+
+Name: res/drawable-xhdpi-v4/menu_feedback_icon.png
+SHA1-Digest: P6aafOknSIHpgj05wv/VmcsncQ8=
+
+Name: res/layout/must_have_item.xml
+SHA1-Digest: x2IqlWqNBI1kD/Ep5mhXpprFPF8=
+
+Name: res/drawable/tools_app_uninstall_spinner_menu_bg.xml
+SHA1-Digest: CTlGWtIJwRCKRkEcnW9DJ/6hUUM=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_head_agility_music.png
+SHA1-Digest: n/xxzC0Wr86rEz5gA2Yo3LL7RIs=
+
+Name: res/drawable-xhdpi-v4/celetalk_inputbar_right_bg.9.png
+SHA1-Digest: y7qfStqDgMtI9tZ1OISMOHkQyMc=
+
+Name: res/drawable/dialog_cancle_btn_grey.xml
+SHA1-Digest: F9R2GpA/4139xPVUVDGehCWCU8g=
+
+Name: res/drawable/common_green_solid_corners_stroke_shape.xml
+SHA1-Digest: UES8i9RCYheVD9wH3oSJZvFuomA=
+
+Name: res/drawable-xhdpi-v4/installer_scan_outsidespot.png
+SHA1-Digest: h45/xtzyQ1vAxjV0/upMVObnAMY=
+
+Name: res/layout/e_life_brand_detail_fragment.xml
+SHA1-Digest: q+iipXFHAGXpVZLkXfT26zYmMss=
+
+Name: res/layout/item_deals_search_recommend_layout.xml
+SHA1-Digest: 9xx+9dLAWIwyTA6SdcambMkmplw=
+
+Name: res/layout/search_item_no_data_title_layout.xml
+SHA1-Digest: SqDjrICKKcXnE9qHZV54c9OCBVU=
+
+Name: res/drawable-xhdpi-v4/icon_search_press.png
+SHA1-Digest: oG+l8J1eUMCd0jTVM0DraJ+LGDI=
+
+Name: res/drawable-xhdpi-v4/nine_nine_toast_icon.png
+SHA1-Digest: rv3DMJHTTCe23ccI7wTm1EXrPqg=
+
+Name: res/layout/app_sharing_bluetooth_layout.xml
+SHA1-Digest: zSYz953vGRty41NzFzEL839gXvU=
+
+Name: res/layout/xrecycle_header.xml
+SHA1-Digest: Ud/IuOyfqb6uCAZzCvGvzElkmxA=
+
+Name: res/drawable-xhdpi-v4/float_view_default.png
+SHA1-Digest: lH9S6tA/Qdw81yPzHidzohKou2o=
+
+Name: res/drawable/item_produce_ad_btn_content.xml
+SHA1-Digest: qjBek70YrYuB3Qo0cCt5G7vBOOg=
+
+Name: res/drawable-xhdpi-v4/loader_01.png
+SHA1-Digest: LlrlP+vcdqZeVWf5WwX10UEPVa4=
+
+Name: res/layout-v17/vidmate_video_card_app_item_layout.xml
+SHA1-Digest: DXyuwuJAxlZ33Cew+QqkDE83vS4=
+
+Name: res/drawable-xhdpi-v4/e_life_coupon_unique_code_tips.png
+SHA1-Digest: Z4iga7yQ45mncDCf/H+u+MsZ7fQ=
+
+Name: res/drawable-xhdpi-v4/special_bg.9.png
+SHA1-Digest: 2UQg33qscdFc8jOTgmwYOOAMLws=
+
+Name: res/drawable-xhdpi-v4/banner_top_apps_bg.webp
+SHA1-Digest: W+eL4ARmkfT4phbe6p8h7CXuG24=
+
+Name: res/drawable-xhdpi-v4/search_right_arraw.png
+SHA1-Digest: ZBLB5pNEop080fki/l0PDhZILwU=
+
+Name: res/layout/content_card__app_item_clear_layout.xml
+SHA1-Digest: pZGNUtxotRjPtY4BMAo9iHz/WT8=
+
+Name: res/layout/adapter_spirit_water_wall_produce.xml
+SHA1-Digest: 94V7SYLImaEKArrat54+BYK3pT4=
+
+Name: res/layout/splash_screen_layout.xml
+SHA1-Digest: HOHwXKhdhQ28ITZPgYrYjkeBktM=
+
+Name: res/layout/screen_shot_layout.xml
+SHA1-Digest: uE0lEktkH/u72/UGAqx8DxJKkQ0=
+
+Name: res/drawable/detail_bg_yellow_circle.xml
+SHA1-Digest: IYTe/gATweQ6gCtD8/0/1AiChRI=
+
+Name: res/layout/button_installer.xml
+SHA1-Digest: y1xA+M1Bd39n+eh+XECNkQCw2ig=
+
+Name: res/layout/fragment_loading_layout.xml
+SHA1-Digest: cMwyjiwI/jFliammXehypBoF5wc=
+
+Name: res/drawable-xhdpi-v4/common_actionbar_ic_circle_grey_press.9.pn
+ g
+SHA1-Digest: PgVm/s5VZh7zUS+1+BzTBGSOp7o=
+
+Name: res/drawable-xhdpi-v4/spirit_message_close.png
+SHA1-Digest: aNq7iuE6lVxPE+6U1j7HUln4xSc=
+
+Name: res/drawable/feedback_white_btn_selector.xml
+SHA1-Digest: goCpKtPwHJcw/O95jkXLFfML87U=
+
+Name: res/drawable-xhdpi-v4/download_num_arrow.png
+SHA1-Digest: sBfJE0WsZ5WNwR+aNYct4PhqNug=
+
+Name: res/drawable-xhdpi-v4/welcome_button.9.png
+SHA1-Digest: KoKAqgP9WBNvjqVh6vlLq2uvyVA=
+
+Name: res/layout/discover_video_item_layout.xml
+SHA1-Digest: y5zghWnltN4DfCtAjmt+FzpVGfY=
+
+Name: res/drawable-xhdpi-v4/notificaiton_install.png
+SHA1-Digest: Y08OH1n3BfldhkACeMjkza8I9lo=
+
+Name: res/layout/fragment_e_life_coupon_code.xml
+SHA1-Digest: n4eX+xPItDi9pSbui1sdJfVT5+E=
+
+Name: res/drawable-xxhdpi-v4/icon_screen_folder.png
+SHA1-Digest: 7Vzy498/yvOwOAxjHa/rKCjWg1I=
+
+Name: res/drawable/splash_bg.xml
+SHA1-Digest: fKYTWX4cH5P4lWbzVj5bDzTZQTg=
+
+Name: res/drawable-hdpi-v4/icon_screen_folder.png
+SHA1-Digest: 7Vzy498/yvOwOAxjHa/rKCjWg1I=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_scan_ic_1.png
+SHA1-Digest: tbFRbBVXgoLmtLltG3detJo0Odg=
+
+Name: res/layout/item_deals_top_selling_single_layout.xml
+SHA1-Digest: aLChDQv8v0qqBXX0TOTX2v7mGWk=
+
+Name: res/drawable/spirit_water_red.xml
+SHA1-Digest: fEAWrc5kGl9tUqobfojaNjGV11w=
+
+Name: res/drawable-xhdpi-v4/default_ader_logo.png
+SHA1-Digest: BwmQOojF/xsiHzamvTpes5eT4Uc=
+
+Name: res/drawable/white_side_transparent_bg.xml
+SHA1-Digest: v7lvfkZwxQtxIY3n0RXl6GCunm4=
+
+Name: res/layout/banner_group_list_layout.xml
+SHA1-Digest: ETs8ZTTo9y3xzK8N5gxXyB+/cbg=
+
+Name: res/drawable/item_produce_title.xml
+SHA1-Digest: ZuK07iDx5n75NDEr7BIR0hiaE/g=
+
+Name: res/drawable/bg_head_select_round.xml
+SHA1-Digest: AAvRlb/bBry9i/EVTOs9StpwzXA=
+
+Name: res/drawable-xhdpi-v4/discover_daily_header_bg_2.webp
+SHA1-Digest: bKM6469bjGaMtphh7gGpQYtMoko=
+
+Name: res/drawable-xhdpi-v4/common_checkbox_big_bg.png
+SHA1-Digest: b3f0VzS4nLN2nyop/yWnyrGPdJw=
+
+Name: res/drawable/content_card_text_bg_shape.xml
+SHA1-Digest: F36wE3LYpnkpe+oQ2yYl0OLGA1c=
+
+Name: res/layout/discover_video_tab_header_layout.xml
+SHA1-Digest: G/WnYpC3nZ2EujwsogKwJh9FbV8=
+
+Name: res/layout-v17/dialog_upgrade_layout.xml
+SHA1-Digest: BMqcPhPrhkHuWMHz1rD2MeFOWhA=
+
+Name: res/drawable-xhdpi-v4/screen_msg_gray_btn_press.9.png
+SHA1-Digest: CSnYFTK8vFL/Kj438p9nVJB73Ok=
+
+Name: res/drawable-xhdpi-v4/iv_produce_detail_flag_car.png
+SHA1-Digest: v0UEg/HELCyc/Jj1VaHgNtVnzqQ=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_04.png
+SHA1-Digest: MFXciwG97+IAygzGXOfWyMCbTmQ=
+
+Name: res/drawable/download_progressbar_downloading.xml
+SHA1-Digest: b9ROdJsAYXgha5V0fkm+we8X/G8=
+
+Name: res/layout/item_price_ad_product.xml
+SHA1-Digest: jxsgWxzeHKzw8SD5C28b6VBLYJM=
+
+Name: res/drawable-xhdpi-v4/splash_screen_skip_btn_press.9.png
+SHA1-Digest: cFdztkHLg4SjsBu1Q9W4Rh/JQeA=
+
+Name: res/drawable-xhdpi-v4/web.png
+SHA1-Digest: 6H2470jRsQU2vLYvJD1fA8El+iY=
+
+Name: res/drawable-xhdpi-v4/welfare_list_item_clock.png
+SHA1-Digest: ispL2tagiVhSe3eRX1scw6plDxc=
+
+Name: res/drawable-xhdpi-v4/home_tab_databack.png
+SHA1-Digest: vNI9YfQjpjxzQSXlXje21hHtjWo=
+
+Name: res/drawable-xhdpi-v4/discover_coupon_head_agility_o2o.png
+SHA1-Digest: uiBMqrwI4kjJYRLOwdS/VRdxo9A=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_banner_bg.png
+SHA1-Digest: VOG1xSN2eePgXtqLaiMYKeSG/xI=
+
+Name: res/drawable-xhdpi-v4/more.png
+SHA1-Digest: ccw+bJqNISfK/WDZrqzGa/kHX3M=
+
+Name: res/drawable-xxhdpi-v4/special_bg.9.png
+SHA1-Digest: zIsQFN27B9/w/2MvLPbHULqALm4=
+
+Name: res/drawable-xhdpi-v4/dialog_update_rocket.png
+SHA1-Digest: Z4QcTsAoOldt78yPSnAaZCMjF1s=
+
+Name: res/drawable-xhdpi-v4/loader_02.png
+SHA1-Digest: AFCOKyoTSw2/ZmgWxSs6PlXk5dQ=
+
+Name: res/layout/home_feedback_layout.xml
+SHA1-Digest: TKS0MOhI1Z4q5RwpSS7ntgg2xIY=
+
+Name: res/drawable-xhdpi-v4/download_more.png
+SHA1-Digest: pko9JLb3tdJUtLWaNKGHeiK6ON4=
+
+Name: res/drawable-xhdpi-v4/celetalk_tips_yellow_bg.9.png
+SHA1-Digest: eoBwgcyOzswnEVqgbY6pZpO1KvE=
+
+Name: res/drawable/celetalk_suprise_btn_normal.xml
+SHA1-Digest: Unm9o3t+t2ZeDMWVdOf4qezD/bI=
+
+Name: res/drawable-xhdpi-v4/home_xrecycle_refresh_header_mascot_2.png
+SHA1-Digest: mP0mYVXpzVfx4bci3SEXaRGmR8I=
+
+Name: res/drawable-xhdpi-v4/red_circle_bg_step_1.png
+SHA1-Digest: SwrI4avnn/Dp+apI8Qz6qU/b1fM=
+
+Name: res/layout/celetalk_image_msg.xml
+SHA1-Digest: 5VknGy98S9WEC4/KAWv5+cu3Bak=
+
+Name: res/layout/vidmate_video_item_list.xml
+SHA1-Digest: cQlRJb7myWGDGtp7BGPI2xZ7zmE=
+
+Name: res/layout/top_header_layout.xml
+SHA1-Digest: hCMxEfwW8cBvTmCzqhsYbyze4mg=
+
+Name: res/drawable/item_produce_line_circle.xml
+SHA1-Digest: nsKzHDjZ/od80MVMQfNiF802o0I=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_result_apps_medal.png
+SHA1-Digest: 2Yuko3p0+660zDrF2Z5W0ICV5RE=
+
+Name: res/drawable-xhdpi-v4/splash_screen_skip_btn.9.png
+SHA1-Digest: xjFUGY4NzLu2L1IkxcKTZLmmP9Y=
+
+Name: res/layout/welcome_page_sec2.xml
+SHA1-Digest: IlcMBc4rw1Vrzc8PZ3ASfyHKWQo=
+
+Name: res/layout/new_item_layout.xml
+SHA1-Digest: UE4aq9Cu6q7pfEE9RBsM/5Fx5iY=
+
+Name: res/drawable-xhdpi-v4/common_actionbar_ic_search_white_normal.pn
+ g
+SHA1-Digest: ocG5Eoey1KE1nxuuzzWP5NdZ0TI=
+
+Name: res/drawable-xhdpi-v4/special_icon.png
+SHA1-Digest: neB+0uRzfvotlPtjRqZWBC2MFAs=
+
+Name: res/drawable-xhdpi-v4/notificaiton_update.png
+SHA1-Digest: YlE4W7aE6dNSEe0WkIgBl8BP2E0=
+
+Name: res/layout-v17/discover_coupon_item_copuon_layout.xml
+SHA1-Digest: AiAUOF8QL2PlsvtcMj8lHyjNdRg=
+
+Name: res/layout/screen_folder_menu_more_layout.xml
+SHA1-Digest: OsQ36zpFrto5CYSfY8061tEfGds=
+
+Name: res/drawable/common_save_selector.xml
+SHA1-Digest: 5M4fpAvEN5C771jDoWOS2clIPvo=
+
+Name: res/drawable-xhdpi-v4/e_life_coupon_unique_code_wave.png
+SHA1-Digest: 7Jybxx+/ExFtTfBy1hsj5uwYxaM=
+
+Name: res/drawable/dialog_green_btn_gray.xml
+SHA1-Digest: F7ZD5UA9nryqE5AVePSVAG97iQQ=
+
+Name: res/drawable-xhdpi-v4/dialog_ic_question.png
+SHA1-Digest: 07ciONVF9YcIb5uq50uD1R9DF4M=
+
+Name: res/layout/local_msg_layout.xml
+SHA1-Digest: u1dzUKLLfmZlZwK0Ya2DRu4O+0A=
+
+Name: res/drawable-xhdpi-v4/ic_about_facebook.png
+SHA1-Digest: WzcXhki86Xcp0SiwnwJkouJOe5Y=
+
+Name: res/layout/nine_apps_buy_dialog.xml
+SHA1-Digest: fcXbtRPBVh0WMLfxRDFZFVMJs6Y=
+
+Name: res/drawable-xhdpi-v4/bg_local_msg.9.png
+SHA1-Digest: 3UgUOu0VmRwpeUs7Ds+i30cKGCg=
+
+Name: res/layout/new_feature_special_item_header_layout.xml
+SHA1-Digest: SHPBB4FkOgEhzpbjG9RqoBEwQHk=
+
+Name: res/drawable-xhdpi-v4/home_feedback_circle_btn_bg_press.png
+SHA1-Digest: 05QFerJukW1GYaHcQLKi2HHxV0k=
+
+Name: res/drawable-xhdpi-v4/icon_update_press.png
+SHA1-Digest: qXRfM5Eldo0ESiGYoKyf3Ajo4bg=
+
+Name: res/drawable/screen_folder_menu_search_selector.xml
+SHA1-Digest: 1PcSdS0c3F6ZmY37t8zgAZLeArk=
+
+Name: res/layout-v17/download_item_list_downloaded_layout.xml
+SHA1-Digest: vUlhJiBgxxoYJPsA2iKI8n547vs=
+
+Name: res/drawable/celetalk_share_btn_normal.xml
+SHA1-Digest: C/qeUKX0AquNqU+ChQmSPvTW7GU=
+
+Name: res/drawable-xhdpi-v4/nine_nine_ic_read.png
+SHA1-Digest: XAXfz50Psch92CgMJm88YR3Zals=
+
+Name: res/drawable-xhdpi-v4/notify_nine_app.png
+SHA1-Digest: reGMLMQBXwbHaHUjYZfOpFS+SbE=
+
+Name: res/drawable/empty.9.png
+SHA1-Digest: nLnC8tB60wvd+VUSlZzuJBwLiNo=
+
+Name: lib/armeabi/libIncrementalUpdate.so
+SHA1-Digest: zOjQ/WubZlpIpKL1WOvRvef8W6o=
+
+Name: res/layout/welcome_page3_layout.xml
+SHA1-Digest: zovqiX+b+uLFfTubAtEgWw9jQWY=
+
+Name: res/drawable-xhdpi-v4/dialog_must_have_nine_loading_scanning.png
+SHA1-Digest: TckHDqAvCLoiG3smaC+7/EZjs/g=
+
+Name: res/layout/discover_sticker_detail_layout.xml
+SHA1-Digest: TWi1yo9X3YT8SE2d4V2ghcseWes=
+
+Name: res/layout/welcome_page_sec1.xml
+SHA1-Digest: XchPe91QuFcz9C8XiRhg/ov+5Ok=
+
+Name: res/drawable-xhdpi-v4/common_flexible_tools.png
+SHA1-Digest: LcgT3XW3lll2eRVG4/8Gxq3XqyY=
+
+Name: res/drawable/installer_button_text_color_selector.xml
+SHA1-Digest: vSxli2YT3kbxjM4lcMt6khu3P1M=
+
+Name: res/drawable-xhdpi-v4/main_tab_apps_selected.png
+SHA1-Digest: 8nrkkJmX0TsfSGsNRoq398jIssk=
+
+Name: res/layout/local_message_button_layout.xml
+SHA1-Digest: 0WHx29gdekZSqrFlAgZd/wNdHIE=
+
+Name: res/drawable-xhdpi-v4/common_flexible_new.png
+SHA1-Digest: YR+LJBiFn6lvqOv1d4Zxw/suSOQ=
+
+Name: res/drawable-xhdpi-v4/refresh_bird_03.png
+SHA1-Digest: 1mrEO2EVRSlAg1ILU8TUNZsTND0=
+
+Name: res/drawable-xhdpi-v4/red_heart.png
+SHA1-Digest: sWbgjsI7spvpKnW+itvLb0p3pZY=
+
+Name: res/layout/item_deals_search_layout.xml
+SHA1-Digest: VZ4T0tG3ddsQQqCjMlm8BwRLz9k=
+
+Name: res/layout-v17/dialog_clean_cache_finished_layout.xml
+SHA1-Digest: EVtv28fSkVLVL5H57/RYHRMus08=
+
+Name: res/drawable/bt_colse_round.xml
+SHA1-Digest: ptqbp38S7sfZCvMiWqCSx9dWCtA=
+
+Name: res/drawable-xhdpi-v4/common_ic_white_share_normal.png
+SHA1-Digest: G/5C+CIJEodDlrVtvxwpN1h4uTc=
+
+Name: res/drawable-xhdpi-v4/dialog_close_normal.png
+SHA1-Digest: 5z7aRP5A8Mdzvh2Ai9c0DkrbZTc=
+
+Name: res/drawable/main_tab_tools_while_shape.xml
+SHA1-Digest: ftyQJOdFRRCiOM4urK1X2M4PMMA=
+
+Name: res/drawable-xhdpi-v4/right_arrow_black.png
+SHA1-Digest: foZXHR/TAZNU0vdKjdx6t+z/TLk=
+
+Name: res/layout/home_special_layout.xml
+SHA1-Digest: QIW+TzyjWQe7vzlWxYuad/BpGUM=
+
+Name: res/drawable-xhdpi-v4/buy_ic_people.png
+SHA1-Digest: tTg8ivKvJohx3v2aZ64V2kmn5wo=
+
+Name: res/drawable-xhdpi-v4/icon_search_history_delete_normal.png
+SHA1-Digest: 2JENFmMQFsxMIyyBSJPH+8nM4kM=
+
+Name: res/drawable-xhdpi-v4/tools_home_apk_files.png
+SHA1-Digest: iV0dDqvwajCQV00WTfH45Zvn+1U=
+
+Name: res/layout/view_share_intercept_toast.xml
+SHA1-Digest: AC3uZK/oEqhr7E0tVbWJXUrnrMQ=
+
+Name: res/drawable-xhdpi-v4/iv_v_dotted.png
+SHA1-Digest: PThAoJr4P65QPcMsv2xBliurBN8=
+
+Name: res/drawable/spirit_water_gold.xml
+SHA1-Digest: tbQEur2cMoRimZlccOpZH9b3Pug=
+
+Name: res/drawable/spirit_water_color_two.xml
+SHA1-Digest: LBoIrzPMrnhU33kP5bZTVcm/rE0=
+
+Name: res/layout/discover_sticker_category_list_item_layout.xml
+SHA1-Digest: KeKvdJyDOw+JGt/Ht94UJxD7gGQ=
+
+Name: res/drawable/update_green_bg.xml
+SHA1-Digest: BEwR6uf8OBBwGHBj+FSeYY5GneE=
+
+Name: res/drawable/screen_folder_menu_more_selector.xml
+SHA1-Digest: 5IoAhmg3sHQiaEQXX831FHVPfWg=
+

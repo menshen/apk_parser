@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/ratebtn1" android:background="@drawable/detail_ic_score_star_press_big" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+    <Button android:id="@id/ratebtn2" android:background="@drawable/detail_ic_score_star_press_big" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+    <Button android:id="@id/ratebtn3" android:background="@drawable/detail_ic_score_star_press_big" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+    <Button android:id="@id/ratebtn4" android:background="@drawable/detail_ic_score_star_press_big" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+    <Button android:id="@id/ratebtn5" android:background="@drawable/detail_ic_score_star_press_big" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+</LinearLayout>

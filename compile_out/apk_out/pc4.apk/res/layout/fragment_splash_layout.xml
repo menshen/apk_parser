@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/splashImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center|right|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip">
+        <ImageView android:id="@id/shareBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/splash_green_share_btn_selector" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/skipBtn" android:background="@drawable/splash_green_skip_btn_selector" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/splash_fragment_skip" android:drawableRight="@drawable/splash_screen_arrow" android:drawablePadding="7.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/appDetailLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip">
+        <LinearLayout android:gravity="center" android:background="@drawable/splash_bg_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+            <ImageView android:id="@id/appIcon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/app_default_icon" />
+        </LinearLayout>
+        <Button android:textSize="15.0dip" android:textColor="#ff6b6b6b" android:gravity="center" android:id="@id/downloadNow" android:background="@drawable/splash_green_download_btn_selector" android:layout_width="125.0dip" android:layout_height="40.0dip" android:text="@string/local_msg_download" />
+    </LinearLayout>
+</FrameLayout>

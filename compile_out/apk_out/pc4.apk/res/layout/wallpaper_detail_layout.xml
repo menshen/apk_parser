@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_242328" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="64.0dip">
+        <com.mobile.indiapp.widget.TouchViewPaper android:id="@id/wallpaper_detail_browser_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <include android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/common_loading_layout" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/wallpaper_one_line_bg" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_alignParentBottom="true">
+        <com.mobile.indiapp.widget.DrawableCenterTextView android:textSize="@dimen/text_size_14sp" android:textColor="@drawable/wallpaper_save_text_selector" android:gravity="center_vertical" android:id="@id/wallpaper_detail_save_view" android:background="@drawable/download_green_btn_selector" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginRight="6.0dip" android:text="@string/save" android:drawableLeft="@drawable/common_save_selector" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+        <com.mobile.indiapp.widget.DrawableCenterTextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/color_ffffff" android:gravity="center_vertical" android:id="@id/wallpaper_detail_set_view" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_marginLeft="6.0dip" android:text="@string/set_as_wallpaper" android:drawableLeft="@drawable/wallpaper_ic_setaswallpaper" android:drawablePadding="6.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

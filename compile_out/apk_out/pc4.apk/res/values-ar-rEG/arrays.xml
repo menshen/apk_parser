@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apps_title_array">
+        <item>ميزة</item>
+        <item>أفضل</item>
+        <item>جديد</item>
+        <item>فئة</item>
+    </string-array>
+    <string-array name="discover_feature_home_sub_title_array">
+        <item>افضل الموسيقى</item>
+        <item>افضل الفيديو</item>
+        <item>افضل الملامح</item>
+        <item>أفضل خلفية الشاشة</item>
+        <item>افضل الرنة</item>
+    </string-array>
+    <string-array name="discover_feature_home_sub_title_is_not_adult_array">
+        <item>افضل الموسيقى</item>
+        <item>افضل الملامح</item>
+        <item>افضل خلفية الشفشة</item>
+        <item>افضل الرنة</item>
+    </string-array>
+    <string-array name="discover_home_title_array">
+        <item>كوبون</item>
+        <item>يومي</item>
+        <item>DEALS</item>
+        <item>لفيديو</item>
+        <item>ورقة لاصقة</item>
+    </string-array>
+    <string-array name="discover_home_title_array_no_adult_video">
+        <item>كوبون</item>
+        <item>يومي</item>
+        <item>DEALS</item>
+        <item>ورقة لاصقة</item>
+    </string-array>
+    <string-array name="main_tab_array">
+        <item>الصفحة الرئيسية</item>
+        <item>التطبيق</item>
+        <item>الالعاب</item>
+        <item>لهو</item>
+        <item>أدوات</item>
+    </string-array>
+    <string-array name="tools_app_manager_title_menu_array">
+        <item>حجم</item>
+        <item>اسم</item>
+        <item>الموعد</item>
+    </string-array>
+    <string-array name="tools_home_tool_item_array">
+        <item>إزالة التطبيق</item>
+        <item>مدير الملفات</item>
+        <item>إعداد</item>
+    </string-array>
+</resources>

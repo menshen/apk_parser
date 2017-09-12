@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="#72000000" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.MustHaveHeaderView android:id="@id/header_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="96.0dip" />
+    <LinearLayout android:orientation="vertical" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/must_have_content_height">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mushhave_ic_indicate" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_00be67" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="90%" android:includeFontPadding="false" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_828282" android:id="@id/must_have_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/must_have_title" android:singleLine="true" android:includeFontPadding="false" />
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="@dimen/must_have_recycle_height" />
+        <Button android:textSize="14.0sp" android:textColor="@color/color_ffffff" android:layout_gravity="center_horizontal" android:id="@id/install_all_btn" android:background="@drawable/common_green_solid_corners_shape" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="@dimen/must_have_buttont_margin_top" android:layout_marginRight="12.0dip" android:layout_marginBottom="16.0dip" android:text="@string/must_have_one_install_all" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

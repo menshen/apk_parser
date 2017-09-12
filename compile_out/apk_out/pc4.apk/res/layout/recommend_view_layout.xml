@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_space" android:background="@color/color_f6f6f6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <RelativeLayout android:id="@id/header_view" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_343434" android:gravity="center_vertical" android:id="@id/view_recommend_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/string_guess_you_like" android:layout_alignParentLeft="true" />
+        <TextView android:textColor="@color/color_777777" android:gravity="center_vertical" android:id="@id/view_recommend_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/more" android:drawableRight="@drawable/more" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <include layout="@layout/common_space_1px_layout" />
+    <android.support.v7.widget.GridLayout android:id="@id/view_recommend_app_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:columnCount="4" />
+    <ViewStub android:id="@id/u2i_recommend_layout" android:layout="@layout/u2i_recommend_view_layout" android:inflatedId="@id/panel_import" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

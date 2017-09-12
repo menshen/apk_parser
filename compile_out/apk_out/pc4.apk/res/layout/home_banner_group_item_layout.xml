@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="72.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:id="@id/banner1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/background1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_ffffff" android:layout_gravity="center|right" android:id="@id/title1" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:maxLines="2" />
+    </FrameLayout>
+    <FrameLayout android:gravity="center" android:id="@id/banner2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/background2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_ffffff" android:layout_gravity="center|right" android:id="@id/title2" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:maxLines="2" />
+    </FrameLayout>
+</LinearLayout>

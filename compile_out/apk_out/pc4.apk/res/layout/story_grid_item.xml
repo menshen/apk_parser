@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:id="@id/storyAppItemRoot" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="45.0dip" android:layout_height="45.0dip">
+            <ImageView android:id="@id/appIcon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/app_default_icon" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/appChoose" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/choosen" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <TextView android:textSize="10.0dip" android:textColor="#ff4d5359" android:ellipsize="end" android:id="@id/appName" android:layout_width="45.0dip" android:layout_height="wrap_content" android:text="Title" android:singleLine="true" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffa1a9b0" android:id="@id/appSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="size" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/progressRootLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.mobile.indiapp.story.widget.StoryAppsCircleProgress android:layout_gravity="center" android:id="@id/circle_progress" android:background="@color/transparent" android:layout_width="45.0dip" android:layout_height="45.0dip" custom:donut_unfinished_color="@color/color_eeeeee" custom:donut_finished_color="@color/color_00be67" custom:donut_finished_stroke_width="2.5dip" custom:donut_unfinished_stroke_width="2.5dip" custom:donut_text="" custom:donut_circle_starting_degree="270" />
+        <ImageView android:layout_gravity="center" android:id="@id/progressImg" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/story_download_pause" />
+    </FrameLayout>
+</FrameLayout>

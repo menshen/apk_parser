@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/divider_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/item_content_layout" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/app_item_header_layout" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_777777" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/header_more_white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/more" android:drawableRight="@drawable/more" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/apps_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@id/header_view">
+            <include android:id="@id/app1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0" layout="@layout/app_item_layout" />
+            <include android:id="@id/app2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/app_item_layout" />
+            <include android:id="@id/app3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_weight="1.0" layout="@layout/app_item_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

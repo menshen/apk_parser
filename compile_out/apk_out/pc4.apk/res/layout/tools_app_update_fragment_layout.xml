@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/sc_no_update_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_no_update_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <RelativeLayout android:orientation="vertical" android:id="@id/view_update_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/view_app_update" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/view_update_all" />
+        <RelativeLayout android:id="@id/view_update_all" android:background="@android:color/white" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:id="@id/tv_total_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="23 Selected | Total 285MB" android:layout_centerVertical="true" />
+            <Button android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/btn_update_all_apps" android:background="@drawable/download_green_btn_selector" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/tools_update_all_text" android:singleLine="true" android:layout_toRightOf="@id/tv_total_text" android:layout_centerVertical="true" android:textAllCaps="false" />
+            <Button android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/btn_update_all_apps_middle" android:background="@drawable/download_green_btn_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:text="@string/tools_recommended_normal_update_all_text" android:singleLine="true" android:layout_centerInParent="true" android:layout_centerVertical="true" android:textAllCaps="false" />
+        </RelativeLayout>
+        <View android:background="@drawable/main_tab_shadow_bg" android:layout_width="fill_parent" android:layout_height="@dimen/maintab_bottom_divider_height" android:layout_above="@id/view_update_all" />
+    </RelativeLayout>
+</LinearLayout>

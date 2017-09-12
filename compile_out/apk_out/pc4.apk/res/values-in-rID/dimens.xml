@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="must_have_header_title_text_margin_top">30.0dip</dimen>
+    <dimen name="must_have_header_title_text_size">22.0sp</dimen>
+    <dimen name="must_have_have_text_margin_rgiht">36.0dip</dimen>
+    <dimen name="must_have_must_text_margin_left">21.0dip</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/pageNormalImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/pageBtnBack" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/story_page_btn_return" />
+        <ImageView android:layout_gravity="right" android:id="@id/pageBtnShare" android:padding="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/story_page_btn_share" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="15.0dip">
+            <Button android:textSize="16.0dip" android:textColor="#ff00be67" android:id="@id/leftBtn" android:background="@drawable/celetalk_suprise_btn_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:minHeight="40.0dip" android:layout_weight="1.0" />
+            <Button android:textSize="16.0dip" android:textColor="@color/white" android:id="@id/rightBtn" android:background="@drawable/dialog_green_btn_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:minHeight="40.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/storyNextBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" />
+    </FrameLayout>
+</LinearLayout>

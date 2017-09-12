@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.mobile.indiapp" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <permission android:name="com.mobile.indiapp.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.mobile.indiapp.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.mobile.indiapp.common.RealApplication" android:supportsRtl="true" android:theme="@style/Theme.NineApps">
+        <meta-data android:name="com.mobile.indiapp.glide.CustomGlideMoudle" android:value="GlideModule"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.WelcomePageActivity" android:screenOrientation="portrait" android:theme="@style/WelcomeStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTask" android:name="com.mobile.indiapp.activity.MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="download" android:scheme="nineapps"/>
+                <data android:host="HOME" android:pathPattern=".*" android:scheme="nineapps"/>
+                <data android:host="Main" android:pathPattern=".*" android:scheme="nineapps"/>
+                <data android:host="NineAppsBuyOpen" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.AppManageActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="AppManage" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.AppUninstallActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.AppUpdateActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="AppUpdate" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.FileManagerActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="FileManager" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.SettingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="Setting" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.AboutActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="About" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.DownloadManagerActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="DownloadManager" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleInstance" android:name="com.mobile.indiapp.activity.CelebrityTalkActivity" android:screenOrientation="portrait" android:taskAffinity="com.mobile.indiapp.CelebrityTalk" android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="CelebrityTalk" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.CelebrityTalkAlbumActivity" android:screenOrientation="portrait" android:taskAffinity="com.mobile.indiapp.CelebrityTalk">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.CelebrityTalkSharingActivity" android:screenOrientation="portrait" android:taskAffinity="com.mobile.indiapp.CelebrityTalk">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="CelebrityTalkSharing" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.CelebrityTalkShareWebviewActivity" android:screenOrientation="portrait" android:taskAffinity="com.mobile.indiapp.CelebrityTalk">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="CelebrityTalkShareWebview" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.mobile.indiapp.activity.CelebrityTalkScreenshotListenerActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity="com.mobile.indiapp.CelebrityTalk" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.SearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="Search" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.SpecialDetailsActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="SpecialDetails" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.CategoryDetailsActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="CategoryDetails" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.WelfareActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="Welfare" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.CategoryDetailManageActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="CategoryDetailManage" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.AppDetailActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Translucent.NoTitleBar.NoAnim">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="details" android:scheme="himarket"/>
+                <data android:host="market.hiapk.com" android:path="/details" android:scheme="http"/>
+                <data android:host="sc.hiapk.com" android:path="/m/details" android:scheme="http"/>
+                <data android:host="details" android:pathPattern=".*" android:scheme="market"/>
+                <data android:host="market.android.com" android:path="/details" android:scheme="http"/>
+                <data android:host="market.android.com" android:path="/details" android:scheme="https"/>
+                <data android:host="play.google.com" android:path="/store/apps/details" android:scheme="https"/>
+                <data android:host="play.google.com" android:path="/store/apps/details" android:scheme="http"/>
+                <data android:host="apps.mobomarket.com" android:path="/apps" android:scheme="http"/>
+                <data android:host="detail" android:path="/app" android:scheme="mobomarket"/>
+                <data android:host="AppDetail" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.ScreenshotsActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="Screenshots" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.DiscoverStickerDetailActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="StickerDetail" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.DiscoverStickerListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="StickerList" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.DiscoverStickerSpecialActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="StickerSpecial" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.WallpaperDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.share.activity.AppSharingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="AppSharing" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.SharingBlueActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="SharingBlue" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mobile.indiapp.activity.CommonWebViewActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="CommonWebView" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.FeedBackActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="FeedBack" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.DiscoverVideoListActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.ShareWebviewActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ShareWebviewActivity" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mobile.indiapp.activity.DiscoverVideoDetailActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="DiscoverVideoDetail" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mobile.indiapp.activity.DiscoverVideoIndonesiaDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mobile.indiapp.activity.VideoTabActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mobile.indiapp.activity.MustHaveActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="MustHave" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.DiscoverVideoSearchActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="DiscoverVideoSearch" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:enabled="true" android:exported="true" android:label="@string/nineapps_installer" android:name="com.mobile.indiapp.activity.InstallerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.INSTALL_PACKAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="application/vnd.android.package-archive"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.DiscoverVideoIndonesiaListActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="DiscoverVideoIndonesiaList" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.mobile.indiapp.activity.ScreenshotListenerActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:launchMode="singleTask" android:name="com.mobile.indiapp.activity.DownloadAlertDialogActivity" android:screenOrientation="portrait" android:theme="@style/downloadDialogTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.AppIntroductionPageActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="AppIntroductionPage" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.mobile.indiapp.activity.LocalMessageDialogActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/LocalMessage.Dialog"/>
+        <service android:name="com.mobile.indiapp.service.AlarmIntentService"/>
+        <service android:name="com.mobile.indiapp.service.AppIntentService"/>
+        <service android:name="com.mobile.indiapp.service.MusicService"/>
+        <service android:exported="false" android:name="com.mobile.indiapp.download.DownloadService"/>
+        <service android:exported="true" android:name="com.mobile.indiapp.service.NineAppsService">
+            <intent-filter>
+                <action android:name="com.startservice.nineapp"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.mobile.indiapp.service.WorkerService" android:process=":worker">
+            <intent-filter>
+                <action android:name="nineapps.intent.action.GCM_REGISTER"/>
+                <action android:name="nineapps.intent.action.GCM_UPLOAD_TOKEN"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.mobile.indiapp.service.EcmoService"/>
+        <service android:name="com.mobile.indiapp.service.WorkerEcmoService" android:process=":worker"/>
+        <service android:label="@string/app_name" android:name="com.mobile.indiapp.service.AppNotificationListenerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.mobile.indiapp.sync.AuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <service android:exported="true" android:name="com.mobile.indiapp.sync.SyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter"/>
+        </service>
+        <receiver android:name="com.mobile.indiapp.receiver.PackageChangeReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_RESTARTED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mobile.indiapp.receiver.NetworkChangeReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mobile.indiapp.receiver.AlarmReceiver">
+            <intent-filter>
+                <action android:name="ACTION_INITIAL"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_DAY_INTERVAL"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ACTION_HOUR_INTERVAL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.mobile.indiapp.receiver.GpReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mobile.indiapp.receiver.NotificationReceiver">
+            <intent-filter>
+                <action android:name="ACTION_DELETE_NOTIFICATION_NEW"/>
+                <action android:name="ACTION_REFRESHDOWNLOAD_CLICK_NOTIFICATION_NEW"/>
+                <action android:name="ACTION_INSTALL_CLICK_NOTIFICATION_NEW"/>
+                <action android:name="action.notification.app.content"/>
+                <action android:name="action.notification.app.download"/>
+                <action android:name="action.notification.landing.content"/>
+                <action android:name="action.notification.appupdate.content"/>
+                <action android:name="action.notification.appupdate.smallview.update"/>
+                <action android:name="action.notification.appupdate.largeview.update"/>
+                <action android:name="action.notification.update_solo.content"/>
+                <action android:name="action.notification.update_solo.download"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.mobile.indiapp.sync.provider" android:exported="false" android:name="com.mobile.indiapp.sync.SyncProvider" android:syncable="true"/>
+        <service android:name="com.uc.crashsdk.CrashLogFilesUploader" android:process=":TProcess"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.mobile.indiapp.activity.ShortCutHandlerActivity" android:noHistory="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.mobile.indiapp.activity.SHORTCUT"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mobile.indiapp.activity.VidmateVideoDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.SubNewActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="SubNew" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.mobile.indiapp.service.GPDialogCheckIntentService"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleInstance" android:name="com.mobile.indiapp.activity.ScreenFolderActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Translucent">
+            <intent-filter>
+                <action android:name="com.mobile.indiapp.activity.SHORTCUT"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:enabled="true" android:exported="true" android:label="9Apps Comparison" android:name="com.hasoffer.plug.androrid.service.ServiceAccess" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/phone_accessibility"/>
+        </service>
+        <provider android:authorities="com.mobile.indiapp.provider.database" android:name="com.mobile.indiapp.ipc.WorkerDatabaseProvider" android:process=":worker"/>
+        <provider android:authorities="com.mobile.indiapp.provider.preference" android:name="com.mobile.indiapp.ipc.WorkerPreferenceProvider" android:process=":worker"/>
+        <receiver android:name="com.hasoffer.plug.androrid.reciver.HomeKeyReciver">
+            <intent-filter>
+                <action android:name="android.intent.action.CLOSE_SYSTEM_DIALOGS"/>
+            </intent-filter>
+        </receiver>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.mobile.indiapp.biz.pricecomparison.activity.NineAppsBuyUnlockActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.ScreenshotsDrawableActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ScreenshotsDrawable" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.hasoffer.plug.androrid.service.CheckAccessOpenService"/>
+        <service android:name="com.mobile.indiapp.tinker.TinkerResultService"/>
+        <service android:name="com.mobile.indiapp.service.TinkerService" android:persistent="true" android:process=":patch"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.story.activity.StoryPageActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="NineAppsStory" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.elife.activity.ELifeBrandListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ELifeBrandList" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.elife.activity.ELifeBrandDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ELifeBrandDetail" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.WidgetActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="Widget" android:pathPattern=".*" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.elife.activity.ELifeCouponUniqueCodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ELifeCouponUniqueCode" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.share.activity.ShareActivity" android:screenOrientation="portrait" android:theme="@style/MustHaveDialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.share.activity.ThirdShareActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.share.activity.ThirdLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.mobile.indiapp.biz.musthave.dialog.MustHaveAppsDialog" android:screenOrientation="portrait" android:theme="@style/MustHaveDialog"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleInstance" android:name="com.mobile.indiapp.activity.LockDialogActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="standard" android:name="com.mobile.indiapp.plugin.A"/>
+        <activity android:name="com.mobile.indiapp.plugin.A1" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleTop" android:name="com.mobile.indiapp.plugin.A10"/>
+        <activity android:launchMode="singleTop" android:name="com.mobile.indiapp.plugin.A11"/>
+        <activity android:launchMode="singleTop" android:name="com.mobile.indiapp.plugin.A12"/>
+        <activity android:launchMode="singleTop" android:name="com.mobile.indiapp.plugin.A13"/>
+        <activity android:launchMode="singleTask" android:name="com.mobile.indiapp.plugin.A20"/>
+        <activity android:launchMode="singleTask" android:name="com.mobile.indiapp.plugin.A21"/>
+        <activity android:launchMode="singleTask" android:name="com.mobile.indiapp.plugin.A22"/>
+        <activity android:launchMode="singleTask" android:name="com.mobile.indiapp.plugin.A23"/>
+        <activity android:launchMode="singleInstance" android:name="com.mobile.indiapp.plugin.A30"/>
+        <activity android:launchMode="singleInstance" android:name="com.mobile.indiapp.plugin.A31"/>
+        <activity android:launchMode="singleInstance" android:name="com.mobile.indiapp.plugin.A32"/>
+        <activity android:launchMode="singleInstance" android:name="com.mobile.indiapp.plugin.A33"/>
+        <service android:name="com.mobile.indiapp.plugin.PluginServiceA"/>
+        <service android:name="com.mobile.indiapp.plugin.PluginServiceB"/>
+        <service android:name="com.mobile.indiapp.plugin.PluginServiceC"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.activity.TemplateActivity" android:screenOrientation="portrait"/>
+        <service android:name="com.mobile.indiapp.message.gcm.GcmMessageListenerService" android:process=":worker">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.mobile.indiapp.message.gcm.GCMInstanceIDListenerService" android:process=":worker">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.mobile.indiapp.message.gcm.GCMRegistrationIntentService" android:process=":worker"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:process=":worker">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.mobile.indiapp"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mobile.indiapp.activity.VideoContentCardDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.elife.activity.ELifeDealsProductDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ELifeDealsProductDetail" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.elife.activity.ELifeDealsTopSellingListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ELifeDealsTopSellingList" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.mobile.indiapp.biz.elife.activity.ELifeDealsSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="ELifeDealsSearch" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:launchMode="singleTask" android:name="com.mobile.indiapp.biz.valildateURL.activity.FastDownloadActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.9apps.com" android:path="/fastdownload/" android:scheme="nineapps"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.tencent.tinker.lib.service.TinkerPatchService" android:process=":patch"/>
+        <service android:exported="false" android:name="com.tencent.tinker.lib.service.TinkerPatchService$InnerService" android:process=":patch"/>
+        <service android:exported="false" android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService"/>
+        <meta-data android:name="TINKER_ID" android:value="tinker_id_b796aee"/>
+    </application>
+</manifest>

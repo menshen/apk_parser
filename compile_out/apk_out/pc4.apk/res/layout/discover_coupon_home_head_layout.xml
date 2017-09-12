@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_coupon_header" android:background="@color/color_f6f6f6" android:paddingLeft="12.0dip" android:paddingTop="9.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/view_banner_layout" android:layout_width="fill_parent" android:layout_height="140.0dip" layout="@layout/common_banner_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

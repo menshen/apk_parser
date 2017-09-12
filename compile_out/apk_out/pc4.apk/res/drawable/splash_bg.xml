@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item android:top="120.0dip">
+        <bitmap android:gravity="center|top" android:src="@drawable/splash_bg_top" />
+    </item>
+    <item android:bottom="36.0dip">
+        <bitmap android:gravity="bottom|center" android:src="@drawable/splash_bg_bottom" />
+    </item>
+</layer-list>

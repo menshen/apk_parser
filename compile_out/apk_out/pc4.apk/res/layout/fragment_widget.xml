@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/color_ffffff" android:padding="0.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View style="@style/tools_setting_item_block_divider" />
+        <RelativeLayout android:id="@id/widget_item_price_comparison" style="@style/tools_setting_item__layout">
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:text="@string/widget_price_comparison_item_title" style="@style/tools_setting_item_title" />
+                <TextView android:text="@string/widget_price_comparison_describe" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <ImageView android:id="@id/iv_widget_price_comparison_image" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+        <View style="@style/tools_setting_item_block_divider" />
+        <RelativeLayout android:id="@id/widget_item_price_comparison_accessibility" style="@style/tools_setting_item__layout">
+            <LinearLayout style="@style/tools_setting_item_content_layout">
+                <TextView android:textColor="@color/color_bbbbbb" android:id="@id/widget_item_price_comparison_accessibility_title" android:text="@string/widget_price_comparison_accessibility_item_title" style="@style/tools_setting_item_title_description" />
+                <TextView android:textColor="@color/color_00be67" android:id="@id/price_comparison_accessibility_switch_status" android:text="off" style="@style/tools_setting_item_title_description" />
+            </LinearLayout>
+            <Button android:id="@id/redPoint" android:background="@drawable/main_tab_tools_red_shape" android:visibility="visible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_above="@id/iv_widget_price_comparison_accesibility_image" style="@style/tools_setting_item_imageview" />
+            <ImageView android:id="@id/iv_widget_price_comparison_accesibility_image" android:background="@drawable/search_right_arraw" style="@style/tools_setting_item_imageview" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

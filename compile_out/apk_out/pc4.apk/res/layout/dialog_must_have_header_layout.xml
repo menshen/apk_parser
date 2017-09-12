@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="96.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_bg_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/iv_must_have_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="96.0dip" android:src="@drawable/dialog_must_have_header_bg" android:scaleType="centerCrop" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/iv_must_have_close" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/dialog__must_have_ic_close" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/must_have_header_title_text_size" android:textColor="@android:color/white" android:id="@id/tv_must" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/must_have_must_text_margin_left" android:layout_marginTop="@dimen/must_have_header_title_text_margin_top" android:text="@string/must_have_header_left_text_must" />
+    <TextView android:textSize="@dimen/must_have_header_title_text_size" android:textColor="@android:color/white" android:id="@id/tv_have" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/must_have_header_title_text_margin_top" android:layout_marginRight="@dimen/must_have_have_text_margin_rgiht" android:text="@string/must_have_header_right_text_have" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/iv_must_have_phone" android:visibility="visible" android:layout_width="242.0dip" android:layout_height="156.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/dialog_must_have_phone" android:scaleType="centerCrop" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/discover_sticker_title_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_space_8dp_layout" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_828282" android:gravity="center_vertical" android:paddingLeft="12.0dip" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginTop="8.0dip" android:text="Installed List" />
+    <com.mobile.indiapp.widget.PullDownSpinnerView android:gravity="center_vertical" android:id="@id/id_spinner_title" android:paddingRight="12.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginTop="8.0dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

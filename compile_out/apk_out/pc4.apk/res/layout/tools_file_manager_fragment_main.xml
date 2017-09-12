@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.SlidingTabLayout android:id="@id/sliding_file_manager_tab" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+    <com.mobile.indiapp.widget.TouchViewPaper android:id="@id/viewpager_file_manager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:id="@id/file_manager_shader" android:background="@drawable/main_tab_shadow_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/maintab_bottom_divider_height" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/rl_file_manager_delete_all_layout" android:background="@android:color/white" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <TextView android:textSize="@dimen/text_size_14sp" android:id="@id/textview_file_manager_item_selected_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 Selected | Total 0MB" android:singleLine="true" android:layout_centerVertical="true" />
+        <Button android:textSize="@dimen/text_size_12sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/button_tools_file_manager_delete_all" android:background="@drawable/download_green_btn_selector" android:layout_width="120.0dip" android:layout_height="28.0dip" android:text="@string/file_manager_delete_all" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" />
+    </RelativeLayout>
+</LinearLayout>

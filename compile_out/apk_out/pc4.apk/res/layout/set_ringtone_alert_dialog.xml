@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dialog_icon" android:background="@drawable/dialog_ic_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/color_343434" android:gravity="center_vertical" android:id="@id/tv_title" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:layout_marginBottom="6.0dip" android:text="@string/set_ringtone_titile" android:layout_toRightOf="@id/dialog_icon" />
+    <CheckBox android:id="@id/cbringtone" android:checked="true" android:text="@string/set_ringtone" android:layout_toRightOf="@id/dialog_icon" android:layout_below="@id/tv_title" style="@style/radionButton_set_ringtone" />
+    <CheckBox android:id="@id/cbnotification" android:text="@string/set_notification" android:layout_toRightOf="@id/dialog_icon" android:layout_below="@id/cbringtone" style="@style/radionButton_set_ringtone" />
+    <CheckBox android:id="@id/cbalarm" android:text="@string/set_alarm" android:layout_toRightOf="@id/dialog_icon" android:layout_below="@id/cbnotification" style="@style/radionButton_set_ringtone" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/color_ffffff" android:paddingLeft="12.0dip" android:paddingTop="24.0dip" android:paddingRight="12.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cbalarm">
+        <Button android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/set_ringtone_alert_cancel" android:background="@drawable/dialog_cancle_btn_selector" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginRight="6.0dip" android:text="@string/download_cancel" android:layout_weight="1.0" />
+        <Button android:textSize="16.0sp" android:textColor="@color/color_ffffff" android:id="@id/set_ringtone_alert_ok" android:background="@drawable/download_green_btn_selector" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="6.0dip" android:text="@string/download_sure" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

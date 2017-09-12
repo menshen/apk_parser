@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.CollapseLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/top_layout" android:layout_width="fill_parent" android:layout_height="@dimen/home_header_height">
+        <include android:id="@id/include_banner" android:layout_width="fill_parent" android:layout_height="@dimen/home_advert_banner_height" layout="@layout/home_pic_banner_layout" />
+        <com.mobile.indiapp.widget.HomeTabLayout android:layout_gravity="bottom" android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.mobile.indiapp.widget.CollapseLayout>
+</FrameLayout>

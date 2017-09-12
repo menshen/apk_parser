@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apps_title_array">
+        <item>Коллекции</item>
+        <item>Топ</item>
+        <item>Новое</item>
+        <item>Категории</item>
+    </string-array>
+    <string-array name="discover_feature_home_sub_title_array">
+        <item>Хиты музыки</item>
+        <item>Топ видео</item>
+        <item>Топ стикеров</item>
+        <item>Топ обоев</item>
+        <item>Топ рингтонов</item>
+    </string-array>
+    <string-array name="discover_feature_home_sub_title_is_not_adult_array">
+        <item>Хиты музыки</item>
+        <item>Топ стикеров</item>
+        <item>Топ обоев</item>
+        <item>Топ рингтонов</item>
+    </string-array>
+    <string-array name="discover_home_title_array">
+        <item>Ежедневное</item>
+        <item>Купон</item>
+        <item>DEALS</item>
+        <item>Видео</item>
+        <item>Стикер</item>
+    </string-array>
+    <string-array name="discover_home_title_array_no_adult_video">
+        <item>Ежедневное</item>
+        <item>Купон</item>
+        <item>DEALS</item>
+        <item>Стикер</item>
+    </string-array>
+    <string-array name="main_tab_array">
+        <item>Главная</item>
+        <item>Приложения</item>
+        <item>Игры</item>
+        <item>Интересное</item>
+        <item>Инструменты</item>
+    </string-array>
+    <string-array name="tools_app_manager_title_menu_array">
+        <item>Размер</item>
+        <item>Название</item>
+        <item>Дата</item>
+    </string-array>
+    <string-array name="tools_home_tool_item_array">
+        <item>Разгрузить приложения</item>
+        <item>Управление файлов</item>
+        <item>Настройка</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="must_have_button_height">25.0dip</dimen>
+    <dimen name="must_have_defeat_top">0.0dip</dimen>
+    <dimen name="must_have_share_bottom">20.0dip</dimen>
+    <dimen name="must_have_top">10.0dip</dimen>
+    <dimen name="must_have_user_score_size">14.0sp</dimen>
+    <dimen name="must_have_user_top">-20.0dip</dimen>
+    <dimen name="entertainment_music_signer_name_textview_width">85.0dip</dimen>
+    <dimen name="entertainment_music_textview_width">140.0dip</dimen>
+    <dimen name="must_have_buttont_margin_top">10.0dip</dimen>
+    <dimen name="must_have_content_header_height">132.0dip</dimen>
+    <dimen name="must_have_content_height">274.0dip</dimen>
+    <dimen name="must_have_recycle_height">105.0dip</dimen>
+</resources>

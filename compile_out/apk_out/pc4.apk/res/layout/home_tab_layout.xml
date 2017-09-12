@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.HomeTabItemView android:id="@id/category" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="@dimen/home_tab_margin_top1" android:layout_weight="1.0" />
+    <com.mobile.indiapp.widget.HomeTabItemView android:id="@id/best" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/home_tab_margin_top2" android:layout_weight="1.0" />
+    <com.mobile.indiapp.widget.HomeTabItemView android:id="@id/game" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.mobile.indiapp.widget.HomeTabItemView android:id="@id/music" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/home_tab_margin_top2" android:layout_weight="1.0" />
+    <com.mobile.indiapp.widget.HomeTabItemView android:id="@id/databack" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/home_tab_margin_top1" android:layout_marginRight="5.0dip" android:layout_weight="1.0" />
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="@drawable/discover_sticker_while_wire_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_sticker_src" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sticker_default_icon" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/iv_sticker_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/discover_sticker_share_btn" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/iv_sticker_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/discover_sticker_dowbload_btn" />
+    <View android:layout_gravity="bottom" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="11.5dip" />
+</FrameLayout>

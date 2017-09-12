@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobile.indiapp.widget.SpecialCardLayout android:background="@color/color_96d6f7" android:layout_width="fill_parent" android:layout_height="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.ScrollImageView android:layout_gravity="center_vertical" android:id="@id/common_special_scroll_view" android:layout_width="fill_parent" android:layout_height="240.0dip" />
+    <android.support.v7.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/common_special_recycler_view" android:paddingTop="42.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="240.0dip" android:overScrollMode="never" />
+    <RelativeLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="12.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@android:color/white" android:id="@id/common_special_car_title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_ffffff" android:gravity="center|right" android:id="@id/common_special_more_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" android:drawableRight="@drawable/more" android:drawablePadding="6.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</com.mobile.indiapp.widget.SpecialCardLayout>

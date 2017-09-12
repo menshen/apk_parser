@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/discover_sticker_while_wire_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/view_sticker_album_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sticker_default_icon" android:scaleType="centerCrop" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:background="@color/color_c1000000" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <TextView android:id="@id/view_sticker_album_name" android:paddingLeft="6.0dip" android:text="KongFu" style="@style/discover_sticker_album_text_style" />
+        <TextView android:id="@id/view_sticker_album_count" android:paddingLeft="6.0dip" android:text="45P" android:layout_below="@id/view_sticker_album_name" style="@style/discover_sticker_album_count_text_style" />
+    </RelativeLayout>
+</FrameLayout>

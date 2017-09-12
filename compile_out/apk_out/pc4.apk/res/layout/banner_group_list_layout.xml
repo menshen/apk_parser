@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/divider_layout" />
+    <include android:id="@id/group1_layout" layout="@layout/home_banner_group_item_layout" />
+    <ViewStub android:id="@id/group2_layout" android:layout="@layout/home_banner_group_item_layout" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginTop="4.0dip" />
+    <ViewStub android:id="@id/group3_layout" android:layout="@layout/home_banner_group_item_layout" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginTop="4.0dip" />
+</LinearLayout>

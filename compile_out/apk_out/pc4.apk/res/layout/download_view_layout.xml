@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="42.0dip" android:layout_height="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/download_button" android:background="@drawable/common_actionbar_ic_circle_white_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:scaleType="center" android:onClick="true" />
+    <com.mobile.indiapp.widget.DownloadTextView android:textSize="10.0sp" android:textColor="@color/color_ffffff" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/downloadTextView" android:background="@drawable/red_corner_bg" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="14.0dip" android:text="32" />
+</FrameLayout>

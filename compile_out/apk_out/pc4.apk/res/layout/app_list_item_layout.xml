@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_item_selector" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/apps_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_icon" android:layout_width="@dimen/apps_item_icon_width" android:layout_height="@dimen/apps_item_icon_width" android:layout_marginLeft="10.0dip" android:src="@drawable/default_icon" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/mark" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="20.0dip" android:layout_alignTop="@id/item_icon" android:layout_alignRight="@id/item_icon">
+        <ImageView android:id="@id/mark_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/top_mark_1" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_ffffff" android:id="@id/mark_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.mobile.indiapp.widget.DownloadButton android:orientation="horizontal" android:id="@id/download_button" android:layout_width="@dimen/apps_item_btn_width" android:layout_height="@dimen/apps_item_btn_height" android:layout_marginRight="7.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toLeftOf="@id/download_button" android:layout_toRightOf="@id/item_icon" android:layout_centerVertical="true">
+        <TextView android:id="@id/app_name" android:text="UC" android:includeFontPadding="false" style="@style/listitem_name" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.2999878dip" android:layout_below="@id/app_name">
+            <RatingBar android:id="@id/ratingBar" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="5" android:numStars="5" android:rating="1.0" android:stepSize="0.5" style="@style/detailRatingBar" />
+            <TextView android:id="@id/rate_num" android:layout_marginLeft="10.0dip" android:text="332 Ratings" style="@style/listitem_details" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.2999878dip" android:layout_centerVertical="true">
+            <TextView android:id="@id/app_size" android:text="12.22M" style="@style/listitem_details" />
+            <TextView android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="|" style="@style/listitem_details" />
+            <TextView android:id="@id/app_version" android:text="5.04" android:includeFontPadding="false" style="@style/listitem_details" />
+            <TextView android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="|" style="@style/listitem_details" />
+            <TextView android:id="@id/update_time" android:layout_marginLeft="10.0dip" android:text="2014-01-15" android:includeFontPadding="false" style="@style/listitem_details" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

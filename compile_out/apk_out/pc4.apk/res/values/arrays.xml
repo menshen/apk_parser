@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apps_title_array">
+        <item>DISCOVER</item>
+        <item>TOP</item>
+        <item>NEW</item>
+        <item>CATEGORY</item>
+    </string-array>
+    <string-array name="discover_feature_home_sub_title_array">
+        <item>Top Music</item>
+        <item>Top Video</item>
+        <item>Top Sticker</item>
+    </string-array>
+    <string-array name="discover_feature_home_sub_title_is_not_adult_array">
+        <item>Top Music</item>
+        <item>Top Sticker</item>
+    </string-array>
+    <string-array name="discover_home_title_array">
+        <item>DAILY</item>
+        <item>COUPON</item>
+        <item>DEALS</item>
+        <item>VIDEO</item>
+        <item>STICKER</item>
+    </string-array>
+    <string-array name="discover_home_title_array_no_adult_video">
+        <item>DAILY</item>
+        <item>COUPON</item>
+        <item>DEALS</item>
+        <item>STICKER</item>
+    </string-array>
+    <string-array name="main_tab_array">
+        <item>HOME</item>
+        <item>APPS</item>
+        <item>GAMES</item>
+        <item>E-LIFE</item>
+        <item>TOOLS</item>
+    </string-array>
+    <string-array name="tools_app_manager_title_menu_array">
+        <item>Size</item>
+        <item>Name</item>
+        <item>Date</item>
+    </string-array>
+    <string-array name="tools_home_tool_item_array">
+        <item>App Uninstall</item>
+        <item>File Manager</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="discover_coupon_agility">
+        <item>SHOPPING</item>
+        <item>GAME</item>
+        <item>O2O</item>
+        <item>MUSIC&amp;VIDEO</item>
+    </string-array>
+    <string-array name="discover_home_title_array_no_adult_video_sort">
+        <item>DAILY</item>
+        <item>COUPON</item>
+        <item>DEALS</item>
+        <item>STICKER</item>
+    </string-array>
+    <string-array name="discover_home_title_array_sort">
+        <item>DAILY</item>
+        <item>COUPON</item>
+        <item>DEALS</item>
+        <item>VIDEO</item>
+        <item>STICKER</item>
+    </string-array>
+    <string-array name="download_task_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="e_life_download_copy_code_state">
+        <item>DOWNLOAD AND COPY CODE</item>
+        <item>COPY CODE</item>
+        <item>INSTALL AND COPY CODE</item>
+        <item>OPEN AND COPY CODE</item>
+        <item>DOWNLOAD</item>
+        <item>INSTALL</item>
+        <item>OPEN</item>
+    </string-array>
+    <string-array name="e_life_download_get_code_state">
+        <item>DOWNLOAD AND GET CODE</item>
+        <item>GET CODE</item>
+        <item>INSTALL AND GET CODE</item>
+        <item>GET CODE</item>
+        <item>DOWNLOAD</item>
+        <item>DOWNLOADING</item>
+        <item>INSTALL</item>
+        <item>OPEN</item>
+    </string-array>
+    <string-array name="games_title_array">
+        <item>FEATURE</item>
+        <item>TOP</item>
+        <item>NEW</item>
+        <item>CATEGORY</item>
+    </string-array>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Bahasa Indonesia</item>
+        <item>Русский</item>
+        <item>العربية</item>
+    </string-array>
+    <string-array name="language_country">
+        <item>US</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>EG</item>
+        <item>IN</item>
+    </string-array>
+    <string-array name="language_value">
+        <item>en</item>
+        <item>in</item>
+        <item>ru</item>
+        <item>ar</item>
+    </string-array>
+    <string-array name="tools_home_tool_item_array_sort">
+        <item>App Uninstall</item>
+        <item>Files Manager</item>
+        <item>Setting</item>
+    </string-array>
+    <string-array name="top_app_list">
+        <item>com.whatsapp</item>
+        <item>com.mxtech.videoplayer.ad</item>
+        <item>com.ucmobile.intl</item>
+        <item>com.facebook.katana</item>
+        <item>com.facebook.orca</item>
+        <item>com.imo.android.imoim</item>
+        <item>com.uc.browser.en</item>
+        <item>com.google.android.youtube</item>
+        <item>com.nemo.vidmate</item>
+        <item>in.startv.hotstar</item>
+        <item>com.google.android.videos</item>
+        <item>com.bsb.hike</item>
+        <item>com.king.candycrushsaga</item>
+        <item>com.jio.jioplay.tv</item>
+        <item>com.jio.media.ondemand</item>
+        <item>com.kiloo.subwaysurf</item>
+        <item>org.videolan.vlc</item>
+        <item>com.imangi.templerun2</item>
+        <item>com.tencent.mm</item>
+        <item>com.skype.raider</item>
+    </string-array>
+    <string-array name="top_app_list2">
+        <item>com.mxtech.videoplayer.ad</item>
+        <item>com.mxtech.videoplayer.pro</item>
+        <item>com.nemo.vidmate</item>
+        <item>com.google.android.youtube</item>
+        <item>org.videolan.vlc</item>
+        <item>devian.tubemate.home</item>
+        <item>com.google.android.videos</item>
+        <item>com.google.android.vr.home</item>
+        <item>in.startv.hotstar</item>
+        <item>com.king.candycrushsaga</item>
+        <item>com.kiloo.subwaysurf</item>
+        <item>com.imangi.templerun2</item>
+        <item>io.teslatech.callbreak</item>
+        <item>com.supercell.clashofclans</item>
+        <item>com.outfit7.mytalkingtomfree</item>
+    </string-array>
+    <string-array name="update_time_type">
+        <item>Today</item>
+        <item>This Week</item>
+        <item>Update Hits</item>
+    </string-array>
+</resources>

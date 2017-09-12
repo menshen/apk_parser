@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.SlidingTabLayout android:id="@id/sliding_tabs" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.mobile.indiapp.widget.TouchViewPaper android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sliding_tabs" />
+    <View android:background="@drawable/main_tab_shadow_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/maintab_bottom_divider_height" android:layout_below="@id/sliding_tabs" android:rotation="180.0" />
+</RelativeLayout>

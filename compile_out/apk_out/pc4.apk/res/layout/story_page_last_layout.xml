@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/storyPageLastRoot" android:background="#ffef5952" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/pageBtnBack" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/story_page_btn_return" />
+        <ImageView android:id="@id/pageBtnShare" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="7.5dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/story_page_btn_share" android:layout_toLeftOf="@id/pageBtnRefresh" />
+        <ImageView android:id="@id/pageBtnRefresh" android:paddingLeft="7.5dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/story_page_btn_refresh" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:layout_marginRight="-40.0dip" android:scaleType="fitXY" android:layout_below="@id/head" android:layout_alignRight="@id/head" />
+        <ImageView android:id="@id/bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-32.0dip" android:layout_marginTop="25.0dip" android:layout_below="@id/right" android:layout_alignLeft="@id/content" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:id="@id/content1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_weight="1.0" />
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip">
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <ImageView android:gravity="center" android:orientation="vertical" android:id="@id/gridCenterBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_weight="1.0" />
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip">
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_weight="1.0" />
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip">
+                <ImageView android:orientation="vertical" android:id="@id/gridBottomBg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" />
+                <com.mobile.indiapp.story.widget.StoryGridItem android:id="@id/story_grid_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/story_grid_bottom" android:layout_width="wrap_content" android:layout_height="44.0dip" android:layout_marginTop="-4.0dip">
+                <Button android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/installAllBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:text="Share 9Apps Story" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

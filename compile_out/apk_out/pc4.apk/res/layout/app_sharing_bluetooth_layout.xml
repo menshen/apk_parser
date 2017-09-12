@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color_f6f6f6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bluetooth_layout_line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bluetooth_image_line1" android:background="@drawable/bluetooth_index_bg" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:text="1" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff313131" android:id="@id/bluetooth_text_line1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/bluetooth_text_line1" android:layout_toRightOf="@id/bluetooth_image_line1" />
+        <ImageView android:id="@id/bluetooth_image_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/bluetooth_guide_bg" android:layout_below="@id/bluetooth_text_line1" android:layout_centerHorizontal="true" />
+        <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="16.0dip" android:layout_below="@id/bluetooth_image_guide" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/bluetooth_layout_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/bluetooth_layout_line1">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bluetooth_image_line2" android:background="@drawable/bluetooth_index_bg" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="16.0dip" android:text="2" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff313131" android:id="@id/bluetooth_text_line2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/bluetooth_text_line2" android:layout_toRightOf="@id/bluetooth_image_line2" android:layout_centerVertical="true" />
+        <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="20.0dip" android:layout_below="@id/bluetooth_text_line2" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="200.0dip" android:layout_height="36.0dip" android:layout_marginTop="40.0dip" android:layout_below="@id/bluetooth_layout_line2" android:layout_centerHorizontal="true">
+        <Button android:id="@id/bluetooth_button_share_button" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/bluetooth_text_sharebutton" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

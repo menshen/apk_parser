@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <com.mobile.indiapp.widget.DownloadButton android:id="@id/app_download" android:layout_width="@dimen/download_btn_width" android:layout_height="@dimen/download_btn_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/app_desc_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toLeftOf="@id/app_download" android:layout_toRightOf="@id/app_icon" android:layout_alignTop="@id/app_icon">
+        <TextView android:textSize="16.0sp" android:textColor="@color/color_343434" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:layout_marginRight="12.0dip" android:text="Crossy Road Endless" android:singleLine="true" />
+        <com.mobile.indiapp.widget.FlowLayout android:orientation="horizontal" android:id="@id/tags" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_toLeftOf="@id/app_download" android:layout_below="@id/app_name" android:layout_alignLeft="@id/app_name"> />
+</com.mobile.indiapp.widget.FlowLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/color_828282" android:id="@id/app_download_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginRight="12.0dip" android:maxWidth="100.0dip" android:singleLine="true" android:layout_toLeftOf="@id/app_download" android:layout_below="@id/tags" android:layout_alignLeft="@id/app_name" />
+    </LinearLayout>
+</RelativeLayout>

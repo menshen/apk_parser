@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobile.indiapp.widget.xrecycler.HomeRecyclerView android:id="@id/recycler_view" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="36.0dip" />
+    <RelativeLayout android:id="@id/top_layout" android:background="@color/color_ffffff" android:layout_width="fill_parent" android:layout_height="@dimen/e_life_deals_product_detail_banner_height">
+        <ImageView android:id="@id/special_header_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_title_bar_height" android:layout_centerHorizontal="true" />
+        <View android:id="@id/header_bar_bg" android:layout_width="fill_parent" android:layout_height="75.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/color_828282" android:gravity="center_vertical" android:id="@id/special_header_txt" android:background="@color/color_ffffff" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:maxLines="2" android:layout_below="@id/special_header_img" android:lineSpacingExtra="3.0dip" />
+        <TextView android:textSize="@dimen/text_size_16sp" android:textColor="@color/color_ffffff" android:gravity="center" android:id="@id/product_discount" android:background="@color/color_F47878" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="21.0dip" android:layout_marginBottom="20.0dip" android:minWidth="55.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="bottom" android:background="@color/color_ffffff" android:paddingLeft="27.0dip" android:paddingTop="10.0dip" android:paddingRight="27.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <Button android:textSize="@dimen/text_size_16sp" android:textColor="@color/color_ffffff" android:id="@id/product_buy" android:background="@drawable/download_green_bg" android:layout_width="fill_parent" android:layout_height="36.0dip" android:text="Buy Now" />
+    </LinearLayout>
+</FrameLayout>

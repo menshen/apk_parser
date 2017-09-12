@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mascot_notification" android:background="@drawable/spirit_notify_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center_vertical" android:id="@id/notification_text" android:paddingLeft="15.0dip" android:visibility="visible" android:layout_width="170.0dip" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/notification_close" android:layout_width="19.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/spirit_message_close" />
+    </LinearLayout>
+    <ImageView android:id="@id/spirit" android:padding="7.0dip" android:layout_width="57.0dip" android:layout_height="57.0dip" android:src="@drawable/icon" />
+    <LinearLayout android:gravity="center" android:id="@id/mascot_header" android:background="@drawable/spirit_rounded_corners" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginTop="11.0dip">
+        <TextView android:gravity="center" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="BEST PRICES" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mainContent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/spirit" />
+</RelativeLayout>

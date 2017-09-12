@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:drawable="@color/transparent" />
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <inset android:drawable="@color/transparent" android:insetLeft="0.0dip" android:insetRight="0.0dip" android:insetTop="0.0dip" android:insetBottom="0.0dip" />
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <inset android:drawable="@color/color_e62b30" android:insetLeft="0.0dip" android:insetRight="0.0dip" android:insetTop="0.0dip" android:insetBottom="0.0dip" />
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/item_produce_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topLayout" android:background="@drawable/item_produce_top" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rightLayout" android:background="@drawable/item_produce_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="7.0dip">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="17.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@id/iconIv" android:background="@color/white" android:layout_width="55.0dip" android:layout_height="55.0dip" android:src="@drawable/defalut_image" android:scaleType="centerInside" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff4f4f4f" android:id="@id/websiteTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="website" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="#ffcccccc" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <RelativeLayout android:paddingTop="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.24">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff333333" android:id="@id/discountTv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff4f4f4f" android:id="@id/saveTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="Discount Offer" android:layout_below="@id/discountTv" />
+                </LinearLayout>
+            </RelativeLayout>
+            <View android:background="#ffcccccc" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="14.0dip" android:layout_toRightOf="@id/discountTv" />
+            <RelativeLayout android:paddingTop="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.24">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <ImageView android:background="@color/white" android:layout_width="25.0dip" android:layout_height="20.0dip" android:src="@drawable/web" android:scaleType="centerInside" />
+                    <TextView android:textSize="10.0sp" android:textColor="#ff4f4f4f" android:id="@id/webappTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="App&amp;web" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="#ff4f4f4f" android:id="@id/titleTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:lineSpacingExtra="3.5dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/tools_app_uninstall_spinner_menu_bg" android:padding="1.0dip" android:layout_width="@dimen/title_spinner_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/llset" android:background="@drawable/list_item_selector" android:paddingTop="8.0dip" android:layout_width="@dimen/title_spinner_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_set_ico" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/menu_set_as" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/download_menu_setAs" android:singleLine="true" android:layout_toRightOf="@id/img_set_ico" />
+        <View android:background="@color/color_dedede" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:layout_below="@id/img_set_ico" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/llshare" android:background="@drawable/list_item_selector" android:paddingTop="8.0dip" android:layout_width="@dimen/title_spinner_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_ignore_ico" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/menu_share" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:id="@id/view_menu_name_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/download_menu_share" android:singleLine="true" android:layout_toRightOf="@id/img_ignore_ico" />
+        <View android:background="@color/color_dedede" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:layout_below="@id/img_ignore_ico" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/lldelete" android:background="@drawable/list_item_selector" android:paddingTop="8.0dip" android:layout_width="@dimen/title_spinner_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/img_delete_ico" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/menu_delete" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/color_343434" android:id="@id/view_menu_name_3" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/download_menu_delete" android:singleLine="true" android:layout_toRightOf="@id/img_delete_ico" />
+    </RelativeLayout>
+</LinearLayout>

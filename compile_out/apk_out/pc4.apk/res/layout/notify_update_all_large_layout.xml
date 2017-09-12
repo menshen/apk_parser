@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/color_000000" android:layout_width="fill_parent" android:layout_height="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="6.669983dip" android:layout_marginTop="9.329987dip" android:src="@drawable/ic_launcher" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent.Title" android:textColor="@color/color_ffffff" android:ellipsize="marquee" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.329987dip" android:layout_marginTop="12.0dip" android:text="TextView" android:singleLine="true" android:layout_toRightOf="@id/icon" android:layout_alignParentTop="true" />
+    <TextView android:textAppearance="@android:style/TextAppearance.StatusBar.EventContent" android:textColor="@color/color_f4f4f4" android:ellipsize="marquee" android:id="@id/summary" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TextView" android:singleLine="true" android:layout_below="@id/title" android:layout_alignLeft="@id/title" />
+    <ImageView android:id="@id/update_icon" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/ic_launcher" android:layout_below="@id/summary" android:layout_alignLeft="@id/summary" />
+    <LinearLayout android:gravity="center" android:id="@id/update_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/imageView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notificaiton_update" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/update_all" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/view1" android:background="#ff242424" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignTop="@id/update_layout" android:layout_alignParentLeft="true" />
+</RelativeLayout>

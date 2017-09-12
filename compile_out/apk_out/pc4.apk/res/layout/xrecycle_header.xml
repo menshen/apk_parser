@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:id="@id/root_container" android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/refresh_success" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/color_00be67" android:id="@id/refresh_success_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refresh_success_text" android:layout_centerInParent="true" />
+        <com.mobile.indiapp.widget.RockBackgroundView android:id="@id/refresh_bg" android:visibility="invisible" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" />
+        <com.mobile.indiapp.widget.xrecycler.SimpleViewSwitcher android:id="@id/listview_header_progressbar" android:layout_width="66.0dip" android:layout_height="66.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

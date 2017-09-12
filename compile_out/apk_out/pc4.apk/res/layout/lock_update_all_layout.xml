@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/content_layout" android:background="@drawable/screen_msg_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageView android:id="@id/appUpdateIcon" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_margin="15.0dip" android:src="@drawable/ic_launcher" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="16.0dip" android:textColor="#ff101010" android:ellipsize="end" android:id="@id/appUpdateTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="38.0dip" android:text="1111" android:singleLine="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="12.0dip" android:textColor="#ff666666" android:ellipsize="end" android:id="@id/appUpdateSummary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="38.0dip" android:text="111" android:singleLine="true" android:layout_below="@id/appUpdateTitle" />
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/appUpdateSummary" android:layout_alignLeft="@id/appUpdateSummary">
+                <ImageView android:id="@id/updateConbineImage" android:layout_width="wrap_content" android:layout_height="23.0dip" android:src="@drawable/ic_launcher" android:scaleType="fitStart" android:layout_centerVertical="true" />
+                <Button android:textSize="12.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/appUpdateBtn" android:background="@drawable/download_green_btn_selector" android:layout_width="70.0dip" android:layout_height="30.0dip" android:layout_marginRight="15.0dip" android:text="@string/button_update" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/ibClose" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dip" android:layout_marginRight="3.5dip" android:src="@drawable/screen_msg_close" android:scaleType="centerCrop" android:layout_alignTop="@id/content_layout" android:layout_alignRight="@id/content_layout" />
+</RelativeLayout>

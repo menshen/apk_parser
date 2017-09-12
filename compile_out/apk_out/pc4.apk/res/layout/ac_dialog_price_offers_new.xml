@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="6.0dip" android:paddingTop="7.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swiperefresh" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ListView android:id="@id/dealLv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/transparence" android:divider="@drawable/transparence" android:dividerHeight="10.0dip" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/loadingLayout" android:paddingTop="150.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/progressBar" android:layout_width="60.0dip" android:layout_height="60.0dip" android:indeterminateDrawable="@drawable/rotate_image" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/noDataLayout" android:paddingTop="150.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="21.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Yikes! Data problem" />
+                <TextView android:textSize="21.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/tryAgainTv" android:background="@drawable/empty" android:paddingLeft="37.0dip" android:paddingTop="10.0dip" android:paddingRight="37.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="Try Again?" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

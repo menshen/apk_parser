@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/common_bg" android:layout_width="fill_parent" android:layout_height="245.0dip">
+        <ImageView android:id="@id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/common_not_content" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff545454" android:gravity="center_horizontal" android:id="@id/search_no_data_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/search_no_data_hint" android:layout_below="@id/imageView3" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff545454" android:gravity="center_horizontal" android:id="@id/try_search_other_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/search_try_other_text" android:singleLine="true" android:layout_below="@id/search_no_data_hint" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/color_828282" android:gravity="center_vertical" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="38.0dip" android:text="@string/search_no_data_title_text" />
+    <View android:background="@color/color_eeeeee" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" />
+</LinearLayout>
