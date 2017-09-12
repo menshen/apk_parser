@@ -43,7 +43,7 @@ public class Main {
             System.out.println("[-] file not exist! exit!");
         }
         Constants.sApkName = apkFile.getName() ;
-//        decompileApk() ;
+        decompileApk() ;
         Analysis.getInstance().startAnylysis();
 
         try {
